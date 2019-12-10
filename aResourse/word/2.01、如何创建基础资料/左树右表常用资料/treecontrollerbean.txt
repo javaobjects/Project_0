@@ -1,0 +1,10 @@
+	//com.kingdee.eas.custom.basedata.Test    用于搜索更新
+
+    protected IObjectPK _submit(Context ctx, IObjectValue model)throws BOSException, EASBizException {
+    	//增加必录项的校验，与是否重复
+    	com.kingdee.eas.custom.basedata.TestTreeInfo info = (com.kingdee.eas.custom.basedata.TestTreeInfo)model;
+    	checkNumberBlank(ctx,info);
+    	checkNameBlank(ctx,info);
+    	checkNameDup(ctx,info);
+    	return super._submit(ctx, model);
+    }

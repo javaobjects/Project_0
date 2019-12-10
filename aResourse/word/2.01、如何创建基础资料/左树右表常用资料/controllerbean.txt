@@ -1,0 +1,30 @@
+//com.kingdee.eas.custom.basedata.Test    用于搜索更新
+
+    //禁用
+    public void cancel(Context arg0, IObjectPK arg1, CoreBaseInfo arg2)throws BOSException, EASBizException {
+    	com.kingdee.eas.custom.basedata.TestInfo info = (com.kingdee.eas.custom.basedata.TestInfo)arg2;
+    	info.setCancelUser(com.kingdee.eas.util.app.ContextUtil.getCurrentUserInfo(arg0));
+    	info.setCancelDate(new java.util.Date());
+    	info.setIsEnabled(false);
+    	super.cancel(arg0, arg1, arg2);
+    }
+    
+    //启用
+    public void cancelCancel(Context arg0, IObjectPK arg1, CoreBaseInfo arg2)throws BOSException, EASBizException {
+    	com.kingdee.eas.custom.basedata.TestInfo info = (com.kingdee.eas.custom.basedata.TestInfo)arg2;
+    	info.setCancelCancelUser(com.kingdee.eas.util.app.ContextUtil.getCurrentUserInfo(arg0));
+    	info.setCancelCancelDate(new java.util.Date());
+    	info.setIsEnabled(true);
+    	super.cancelCancel(arg0, arg1, arg2);
+    }
+    
+    //增加校验名称不能重复
+    protected IObjectPK _submit(Context ctx, IObjectValue model)throws BOSException, EASBizException {
+    	com.kingdee.eas.custom.basedata.TestInfo info = (com.kingdee.eas.custom.basedata.TestInfo)model;
+    	
+    	checkNumberBlank(ctx, info);
+    	checkNumberDup(ctx, info);
+    	checkNameBlank(ctx, info);
+    	checkNameDup(ctx, info);
+    	return super._submit(ctx, model);
+    }
