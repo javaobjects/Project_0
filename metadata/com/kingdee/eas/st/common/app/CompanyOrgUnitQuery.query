@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>CompanyOrgUnitQuery</name>
+    <alias>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK />
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>CompanyOrgUnit</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].subObjects.subEntity[CompanyOrgUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>accountTable</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].subObjects.subEntity[accountTable].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.account.app" />
+                <key name="name" value="AccountTable" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>CU</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].subObjects.subEntity[CU].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <queryField>
+            <name>id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>simpleName</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[simpleName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="simpleName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="simpleName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isGrouping</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isGrouping].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="isGrouping" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isGrouping" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>accountTable.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="accountTable.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="accountTable" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>accountTable.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="accountTable.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="accountTable" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>accountTable.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="accountTable.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="accountTable" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CU.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[CU.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="CU.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>company.id</name>
+            <userDefined>false</userDefined>
+            <formulaString>NULL</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[company.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isSealUp</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isSealUp].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="isSealUp" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isSealUp" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isBizUnit</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isBizUnit].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>49a931b1-0115-1000-e000-01a8c0a812b9</key>
+                    <parentUnit>
+                        <key name="name" value="isBizUnit" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isBizUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>a8075e9b-011d-1000-e000-00d4c0a81098</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.propertyUnit[a8075e9b-011d-1000-e000-00d4c0a81098].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="a8075e9b-011d-1000-e000-00d4c0a81098" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="accountTable" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a8075e9b-011d-1000-e000-00d5c0a81098</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.propertyUnit[a8075e9b-011d-1000-e000-00d5c0a81098].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="a8075e9b-011d-1000-e000-00d5c0a81098" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="accountTable" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a8075e9b-011d-1000-e000-019dc0a81098</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.propertyUnit[a8075e9b-011d-1000-e000-019dc0a81098].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="a8075e9b-011d-1000-e000-019dc0a81098" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CompanyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CU" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a8075e9b-011d-1000-e000-019ec0a81098</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.propertyUnit[a8075e9b-011d-1000-e000-019ec0a81098].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="a8075e9b-011d-1000-e000-019ec0a81098" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </propertyUnit>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <filterItems>
+            <queryFilterItem>
+                <propertyName>isSealUp</propertyName>
+                <compareType>=</compareType>
+                <compareValue>0</compareValue>
+                <userDefined>false</userDefined>
+                <filter>
+                    <key name="name" value="defaultFilter" />
+                </filter>
+            </queryFilterItem>
+            <queryFilterItem>
+                <propertyName>isBizUnit</propertyName>
+                <compareType>=</compareType>
+                <compareValue>1</compareValue>
+                <userDefined>false</userDefined>
+                <filter>
+                    <key name="name" value="defaultFilter" />
+                </filter>
+            </queryFilterItem>
+        </filterItems>
+        <query>
+            <key name="package" value="com.kingdee.eas.st.common.app" />
+            <key name="name" value="CompanyOrgUnitQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </querySorterItem>
+    </defaultSorters>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="CompanyOrgUnit" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="accountTable" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="a8075e9b-011d-1000-e000-00d4c0a81098" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="a8075e9b-011d-1000-e000-00d5c0a81098" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="CompanyOrgUnit" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="CU" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="a8075e9b-011d-1000-e000-019dc0a81098" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="a8075e9b-011d-1000-e000-019ec0a81098" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="CompanyOrgUnitQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].defaultSorters.querySorterItemextendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].defaultSorters.querySorterItemextendedProperty.F7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+            <lang locale="en_US" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+            <lang locale="en_US" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].defaultSorters.querySorterItemextendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].defaultSorters.querySorterItemextendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].defaultSorters.querySorterItemextendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].defaultSorters.querySorterItemextendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].extendedProperty.F7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+            <lang locale="en_US" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].extendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+            <lang locale="en_US" value="com.kingdee.eas.basedata.org.client.OrgResource.COMPANY_F7TILTE" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].subObjects.subEntity[CU].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].subObjects.subEntity[CompanyOrgUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].subObjects.subEntity[accountTable].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.propertyUnit[a8075e9b-011d-1000-e000-00d4c0a81098].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.propertyUnit[a8075e9b-011d-1000-e000-00d5c0a81098].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.propertyUnit[a8075e9b-011d-1000-e000-019dc0a81098].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.propertyUnit[a8075e9b-011d-1000-e000-019ec0a81098].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[CU.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[CU.id].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[CU.id].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[CU.id].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[CU.id].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[CU.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.id].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.id].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.id].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.id].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.name].displayName">
+            <lang locale="zh_CN" value="科目表名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="科目表名稱" />
+            <lang locale="zh_TW" value="科目表名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.name].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_TW" value="100" />
+            <lang locale="en_US" value="100" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.number].displayName">
+            <lang locale="zh_CN" value="科目表编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="科目表編碼" />
+            <lang locale="zh_TW" value="科目表編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.number].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_TW" value="100" />
+            <lang locale="en_US" value="100" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.number].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[accountTable.number].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[company.id].displayName">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[company.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[description].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[description].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_TW" value="100" />
+            <lang locale="en_US" value="100" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[description].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[description].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[id].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[id].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[id].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[id].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[id].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isBizUnit].displayName">
+            <lang locale="zh_CN" value="是否财务实体" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否財務實體" />
+            <lang locale="zh_TW" value="是否財務實體" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isGrouping].displayName">
+            <lang locale="zh_CN" value="是否是集团" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否是集團" />
+            <lang locale="zh_TW" value="是否是集團" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isGrouping].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isGrouping].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isGrouping].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isGrouping].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isGrouping].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[isSealUp].displayName">
+            <lang locale="zh_CN" value="是否封存" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否封存" />
+            <lang locale="zh_TW" value="是否封存" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[name].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="150" />
+            <lang locale="zh_TW" value="150" />
+            <lang locale="en_US" value="150" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[name].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[number].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_TW" value="100" />
+            <lang locale="en_US" value="100" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[number].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[number].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[simpleName].displayName">
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[simpleName].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_TW" value="100" />
+            <lang locale="en_US" value="100" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[simpleName].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[simpleName].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[simpleName].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.app.CompanyOrgUnitQuery].units.queryField[simpleName].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

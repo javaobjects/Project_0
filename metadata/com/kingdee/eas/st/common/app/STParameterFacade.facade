@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>STParameterFacade</name>
+    <alias>facade[com.kingdee.eas.st.common.app.STParameterFacade].alias</alias>
+    <description>facade[com.kingdee.eas.st.common.app.STParameterFacade].description</description>
+    <userDefined>false</userDefined>
+    <bosType>30158F3A</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.st.common.STParameterFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.st.common.app.STParameterFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getParameter</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].description</description>
+            <innerID>3137f36f-010f-1000-e000-0001c0a81243</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.eas.st.common.util.param.STParamReader</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>paramNumber</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].parameters.parameter[paramNumber].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].parameters.parameter[paramNumber].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>viewInfo</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].parameters.parameter[viewInfo].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].parameters.parameter[viewInfo].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.st.common.app.STParameterFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="STParameterFacade" />
+            <lang locale="zh_TW" value="STParameterFacade" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STParameterFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取系统参数" />
+            <lang locale="zh_TW" value="獲取系統參數" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].parameters.parameter[paramNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参数编码" />
+            <lang locale="zh_TW" value="參數編碼" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].parameters.parameter[paramNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].parameters.parameter[viewInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="取树视图" />
+            <lang locale="zh_TW" value="取樹視圖" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STParameterFacade].methods.method[getParameter].parameters.parameter[viewInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

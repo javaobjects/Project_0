@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.rpt.app</package>
+    <name>STCommonReportFacade</name>
+    <alias>facade[com.kingdee.eas.st.common.rpt.app.STCommonReportFacade].alias</alias>
+    <description>facade[com.kingdee.eas.st.common.rpt.app.STCommonReportFacade].description</description>
+    <userDefined>false</userDefined>
+    <bosType>D4F2EAFA</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.st.common.rpt.STCommonReportFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.st.common.rpt.app.STCommonReportFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <baseFacade>
+        <key name="package" value="com.kingdee.eas.framework.report.app" />
+        <key name="name" value="CommRptBase" />
+    </baseFacade>
+    <resource>
+        <rs key="facade[com.kingdee.eas.st.common.rpt.app.STCommonReportFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="检斤分析" />
+            <lang locale="zh_TW" value="檢斤分析" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.rpt.app.STCommonReportFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="检斤分析" />
+            <lang locale="zh_TW" value="檢斤分析" />
+        </rs>
+    </resource>
+</facade>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>R_STBill_BillType_SourceBillType</name>
+    <alias>relationship[com.kingdee.eas.st.common.app.R_STBill_BillType_SourceBillType].alias</alias>
+    <description>relationship[com.kingdee.eas.st.common.app.R_STBill_BillType_SourceBillType].description</description>
+    <userDefined>false</userDefined>
+    <type>Association</type>
+    <clientCardinality>0..*</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.st.common.app" />
+        <key name="name" value="STBill" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.basedata.scm.common.app" />
+        <key name="name" value="BillType" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.st.common.app.R_STBill_BillType_SourceBillType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="R_STBill_BillType_SourceBizBillType" />
+            <lang locale="zh_TW" value="R_STBill_BillType_SourceBizBillType" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.st.common.app.R_STBill_BillType_SourceBillType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>STBillCommonFacade</name>
+    <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].alias</alias>
+    <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].description</description>
+    <userDefined>false</userDefined>
+    <bosType>9FFEE155</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.st.common.STBillCommonFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.st.common.app.STBillCommonFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getServerDate</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getServerDate].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getServerDate].description</description>
+            <innerID>8bc31762-011b-1000-e000-04eec0a8109c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>TimeStamp</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+        </method>
+        <method>
+            <name>executeQuery</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].description</description>
+            <innerID>1ad07d6c-8886-4860-9cf1-79fcd6650511</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>RowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>sql</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[sql].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[sql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>executeQuery</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].description</description>
+            <innerID>02ed716d-e436-443b-b449-7f435d476921</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>RowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>sql</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[sql].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[sql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>params</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[params].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[params].description</description>
+                    <direction>in</direction>
+                    <dataType>Object[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getBillCodingRuleNumber</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].description</description>
+            <innerID>71fe9c8f-2a19-4748-b141-7744ef7a433f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].parameters.parameter[model].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>orgID</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].parameters.parameter[orgID].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].parameters.parameter[orgID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].alias">
+            <lang locale="zh_CN" value="单据公用方法" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據公用方法" />
+            <lang locale="zh_TW" value="單據公用方法" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].description">
+            <lang locale="zh_CN" value="单据公用方法" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據公用方法" />
+            <lang locale="zh_TW" value="單據公用方法" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].alias">
+            <lang locale="zh_CN" value="查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢" />
+            <lang locale="zh_TW" value="查詢" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[params].alias">
+            <lang locale="zh_CN" value="参数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="參數" />
+            <lang locale="zh_TW" value="參數" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[params].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[sql].alias">
+            <lang locale="zh_CN" value="sql" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="sql" />
+            <lang locale="zh_TW" value="sql" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[executeQuery].parameters.parameter[sql].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].alias">
+            <lang locale="zh_CN" value="设置单据编码规则" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設置單據編碼規則" />
+            <lang locale="zh_TW" value="設置單據編碼規則" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="实体info" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="實體info" />
+            <lang locale="zh_TW" value="實體info" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].parameters.parameter[orgID].alias">
+            <lang locale="zh_CN" value="组织名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="組織名稱" />
+            <lang locale="zh_TW" value="組織名稱" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getBillCodingRuleNumber].parameters.parameter[orgID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getServerDate].alias">
+            <lang locale="zh_CN" value="获取服务器端的日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取服務器端的日期" />
+            <lang locale="zh_TW" value="獲取服務器端的日期" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.STBillCommonFacade].methods.method[getServerDate].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+    </resource>
+</facade>
+

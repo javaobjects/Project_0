@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill</package>
+    <name>TestBill</name>
+    <alias>bizUnit[com.kingdee.eas.custom.bill.TestBill].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.bill.TestBill].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.bill.app.TestBill</entityPK>
+    <queryPK>com.kingdee.eas.custom.bill.app.TestBillQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.bill.client.TestBillEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.bill.client.TestBillListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType />
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据测试样例" />
+            <lang locale="zh_HK" value="單據測試樣例" />
+            <lang locale="zh_TW" value="單據測試樣例" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="storageOrgUnit" />
+            <lang locale="zh_CN" value="storageOrgUnit" />
+            <lang locale="zh_TW" value="storageOrgUnit" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.OrgType">
+            <lang locale="en_US" value="Storage" />
+            <lang locale="zh_CN" value="Storage" />
+            <lang locale="zh_TW" value="Storage" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.configured">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.app.TestBillQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.app.TestBillQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.app.TestBillQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.TestBillEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.TestBillEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.TestBillEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.TestBillListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.TestBillListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.TestBillListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="5" />
+            <lang locale="zh_CN" value="5" />
+            <lang locale="zh_TW" value="5" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.nobotp">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.useTableEditUI">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.TestBill].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

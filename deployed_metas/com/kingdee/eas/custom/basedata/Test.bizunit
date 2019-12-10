@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata</package>
+    <name>Test</name>
+    <alias>bizUnit[com.kingdee.eas.custom.basedata.Test].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.basedata.Test].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.basedata.app.Test</entityPK>
+    <queryPK>com.kingdee.eas.custom.basedata.app.TestQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.basedata.client.TestEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.basedata.client.TestListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>TreeDetail</bimTemplateType>
+    <relatedTablePK>com.kingdee.eas.custom.basedata.app.T_BAS_TestTREE</relatedTablePK>
+    <relatedEntityPK>com.kingdee.eas.custom.basedata.app.TestTree</relatedEntityPK>
+    <relatedEditUIPK>com.kingdee.eas.custom.basedata.client.TestTreeEditUI</relatedEditUIPK>
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多级基础资料模板样例" />
+            <lang locale="zh_HK" value="多級基礎資料範本樣例" />
+            <lang locale="zh_TW" value="多級基礎資料範本樣例" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.eas.bim.app.BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.eas.bim.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.eas.bim.app.BizTreeBase" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="6" />
+            <lang locale="zh_CN" value="6" />
+            <lang locale="zh_TW" value="6" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.Test].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

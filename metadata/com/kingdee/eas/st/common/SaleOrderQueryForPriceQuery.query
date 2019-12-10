@@ -1,0 +1,2720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>SaleOrderQueryForPriceQuery</name>
+    <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK />
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>SaleOrder</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[SaleOrder].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.scm.sd.sale.app" />
+                <key name="name" value="SaleOrder" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>SaleOrderEntry</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[SaleOrderEntry].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.scm.sd.sale.app" />
+                <key name="name" value="SaleOrderEntry" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>saleOrgUnit</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[saleOrgUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="SaleOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>currency</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[currency].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Currency" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>orderCustomer</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[orderCustomer].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="Customer" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>companyOrgUnit</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[companyOrgUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>baseCurrency</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[baseCurrency].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Currency" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>unit</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[unit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="MeasureUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>assistProperty</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[assistProperty].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.material.app" />
+                <key name="name" value="AsstAttrValue" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>material</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[material].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.material.app" />
+                <key name="name" value="Material" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <queryField>
+            <name>entries.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-002bc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-0133c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0133c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0018c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0133c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-0134c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0134c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0019c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0134c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0146c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-0192c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0192c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0aaec0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0192c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="assistProperty" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-0193c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0193c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0aafc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0193c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="assistProperty" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-0196c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0196c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab0c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0196c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="material" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-0197c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0197c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab1c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0197c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="material" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-0268c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0268c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab2c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0268c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="companyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="baseCurrency" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-0269c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0269c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab3c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0269c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="baseCurrency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-033ec0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-033ec0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab4c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-033ec0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="companyOrgUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-033fc0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-033fc0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab5c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-033fc0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="companyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-04e2c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-04e2c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab6c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-04e2c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="orderCustomer" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-04e3c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-04e3c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab7c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-04e3c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orderCustomer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-05b8c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-05b8c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab8c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-05b8c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="currency" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-05b9c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-05b9c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ab9c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-05b9c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-068ec0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-068ec0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0abac0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-068ec0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="saleOrgUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-068fc0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-068fc0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0abbc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-068fc0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="saleOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-09a5c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-09a5c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0abcc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-09a5c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="unit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>edf3f7ac-0118-1000-e000-09a6c0a8127e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-09a6c0a8127e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0abdc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-09a6c0a8127e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="unit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0abec0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.seq</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.seq].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0abfc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.seq" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="seq" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.qty</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.qty].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac0c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.qty" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="qty" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.price</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.price].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac1c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.price" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="price" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.taxPrice</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.taxPrice].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac2c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.taxPrice" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="taxPrice" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.discountCondition</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.discountCondition].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac3c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.discountCondition" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="discountCondition" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.discountType</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.discountType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac4c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.discountType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="discountType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.discount</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.discount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac5c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.discount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="discount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.taxRate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.taxRate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac6c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.taxRate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="taxRate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>unit.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[unit.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac7c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="unit.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="unit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>unit.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[unit.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac8c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="unit.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="unit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>unit.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[unit.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ac9c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="unit.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="unit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>assistProperty.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[assistProperty.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0acac0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="assistProperty.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="assistProperty" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>assistProperty.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[assistProperty.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0acbc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="assistProperty.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="assistProperty" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>assistProperty.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[assistProperty.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0accc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="assistProperty.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="assistProperty" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>material.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0acdc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="material.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="material" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>material.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0acec0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="material.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="material" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>material.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0acfc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="material.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="material" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>material.pricePrecision</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.pricePrecision].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad0c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="material.pricePrecision" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="material" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="pricePrecision" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>companyOrgUnit.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[companyOrgUnit.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad1c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="companyOrgUnit.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="companyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>companyOrgUnit.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[companyOrgUnit.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad2c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="companyOrgUnit.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="companyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>companyOrgUnit.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[companyOrgUnit.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad3c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="companyOrgUnit.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="companyOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>baseCurrency.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseCurrency.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad4c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="baseCurrency.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="baseCurrency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>baseCurrency.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseCurrency.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad5c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="baseCurrency.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="baseCurrency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>baseCurrency.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseCurrency.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad6c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="baseCurrency.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="baseCurrency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>baseCurrency.precision</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseCurrency.precision].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad7c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="baseCurrency.precision" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="baseCurrency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="precision" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>unit.qtyPrecision</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[unit.qtyPrecision].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad8c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="unit.qtyPrecision" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="unit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="qtyPrecision" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currency.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[currency.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ad9c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="currency.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currency.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[currency.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0adac0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="currency.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currency.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[currency.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0adbc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="currency.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>customer.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[customer.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0adcc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="customer.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orderCustomer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>customer.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[customer.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0addc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="customer.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orderCustomer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>customer.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[customer.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0adec0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="customer.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orderCustomer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currency.precision</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[currency.precision].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0adfc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="currency.precision" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currency" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="precision" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isInTax</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[isInTax].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ae0c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="isInTax" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isInTax" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>exchangeRate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[exchangeRate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0ae1c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="exchangeRate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="exchangeRate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.isPresent</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.isPresent].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-0af4c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="entries.isPresent" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrderEntry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isPresent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>material.model</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.model].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edf3f7ac-0118-1000-e000-15e1c0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="material.model" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="material" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="model" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>baseStatus</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseStatus].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>30944956-0119-1000-e000-006cc0a8127e</key>
+                    <parentUnit>
+                        <key name="name" value="baseStatus" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SaleOrder" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="baseStatus" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <filterItems>
+            <queryFilterItem>
+                <propertyName>baseStatus</propertyName>
+                <compareType>&gt;</compareType>
+                <compareValue>-3</compareValue>
+                <userDefined>false</userDefined>
+                <filter>
+                    <key name="name" value="defaultFilter" />
+                </filter>
+            </queryFilterItem>
+        </filterItems>
+        <query>
+            <key name="package" value="com.kingdee.eas.st.common" />
+            <key name="name" value="SaleOrderQueryForPriceQuery" />
+        </query>
+    </defaultFilter>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+            <queryField>
+                <key name="name" value="entries.id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-0017c0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SaleOrder" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="SaleOrderEntry" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-0016c0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0133c0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0134c0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0017c0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-017dc0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SaleOrder" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="saleOrgUnit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-017cc0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-068ec0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-068fc0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-017dc0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-0181c0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SaleOrder" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="currency" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-0180c0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-05b8c0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-05b9c0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0181c0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-0185c0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SaleOrder" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="orderCustomer" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-0184c0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-04e2c0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-04e3c0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0185c0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-0189c0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SaleOrder" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="companyOrgUnit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-0188c0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-033ec0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-033fc0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0189c0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-018dc0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="companyOrgUnit" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="baseCurrency" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-018cc0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0268c0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0269c0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-018dc0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-0191c0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SaleOrderEntry" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="unit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-0190c0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-09a5c0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-09a6c0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0191c0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-0195c0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SaleOrderEntry" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="assistProperty" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-0194c0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0192c0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0193c0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0195c0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+        <join>
+            <name>edf3f7ac-0118-1000-e000-0199c0a8127e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SaleOrderEntry" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="material" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edf3f7ac-0118-1000-e000-0198c0a8127e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0196c0a8127e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0197c0a8127e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="edf3f7ac-0118-1000-e000-0199c0a8127e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="SaleOrderQueryForPriceQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].queryPK[QueryPK].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].queryPK[QueryPK].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[SaleOrderEntry].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[SaleOrder].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[assistProperty].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[baseCurrency].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[companyOrgUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[currency].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[material].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[orderCustomer].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[saleOrgUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].subObjects.subEntity[unit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0133c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0134c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0192c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0193c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0196c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0197c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0268c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-0269c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-033ec0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-033fc0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-04e2c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-04e3c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-05b8c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-05b9c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-068ec0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-068fc0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-09a5c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.propertyUnit[edf3f7ac-0118-1000-e000-09a6c0a8127e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[assistProperty.id].displayName">
+            <lang locale="zh_CN" value="字段id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="字段id" />
+            <lang locale="zh_TW" value="字段id" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[assistProperty.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[assistProperty.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseCurrency.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseCurrency.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseCurrency.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseCurrency.precision].displayName">
+            <lang locale="zh_CN" value="精度" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="精度" />
+            <lang locale="zh_TW" value="精度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[baseStatus].displayName">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[companyOrgUnit.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[companyOrgUnit.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[companyOrgUnit.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[currency.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[currency.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[currency.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[currency.precision].displayName">
+            <lang locale="zh_CN" value="精度" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="精度" />
+            <lang locale="zh_TW" value="精度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[customer.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[customer.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[customer.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.discountCondition].displayName">
+            <lang locale="zh_CN" value="折扣条件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="折扣條件" />
+            <lang locale="zh_TW" value="折扣條件" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.discountType].displayName">
+            <lang locale="zh_CN" value="折扣方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="折扣方式" />
+            <lang locale="zh_TW" value="折扣方式" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.discount].displayName">
+            <lang locale="zh_CN" value="单位折扣（率）" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單位折扣（率）" />
+            <lang locale="zh_TW" value="單位折扣（率）" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.isPresent].displayName">
+            <lang locale="zh_CN" value="赠品" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="贈品" />
+            <lang locale="zh_TW" value="贈品" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.price].displayName">
+            <lang locale="zh_CN" value="单价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單價" />
+            <lang locale="zh_TW" value="單價" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.qty].displayName">
+            <lang locale="zh_CN" value="数量" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="數量" />
+            <lang locale="zh_TW" value="數量" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.seq].displayName">
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="en_US" value="sequence" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.taxPrice].displayName">
+            <lang locale="zh_CN" value="含税单价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="含稅單價" />
+            <lang locale="zh_TW" value="含稅單價" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[entries.taxRate].displayName">
+            <lang locale="zh_CN" value="税率" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="稅率" />
+            <lang locale="zh_TW" value="稅率" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[exchangeRate].displayName">
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="匯率" />
+            <lang locale="zh_TW" value="匯率" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[isInTax].displayName">
+            <lang locale="zh_CN" value="是否含税" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否含稅" />
+            <lang locale="zh_TW" value="是否含稅" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.model].displayName">
+            <lang locale="zh_CN" value="规格型号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="規格型號" />
+            <lang locale="zh_TW" value="規格型號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[material.pricePrecision].displayName">
+            <lang locale="zh_CN" value="单价精度" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單價精度" />
+            <lang locale="zh_TW" value="單價精度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[unit.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[unit.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[unit.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.SaleOrderQueryForPriceQuery].units.queryField[unit.qtyPrecision].displayName">
+            <lang locale="zh_CN" value="数量精度" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="數量精度" />
+            <lang locale="zh_TW" value="數量精度" />
+        </rs>
+    </resource>
+</joinQuery>
+

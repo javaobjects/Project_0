@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>STTreeBaseDataD</name>
+    <alias>bizUnit[com.kingdee.eas.st.common.STTreeBaseDataD].alias</alias>
+    <description>bizUnit[com.kingdee.eas.st.common.STTreeBaseDataD].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.st.common.app.STTreeBaseDataD</entityPK>
+    <queryPK>com.kingdee.eas.st.common.app.STTreeBaseDataDQuery</queryPK>
+    <editUIPK>com.kingdee.eas.st.common.client.STTreeBaseDataDEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.st.common.client.STTreeBaseDataDListUI</listUIPK>
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>TreeDetail4Detail</bimTemplateType>
+    <relatedTablePK>com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataDTREE</relatedTablePK>
+    <relatedEntityPK>com.kingdee.eas.st.common.app.STTreeBaseDataDTree</relatedEntityPK>
+    <relatedEditUIPK>com.kingdee.eas.st.common.client.STTreeBaseDataDTreeEditUI</relatedEditUIPK>
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.st.common.STTreeBaseDataD].alias">
+            <lang locale="zh_CN" value="左树基础资料D类" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="左樹基礎資料D類" />
+            <lang locale="zh_TW" value="左樹基礎資料D類" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.st.common.STTreeBaseDataD].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.st.common.STTreeBaseDataD].extendedProperty.BizUnitDeployed">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.st.common.STTreeBaseDataD].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.st.common.STTreeBaseDataD].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.rpt.client</package>
+    <name>client</name>
+    <alias>package[com.kingdee.eas.st.common.rpt.client.client].alias</alias>
+    <description>package[com.kingdee.eas.st.common.rpt.client.client].description</description>
+    <basicCode />
+    <resource>
+        <rs key="package[com.kingdee.eas.st.common.rpt.client.client].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="client" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="package[com.kingdee.eas.st.common.rpt.client.client].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</package>
+

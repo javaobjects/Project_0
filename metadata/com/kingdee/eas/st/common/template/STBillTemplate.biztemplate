@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizTemplate xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.template</package>
+    <name>STBillTemplate</name>
+    <alias>bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].alias</alias>
+    <description>bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.st.common.template.app.STBillTemplate</entityPK>
+    <queryPK>com.kingdee.eas.st.common.template.app.STBillTemplateListQuery</queryPK>
+    <editUIPK>com.kingdee.eas.st.common.template.client.STBillTemplateEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.st.common.template.client.STBillTemplateListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType />
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>false</genImplementCode>
+    <resource>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].alias">
+            <lang locale="zh_CN" value="钢铁单据模板" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼鐵單據範本" />
+            <lang locale="zh_TW" value="鋼鐵單據範本" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.app.STBillTemplateListQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.app.STBillTemplateListQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.app.STBillTemplateListQuery" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.client.STBillTemplateEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.client.STBillTemplateEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.client.STBillTemplateEditUI" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.client.STBillTemplateListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.client.STBillTemplateListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.client.STBillTemplateListUI" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].extendedProperty.maxFieldIndex">
+            <lang locale="zh_CN" value="10" />
+            <lang locale="en_US" value="10" />
+            <lang locale="zh_TW" value="10" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].extendedProperty.nobotp">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBillTemplate].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</bizTemplate>
+

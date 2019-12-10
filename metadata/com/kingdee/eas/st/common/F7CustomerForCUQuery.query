@@ -1,0 +1,3785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>F7CustomerForCUQuery</name>
+    <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.basedata.master.cssp.Customer</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>Customer</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[Customer].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="Customer" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>industry</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[industry].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Industry" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>internalCompany</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[internalCompany].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>CU</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[CU].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>customerGroupDetails</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[customerGroupDetails].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="CustomerGroupDetail" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>customerGroupStandard</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[customerGroupStandard].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="CSSPGroupStandard" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>browseGroup</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[browseGroup].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="CSSPGroup" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>browseGroup1</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[browseGroup1].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="CSSPGroup" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>CU1</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[CU1].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>province</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[province].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Province" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>country</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[country].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Country" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>region</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[region].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Region" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>city</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[city].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="City" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>Assign</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[Assign].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.framework.app" />
+                <key name="name" value="DataBaseDAssign" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>assignCU</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[assignCU].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>adminCU</name>
+            <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[adminCU].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>simpleName</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[simpleName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="simpleName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="simpleName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isInternalCompany</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[isInternalCompany].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="isInternalCompany" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isInternalCompany" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>industry.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.id].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="industry.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="industry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>internalCompany.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[internalCompany.id].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="internalCompany.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="internalCompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CU.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[CU.id].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="CU.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>industry.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="industry.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="industry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>address</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[address].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="address" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="address" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>usedStatus</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[usedStatus].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="usedStatus" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="usedStatus" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizRegisterNo</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[bizRegisterNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizRegisterNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizRegisterNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>artificialPerson</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[artificialPerson].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="artificialPerson" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="artificialPerson" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CU.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[CU.name].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="CU.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CU.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[CU.number].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="CU.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>taxRegisterNo</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[taxRegisterNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="taxRegisterNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="taxRegisterNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>version</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[version].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="version" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="version" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="internalCompany" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="internalCompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CU" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="industry" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="industry" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni10</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni10].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni10" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="customerGroupDetails" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="customerGroupStandard" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni11</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni11].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni11" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="customerGroupStandard" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit7</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit6</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="customerGroupDetails" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="customer" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>browseGroup.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.id].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="browseGroup.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="browseGroup" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>browseGroup.groupStandard</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.groupStandard].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="browseGroup.groupStandard" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="customerGroupStandard" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>customerGroupStandard.type</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[customerGroupStandard.type].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="customerGroupStandard.type" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="customerGroupStandard" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="type" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUni13</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni13].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni13" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="customerGroupDetails" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="customerGroup" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni12</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni12].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni12" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="browseGroup" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni16</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni16].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni16" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="browseGroup" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CU" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni17</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni17].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni17" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU1" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>browseGroup.longNumber</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.longNumber].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="browseGroup.longNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="browseGroup" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="longNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="browseGroup" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="browseGroup1" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>customerKind</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[customerKind].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="customerKind" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="customerKind" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>province.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[province.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="province.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="province" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>region.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[region.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="region.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="region" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>mnemonicCode</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[mnemonicCode].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="mnemonicCode" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="mnemonicCode" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>taxRate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[taxRate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="taxRate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="taxRate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>city.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[city.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="city.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="city" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUni27</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni27].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni27" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="city" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni26</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni26].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni26" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="city" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni25</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni25].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni25" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="region" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni24</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni24].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni24" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="region" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni23</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni23].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni23" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="country" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni22</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni22].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni22" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="country" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni21</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni21].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni21" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="province" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni14</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni14].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni14" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="province" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni20</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni20].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni20" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni19</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni19].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni19" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni18</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni18].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni18" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni15</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni15].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni15" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>browseGroup.deletedStatus</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.deletedStatus].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="browseGroup.deletedStatus" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="browseGroup" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="deletedStatus" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>241d3b62-011a-1000-e000-0a66c0a8127a</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[241d3b62-011a-1000-e000-0a66c0a8127a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>241d3b62-011a-1000-e000-0ad5c0a8127a</key>
+                    <parentUnit>
+                        <key name="name" value="241d3b62-011a-1000-e000-0a66c0a8127a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>241d3b62-011a-1000-e000-0a67c0a8127a</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[241d3b62-011a-1000-e000-0a67c0a8127a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>241d3b62-011a-1000-e000-0ad6c0a8127a</key>
+                    <parentUnit>
+                        <key name="name" value="241d3b62-011a-1000-e000-0a67c0a8127a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Assign" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="dataBaseDID" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>241d3b62-011a-1000-e000-0ad3c0a8127a</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[241d3b62-011a-1000-e000-0ad3c0a8127a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>241d3b62-011a-1000-e000-0ad7c0a8127a</key>
+                    <parentUnit>
+                        <key name="name" value="241d3b62-011a-1000-e000-0ad3c0a8127a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Assign" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="assignCU" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>241d3b62-011a-1000-e000-0ad4c0a8127a</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[241d3b62-011a-1000-e000-0ad4c0a8127a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>241d3b62-011a-1000-e000-0ad8c0a8127a</key>
+                    <parentUnit>
+                        <key name="name" value="241d3b62-011a-1000-e000-0ad4c0a8127a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="assignCU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>assignCU.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[assignCU.id].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>241d3b62-011a-1000-e000-0bb7c0a8127a</key>
+                    <parentUnit>
+                        <key name="name" value="assignCU.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="assignCU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Assign.bosObjectType</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[Assign.bosObjectType].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>241d3b62-011a-1000-e000-0bb8c0a8127a</key>
+                    <parentUnit>
+                        <key name="name" value="Assign.bosObjectType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Assign" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bosObjectType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>8dac608b-011c-1000-e000-01f7c0a81098</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[8dac608b-011c-1000-e000-01f7c0a81098].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8dac608b-011c-1000-e000-01fbc0a81098</key>
+                    <parentUnit>
+                        <key name="name" value="8dac608b-011c-1000-e000-01f7c0a81098" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Customer" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="adminCU" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>8dac608b-011c-1000-e000-01f8c0a81098</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[8dac608b-011c-1000-e000-01f8c0a81098].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8dac608b-011c-1000-e000-01fcc0a81098</key>
+                    <parentUnit>
+                        <key name="name" value="8dac608b-011c-1000-e000-01f8c0a81098" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="adminCU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>adminCU.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[adminCU.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8dac608b-011c-1000-e000-01fdc0a81098</key>
+                    <parentUnit>
+                        <key name="name" value="adminCU.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="adminCU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <filterItems>
+            <queryFilterItem>
+                <propertyName>browseGroup.deletedStatus</propertyName>
+                <compareType>=</compareType>
+                <compareValue>1</compareValue>
+                <userDefined>false</userDefined>
+                <filter>
+                    <key name="name" value="defaultFilter" />
+                </filter>
+            </queryFilterItem>
+        </filterItems>
+        <query>
+            <key name="package" value="com.kingdee.eas.st.common" />
+            <key name="name" value="F7CustomerForCUQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+            <queryField>
+                <key name="name" value="browseGroup.groupStandard" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>true</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="industry" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="internalCompany" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="CU" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit8" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit9" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin3</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="customerGroupDetails" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit7" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit6" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin3" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin5</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="customerGroupDetails" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="customerGroupStandard" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni10" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni11" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin5" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin6</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="customerGroupDetails" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="browseGroup" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni13" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni12" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin6" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin7</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="browseGroup1" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin7" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin8</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="browseGroup" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="CU1" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni16" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni17" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin8" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni18" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni15" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin9</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni20" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni19" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin9" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoi10</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="province" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni21" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni14" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoi10" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoi11</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="country" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni23" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni22" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoi11" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoi12</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="region" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni25" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni24" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoi12" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoi13</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="city" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni27" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni26" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoi13" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>241d3b62-011a-1000-e000-0961c0a8127a</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="Assign" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>241d3b62-011a-1000-e000-09e5c0a8127a</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="241d3b62-011a-1000-e000-0a66c0a8127a" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="241d3b62-011a-1000-e000-0a67c0a8127a" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="241d3b62-011a-1000-e000-0961c0a8127a" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>241d3b62-011a-1000-e000-0a68c0a8127a</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Assign" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="assignCU" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>241d3b62-011a-1000-e000-0a6ac0a8127a</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="241d3b62-011a-1000-e000-0ad3c0a8127a" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="241d3b62-011a-1000-e000-0ad4c0a8127a" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="241d3b62-011a-1000-e000-0a68c0a8127a" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+        <join>
+            <name>8dac608b-011c-1000-e000-01fac0a81098</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="Customer" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="adminCU" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>8dac608b-011c-1000-e000-01f9c0a81098</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="8dac608b-011c-1000-e000-01f7c0a81098" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="8dac608b-011c-1000-e000-01f8c0a81098" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="8dac608b-011c-1000-e000-01fac0a81098" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.st.common" />
+                <key name="name" value="F7CustomerForCUQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].alias">
+            <lang locale="zh_CN" value="客户基本信息查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="客戶基本信息查詢" />
+            <lang locale="zh_TW" value="客戶基本信息查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.master.cssp.client.CSSPResource.customer" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.master.cssp.client.CSSPResource.customer" />
+            <lang locale="en_US" value="com.kingdee.eas.basedata.master.cssp.client.CSSPResource.customer" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].defaultSorters.querySorterItemextendedProperty.isF7Maintain">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].description">
+            <lang locale="zh_CN" value="客户基本信息查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="客戶基本信息查詢" />
+            <lang locale="zh_TW" value="客戶基本信息查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].extendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.master.cssp.CSSPResource.customer" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.master.cssp.CSSPResource.customer" />
+            <lang locale="en_US" value="com.kingdee.eas.basedata.master.cssp.CSSPResource.customer" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].extendedProperty.isF7Maintain">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].queryPK[QueryPK].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].queryPK[QueryPK].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[Assign].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[CU1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[CU].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[Customer].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[adminCU].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[assignCU].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[browseGroup1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[browseGroup].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[city].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[country].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[creator].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[customerGroupDetails].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[customerGroupStandard].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[industry].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[internalCompany].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[province].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].subObjects.subEntity[region].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[241d3b62-011a-1000-e000-0a66c0a8127a].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[241d3b62-011a-1000-e000-0a67c0a8127a].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[241d3b62-011a-1000-e000-0ad3c0a8127a].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[241d3b62-011a-1000-e000-0ad4c0a8127a].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[8dac608b-011c-1000-e000-01f7c0a81098].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[8dac608b-011c-1000-e000-01f8c0a81098].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni10].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni11].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni12].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni13].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni14].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni15].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni16].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni17].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni18].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni19].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni20].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni21].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni22].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni23].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni24].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni25].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni26].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUni27].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit6].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit7].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[Assign.bosObjectType].displayName">
+            <lang locale="zh_CN" value="类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="類型" />
+            <lang locale="zh_TW" value="類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[Assign.bosObjectType].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[CU.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[CU.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[CU.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[CU.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[address].displayName">
+            <lang locale="zh_CN" value="地址" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="地址" />
+            <lang locale="zh_TW" value="地址" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[address].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[adminCU.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[adminCU.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[artificialPerson].displayName">
+            <lang locale="zh_CN" value="法人代表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="法人代表" />
+            <lang locale="zh_TW" value="法人代表" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[artificialPerson].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[artificialPerson].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[assignCU.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[assignCU.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[bizRegisterNo].displayName">
+            <lang locale="zh_CN" value="工商注册号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工商註冊號" />
+            <lang locale="zh_TW" value="工商註冊號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[bizRegisterNo].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[bizRegisterNo].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.deletedStatus].displayName">
+            <lang locale="zh_CN" value="禁用状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="禁用狀態" />
+            <lang locale="zh_TW" value="禁用狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.groupStandard].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.groupStandard].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[browseGroup.longNumber].displayName">
+            <lang locale="zh_CN" value="长编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="長編碼" />
+            <lang locale="zh_TW" value="長編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[city.name].displayName">
+            <lang locale="zh_CN" value="城市" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="城市" />
+            <lang locale="zh_TW" value="城市" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[city.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[createTime].displayName">
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[creator.name].displayName">
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[creator.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[customerGroupStandard.type].displayName">
+            <lang locale="zh_CN" value="适用于客户/供应商" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="適用於客戶/供應商" />
+            <lang locale="zh_TW" value="適用於客戶/供應商" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[customerGroupStandard.type].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[customerKind].displayName">
+            <lang locale="zh_CN" value="客户性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="客戶性質" />
+            <lang locale="zh_TW" value="客戶性質" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[customerKind].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[description].displayName">
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.name].displayName">
+            <lang locale="zh_CN" value="行业" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="行業" />
+            <lang locale="zh_TW" value="行業" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.name].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="150" />
+            <lang locale="zh_TW" value="150" />
+            <lang locale="en_US" value="150" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.name].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.assistant.app.F7IndustryQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.assistant.app.F7IndustryQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.basedata.assistant.app.F7IndustryQuery" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.name].extendedProperty.displayFormat">
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+            <lang locale="en_US" value="$name$" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[industry.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[internalCompany.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[internalCompany.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[isInternalCompany].displayName">
+            <lang locale="zh_CN" value="内部客户" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="內部客戶" />
+            <lang locale="zh_TW" value="內部客戶" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[isInternalCompany].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="zh_CN" value="修改人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="修改人" />
+            <lang locale="zh_TW" value="修改人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[mnemonicCode].displayName">
+            <lang locale="zh_CN" value="助记码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="助記碼" />
+            <lang locale="zh_TW" value="助記碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[mnemonicCode].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[name].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[name].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[number].extendedProperty.colWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[number].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[province.name].displayName">
+            <lang locale="zh_CN" value="省份" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="省份" />
+            <lang locale="zh_TW" value="省份" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[province.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[region.name].displayName">
+            <lang locale="zh_CN" value="区县" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="區縣" />
+            <lang locale="zh_TW" value="區縣" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[region.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[simpleName].displayName">
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[simpleName].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[simpleName].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[taxRate].displayName">
+            <lang locale="zh_CN" value="税率" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="稅率" />
+            <lang locale="zh_TW" value="稅率" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[taxRate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[taxRegisterNo].displayName">
+            <lang locale="zh_CN" value="税务登记号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="稅務登記號" />
+            <lang locale="zh_TW" value="稅務登記號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[taxRegisterNo].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[usedStatus].displayName">
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[usedStatus].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[usedStatus].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[version].displayName">
+            <lang locale="zh_CN" value="版本信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="版本信息" />
+            <lang locale="zh_TW" value="版本信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.st.common.F7CustomerForCUQuery].units.queryField[version].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

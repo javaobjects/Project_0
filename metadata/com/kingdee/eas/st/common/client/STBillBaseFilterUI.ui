@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.client</package>
+    <name>STBillBaseFilterUI</name>
+    <alias>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].description</description>
+    <userDefined>false</userDefined>
+    <releasePackage>com.kingdee.eas.st.common.client</releasePackage>
+    <releaseClass>STBillBaseFilterUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.base.commonquery.client" />
+        <key name="name" value="CustomerQueryPanel" />
+    </parent>
+    <components>
+        <component>
+            <name>CustomerQueryPanel</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[CustomerQueryPanel].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,600</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>CustomerQueryPanel_toolbar</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[CustomerQueryPanel_toolbar].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDToolBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,30</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>CustomerQueryPanel_menubar</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[CustomerQueryPanel_menubar].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,28</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDisViewByAuditedCheckBox</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[kDisViewByAuditedCheckBox].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>149,158,140,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[kDisViewByAuditedCheckBox].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[kDisViewByAuditedCheckBox].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[kDisViewByAuditedCheckBox].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CustomerQueryPanel" />
+            </parent>
+        </component>
+    </components>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁单据查询过滤界面" />
+            <lang locale="zh_TW" value="鋼鐵單據查詢過濾介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[CustomerQueryPanel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[CustomerQueryPanel_menubar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[CustomerQueryPanel_toolbar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[kDisViewByAuditedCheckBox].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[kDisViewByAuditedCheckBox].properties.property[enabled].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[kDisViewByAuditedCheckBox].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="以审批人身份查看" />
+            <lang locale="zh_TW" value="以審批人身份查看" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].components.component[kDisViewByAuditedCheckBox].properties.property[visible].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁单据查询过滤界面" />
+            <lang locale="zh_TW" value="鋼鐵單據查詢過濾介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillBaseFilterUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁单据查询过滤界面" />
+            <lang locale="zh_TW" value="鋼鐵單據查詢過濾介面" />
+        </rs>
+    </resource>
+</uiObject>
+

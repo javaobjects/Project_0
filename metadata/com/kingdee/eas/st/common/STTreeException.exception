@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizException xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>STTreeException</name>
+    <alias>bizException[com.kingdee.eas.st.common.STTreeException].alias</alias>
+    <description>bizException[com.kingdee.eas.st.common.STTreeException].description</description>
+    <userDefined>false</userDefined>
+    <mainCode>86</mainCode>
+    <className>com.kingdee.eas.st.common.STTreeException</className>
+    <baseException>
+        <key name="package" value="com.kingdee.eas.common" />
+        <key name="name" value="EASBizException" />
+    </baseException>
+    <bizExceptionSubItems>
+        <bizExceptionSubItem>
+            <subCode>000</subCode>
+            <name>HAS_ITEMS</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[HAS_ITEMS].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>001</subCode>
+            <name>ONLY_ADD_ITEM_LOWEST</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[ONLY_ADD_ITEM_LOWEST].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>002</subCode>
+            <name>CANNOT_AUDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_AUDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>003</subCode>
+            <name>CANNOT_UNAUDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_UNAUDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>004</subCode>
+            <name>CANNOT_REMOVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_REMOVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>005</subCode>
+            <name>CANNOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>006</subCode>
+            <name>CANNOT_ADDGROUP</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_ADDGROUP].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>007</subCode>
+            <name>DUPLICATE_NAME</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[DUPLICATE_NAME].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>008</subCode>
+            <name>CANNOT_MOVE_TO_ROOT</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_MOVE_TO_ROOT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>009</subCode>
+            <name>CANNOT_SAVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_SAVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>010</subCode>
+            <name>CANNOT_MOVE_TO_NOT_LEAF</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_MOVE_TO_NOT_LEAF].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>011</subCode>
+            <name>CU_CANNOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>012</subCode>
+            <name>CU_CANNOT_MOVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_MOVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>013</subCode>
+            <name>CU_CANNOT_REMOVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_REMOVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>014</subCode>
+            <name>CU_CANNOT_AUDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_AUDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>015</subCode>
+            <name>CU_CANNOT_UNAUDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_UNAUDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>016</subCode>
+            <name>CANNOT_ASSIGN</name>
+            <message>bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_ASSIGN].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+    </bizExceptionSubItems>
+    <resource>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].alias">
+            <lang locale="zh_CN" value="STTreeException" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="STTreeException" />
+            <lang locale="zh_TW" value="STTreeException" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_ADDGROUP].message">
+            <lang locale="zh_CN" value="该{0}含有{1}，不能增加子{0}" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="該{0}含有{1}，不能增加子{0}" />
+            <lang locale="zh_TW" value="該{0}含有{1}，不能增加子{0}" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_ASSIGN].message">
+            <lang locale="zh_CN" value="该基础资料不是核准状态，不能分配" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="該基礎資料不是核准狀態，不能分配" />
+            <lang locale="zh_TW" value="該基礎資料不是核准狀態，不能分配" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_AUDIT].message">
+            <lang locale="zh_CN" value="编号{0}处于核准状态，不能再核准" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編號{0}處於核准狀態，不能再核准" />
+            <lang locale="zh_TW" value="編號{0}處於核准狀態，不能再核准" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_EDIT].message">
+            <lang locale="zh_CN" value="已处于核准状态，不可编辑" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已處於核准狀態，不可編輯" />
+            <lang locale="zh_TW" value="已處於核准狀態，不可編輯" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_MOVE_TO_NOT_LEAF].message">
+            <lang locale="zh_CN" value="不能移动到非叶子节点" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="不能移動到非葉子節點" />
+            <lang locale="zh_TW" value="不能移動到非葉子節點" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_MOVE_TO_ROOT].message">
+            <lang locale="zh_CN" value="不能移动到根节点" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="不能移動到根節點" />
+            <lang locale="zh_TW" value="不能移動到根節點" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_REMOVE].message">
+            <lang locale="zh_CN" value="编号{0}处于核准状态，不能删除" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編號{0}處於核准狀態，不能刪除" />
+            <lang locale="zh_TW" value="編號{0}處於核准狀態，不能刪除" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_SAVE].message">
+            <lang locale="zh_CN" value="已处于核准状态，不能保存" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已處於核准狀態，不能保存" />
+            <lang locale="zh_TW" value="已處於核准狀態，不能保存" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_UNAUDIT].message">
+            <lang locale="zh_CN" value="编号{0}处于反核准状态，不能再反核准" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編號{0}處於反核准狀態，不能再反核准" />
+            <lang locale="zh_TW" value="編號{0}處於反核准狀態，不能再反核准" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_AUDIT].message">
+            <lang locale="zh_CN" value="编号{0}不能被当前组织核准" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編號{0}不能被當前組織核准" />
+            <lang locale="zh_TW" value="編號{0}不能被當前組織核准" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_EDIT].message">
+            <lang locale="zh_CN" value="当前组织不能对该记录进行修改" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="當前組織不能對該記錄進行修改" />
+            <lang locale="zh_TW" value="當前組織不能對該記錄進行修改" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_MOVE].message">
+            <lang locale="zh_CN" value="当前组织不能对该记录进行移动" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="當前組織不能對該記錄進行移動" />
+            <lang locale="zh_TW" value="當前組織不能對該記錄進行移動" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_REMOVE].message">
+            <lang locale="zh_CN" value="当前组织不能删除该记录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="當前組織不能刪除該記錄" />
+            <lang locale="zh_TW" value="當前組織不能刪除該記錄" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[CU_CANNOT_UNAUDIT].message">
+            <lang locale="zh_CN" value="编号{0}不能被当前组织反核准" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編號{0}不能被當前組織反核准" />
+            <lang locale="zh_TW" value="編號{0}不能被當前組織反核准" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[DUPLICATE_NAME].message">
+            <lang locale="zh_CN" value="存在相同的名称，请修改" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="存在相同的名稱，請修改" />
+            <lang locale="zh_TW" value="存在相同的名稱，請修改" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[HAS_ITEMS].message">
+            <lang locale="zh_CN" value="该{0}含有{1}，不能删除" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="該{0}含有{1}，不能刪除" />
+            <lang locale="zh_TW" value="該{0}含有{1}，不能刪除" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].bizExceptionSubItems.bizExceptionSubItem[ONLY_ADD_ITEM_LOWEST].message">
+            <lang locale="zh_CN" value="只能在最底阶的{0}下增加{1}" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="只能在最底階的{0}下增加{1}" />
+            <lang locale="zh_TW" value="只能在最底階的{0}下增加{1}" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STTreeException].description">
+            <lang locale="zh_CN" value="左树基类的异常提示信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="左樹基類的異常提示信息" />
+            <lang locale="zh_TW" value="左樹基類的異常提示信息" />
+        </rs>
+    </resource>
+</bizException>
+

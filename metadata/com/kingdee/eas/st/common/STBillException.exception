@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizException xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>STBillException</name>
+    <alias>bizException[com.kingdee.eas.st.common.STBillException].alias</alias>
+    <description>bizException[com.kingdee.eas.st.common.STBillException].description</description>
+    <userDefined>false</userDefined>
+    <mainCode>01</mainCode>
+    <className>com.kingdee.eas.st.common.STBillException</className>
+    <baseException>
+        <key name="package" value="com.kingdee.eas.common" />
+        <key name="name" value="EASBizException" />
+    </baseException>
+    <bizExceptionSubItems>
+        <bizExceptionSubItem>
+            <subCode>100</subCode>
+            <name>EXC_METAS_LOADERR</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_METAS_LOADERR].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>101</subCode>
+            <name>EXC_BILL_NOT_SUBMIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_NOT_SUBMIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>102</subCode>
+            <name>EXC_BILL_NOT_AUDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_NOT_AUDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>103</subCode>
+            <name>EXE_BILL_NOT_DELETE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXE_BILL_NOT_DELETE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>000</subCode>
+            <name>EXC_BILL_DELETE_NOT_SUBMIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_DELETE_NOT_SUBMIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>001</subCode>
+            <name>EXC_BILL_AUDIT_NOT_SUBMIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_AUDIT_NOT_SUBMIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>002</subCode>
+            <name>EXC_BILL_CLOSE_NOT_SUBMIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_CLOSE_NOT_SUBMIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>003</subCode>
+            <name>EXC_BILL_SUBMIT_NOT_SAVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_SUBMIT_NOT_SAVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>004</subCode>
+            <name>EXC_BILL_DELTET_NOT_SAVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_DELTET_NOT_SAVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>005</subCode>
+            <name>EXC_BILL_AUDIT_NOT_SAVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_AUDIT_NOT_SAVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>006</subCode>
+            <name>EXC_BILL_CLOSE_NOT_SAVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_CLOSE_NOT_SAVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>007</subCode>
+            <name>EXC_BILL_DELETE_NOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_DELETE_NOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>008</subCode>
+            <name>EXC_BILL_AUDIT_NOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_AUDIT_NOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>009</subCode>
+            <name>EXC_BILL_CLOSE_NOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_CLOSE_NOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>010</subCode>
+            <name>EXC_BILL_NOT_MULT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_NOT_MULT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>011</subCode>
+            <name>NULL_LINEINFO</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[NULL_LINEINFO].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>012</subCode>
+            <name>UNAUDIT_MUSTSELECT_ONERECORD</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[UNAUDIT_MUSTSELECT_ONERECORD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>013</subCode>
+            <name>CHECK_UNAUDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_UNAUDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>014</subCode>
+            <name>HASDESTBILL_CANNOTUNAUDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[HASDESTBILL_CANNOTUNAUDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>015</subCode>
+            <name>NOTEXISTAUDITEDBILL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[NOTEXISTAUDITEDBILL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>016</subCode>
+            <name>UNAUDITED_RESULT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[UNAUDITED_RESULT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>017</subCode>
+            <name>AUDIT_MUSTSELECT_ONERECORD</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[AUDIT_MUSTSELECT_ONERECORD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>018</subCode>
+            <name>NOTEXISTUNAUDITEDBILL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[NOTEXISTUNAUDITEDBILL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>019</subCode>
+            <name>ABROGATE_CONDITION</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[ABROGATE_CONDITION].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>020</subCode>
+            <name>BILL_IN_WORKFLOW</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[BILL_IN_WORKFLOW].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>017</subCode>
+            <name>BILLMUSTSUBMIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[BILLMUSTSUBMIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>021</subCode>
+            <name>CHECK_ALTER</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_ALTER].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>022</subCode>
+            <name>EXC_BILL_ALTER_NOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_ALTER_NOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>023</subCode>
+            <name>CHECK_PRODUCEDETAIL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_PRODUCEDETAIL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>024</subCode>
+            <name>CHECK_INPUT_ERROR</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_INPUT_ERROR].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>025</subCode>
+            <name>FloorNumberMinIsNotOneForSubmit</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[FloorNumberMinIsNotOneForSubmit].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>026</subCode>
+            <name>CHECK_ISEQUALLOCALTION_SUBMIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_ISEQUALLOCALTION_SUBMIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>027</subCode>
+            <name>FLOORNUMBERNEEDSEQ</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[FLOORNUMBERNEEDSEQ].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>028</subCode>
+            <name>CHECK_NEWROWISEQUAL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_NEWROWISEQUAL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>029</subCode>
+            <name>CHECK_RowNumberButtressNumberIsNotNull</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_RowNumberButtressNumberIsNotNull].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>030</subCode>
+            <name>EXC_BILL_MAINORG_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_MAINORG_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>031</subCode>
+            <name>MultMeasure_Material_Not_Exist</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[MultMeasure_Material_Not_Exist].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>032</subCode>
+            <name>UNAUDIT_HAS_BUSINESS</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[UNAUDIT_HAS_BUSINESS].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>033</subCode>
+            <name>CHECK_PRODUCEDETAIL_DIFFERENT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_PRODUCEDETAIL_DIFFERENT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>034</subCode>
+            <name>EXC_NO_PERIOD</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_NO_PERIOD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>035</subCode>
+            <name>SELECT_REMOVELINE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[SELECT_REMOVELINE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>036</subCode>
+            <name>CHECK_NEW_RowNumberButtressNumberIsNotNull</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_NEW_RowNumberButtressNumberIsNotNull].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>037</subCode>
+            <name>EXIST_SAME_FLOOR</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXIST_SAME_FLOOR].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>038</subCode>
+            <name>EXC_NO_COMPANY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_NO_COMPANY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>039</subCode>
+            <name>EXIST_DOWN_BILL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXIST_DOWN_BILL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>035</subCode>
+            <name>WEIGH_CHECK_DELETE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[WEIGH_CHECK_DELETE].message</message>
+            <userDefined>true</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>040</subCode>
+            <name>Storage_NotExist_Company</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Storage_NotExist_Company].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>041</subCode>
+            <name>Period_NotExist_StartPeriod</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_NotExist_StartPeriod].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>042</subCode>
+            <name>Period_BizDate_Before_Start</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_BizDate_Before_Start].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>043</subCode>
+            <name>Period_HasStart_Must_UnStart</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_HasStart_Must_UnStart].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>044</subCode>
+            <name>Period_BizDate_Must_After_Start</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_BizDate_Must_After_Start].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>045</subCode>
+            <name>Storage_NotExist</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Storage_NotExist].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>046</subCode>
+            <name>STORE_EARLY_THAN_DETAIL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[STORE_EARLY_THAN_DETAIL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>047</subCode>
+            <name>Period_Has_Not_Start</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_Has_Not_Start].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>048</subCode>
+            <name>EXC_NO_STORAGE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_NO_STORAGE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>049</subCode>
+            <name>NULL_ENTRY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[NULL_ENTRY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>050</subCode>
+            <name>ENTRY_DUPLICATE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[ENTRY_DUPLICATE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>051</subCode>
+            <name>EXC_MUST_SELECTENTRY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_MUST_SELECTENTRY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>052</subCode>
+            <name>UnAudit_Has_Version</name>
+            <message>bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[UnAudit_Has_Version].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+    </bizExceptionSubItems>
+    <resource>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁单据基类异常类" />
+            <lang locale="zh_TW" value="鋼颫裥ꢾ軧₇ꯩꎧ黦ꚺ颫냦뎹颫냦隺鐵單據基類異常類" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[ABROGATE_CONDITION].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="只有暂存、提交状态的单据才可以作废!" />
+            <lang locale="zh_TW" value="只有暫存、提交狀態的單據才可以作廢!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[AUDIT_MUSTSELECT_ONERECORD].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="没有存在未审核单据，不允许审核！" />
+            <lang locale="zh_TW" value="沒有存在未審核單據，不允許審核！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[BILLMUSTSUBMIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据必须为“提交”状态！" />
+            <lang locale="zh_TW" value="單據必須為“提交”狀態！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[BILL_IN_WORKFLOW].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据处于工作流中，不能作废!" />
+            <lang locale="zh_TW" value="單據處於工作流中，不能作廢!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_ALTER].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态不为“审核”，不允许变更！" />
+            <lang locale="zh_TW" value="單據狀態不為“審核”，不允許變更！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_INPUT_ERROR].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库存组织为空或未录入物料汇总分录，请检查！" />
+            <lang locale="zh_TW" value="庫存組織為空或未錄入物料匯總分錄，請檢查！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_ISEQUALLOCALTION_SUBMIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="不允许对相同的库位进行拆号！" />
+            <lang locale="zh_TW" value="不允許對相同的庫位進行拆號！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_NEWROWISEQUAL].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原库位+原行号+原垛号、新库位+新行号+新垛号不能完全相同" />
+            <lang locale="zh_TW" value="原庫位+原行號+原垛號、新庫位+新行號+新垛號不能完全相同" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_NEW_RowNumberButtressNumberIsNotNull].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新库位{0}已启用层号控制，其行垛不能为空！" />
+            <lang locale="zh_TW" value="新庫位{0}已啟用層號控制，其行垛不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_PRODUCEDETAIL].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料：{0} 属单品管理，请先维护明细分录！" />
+            <lang locale="zh_TW" value="物料：{0} 屬單品管理，請先維護明細分錄！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_PRODUCEDETAIL_DIFFERENT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="第{0}行汇总分录的物料单品管理策略与整单不符，不允许提交！" />
+            <lang locale="zh_TW" value="第{0}行匯總分錄的物料單品管理策略與整單不符，不允許提交！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_RowNumberButtressNumberIsNotNull].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库位{0}已启用层号控制，其行垛不能为空！" />
+            <lang locale="zh_TW" value="庫位{0}已啟用層號控制，其行垛不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[CHECK_UNAUDIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态不为“审核”，不允许反审核！" />
+            <lang locale="zh_TW" value="單據狀態不為“審核”，不允許反審核！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[ENTRY_DUPLICATE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录字段{0}第{1}与第{2}行重复！" />
+            <lang locale="zh_TW" value="分錄字段{0}第{1}與第{2}行重複！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_ALTER_NOT_EDIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="变更中状态单据不能修改！" />
+            <lang locale="zh_TW" value="變更中狀態單據不能修改！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_AUDIT_NOT_EDIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核状态单据不能修改！" />
+            <lang locale="zh_TW" value="審核狀態單據不能修改！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_AUDIT_NOT_SAVE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核状态单据不能保存！" />
+            <lang locale="zh_TW" value="審核狀態單據不能保存！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_AUDIT_NOT_SUBMIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核状态单据不能提交！" />
+            <lang locale="zh_TW" value="審核狀態單據不能提交！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_CLOSE_NOT_EDIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关闭状态单据不能修改！" />
+            <lang locale="zh_TW" value="關閉狀態單據不能修改！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_CLOSE_NOT_SAVE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关闭状态单据不能保存！" />
+            <lang locale="zh_TW" value="關閉狀態單據不能保存！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_CLOSE_NOT_SUBMIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关闭单据不能提交！" />
+            <lang locale="zh_TW" value="關閉單據不能提交！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_DELETE_NOT_EDIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="作废状态单据不能修改！" />
+            <lang locale="zh_TW" value="作廢狀態單據不能修改！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_DELETE_NOT_SUBMIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="作废状态单据不能提交！" />
+            <lang locale="zh_TW" value="作廢狀態單據不能提交！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_DELTET_NOT_SAVE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除状态单据不能保存！" />
+            <lang locale="zh_TW" value="刪除狀態單據不能保存！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_MAINORG_ISNULL].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主业务组织{0}为空，请先填写主业务组织！" />
+            <lang locale="zh_TW" value="主業務組織{0}為空，請先填寫主業務組織！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_NOT_AUDIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="非审核状态单据不能反审核！" />
+            <lang locale="zh_TW" value="非審核狀態單據不能反審核！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_NOT_MULT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改单据时不能选择多张单据！" />
+            <lang locale="zh_TW" value="修改單據時不能選擇多張單據！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_NOT_SUBMIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="非提交状态单据不能审核！" />
+            <lang locale="zh_TW" value="非提交狀態單據不能審核！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_BILL_SUBMIT_NOT_SAVE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="提交状态单据不能保存！" />
+            <lang locale="zh_TW" value="提交狀態單據不能保存！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_METAS_LOADERR].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="元数据装载错误！" />
+            <lang locale="zh_TW" value="元數據裝載錯誤！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_MUST_SELECTENTRY].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="请选择一条{0}分录才能操作{1}分录" />
+            <lang locale="zh_TW" value="請選擇一條{0}分錄才能操作{1}分錄" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_NO_COMPANY].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前主业务组织没有设定委托记账组织！" />
+            <lang locale="zh_TW" value="當前主業務組織沒有設定委託記賬組織！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_NO_PERIOD].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="期间未启用!" />
+            <lang locale="zh_TW" value="期間未啟用!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXC_NO_STORAGE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="没有业务组织权限，请重新选择！" />
+            <lang locale="zh_TW" value="沒有業務組織許可權，請重新選擇！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXE_BILL_NOT_DELETE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="只能删除状态为保存或提交的单据！" />
+            <lang locale="zh_TW" value="只能刪除狀態為保存或提交的單據！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXIST_DOWN_BILL].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录 {0} 已存在下游单据，不允许删除！" />
+            <lang locale="zh_TW" value="分錄 {0} 已存在下遊單據，不允許刪除！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[EXIST_SAME_FLOOR].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="明细分录第{0}条的层位已被占用，请修改位置！" />
+            <lang locale="zh_TW" value="明細分錄第{0}條的層位已被佔用，請修改位置！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[FLOORNUMBERNEEDSEQ].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="不允许层号断号！" />
+            <lang locale="zh_TW" value="不允許層號斷號！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[FloorNumberMinIsNotOneForSubmit].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="只能从首层依次出库，否则必须先进行倒垛处理！" />
+            <lang locale="zh_TW" value="只能從首層依次出庫，否則必須先進行倒垛處理！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[HASDESTBILL_CANNOTUNAUDIT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据已关联生成其它单据，不允许反审核" />
+            <lang locale="zh_TW" value="單據已關聯生成其他單據，不允許反審核" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[MultMeasure_Material_Not_Exist].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="判定物料中不存在计量单位{0}！" />
+            <lang locale="zh_TW" value="判定物料中不存在計量單位{0}！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[NOTEXISTAUDITEDBILL].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态不为“审核”，不允许反审核！" />
+            <lang locale="zh_TW" value="單據狀態不為“審核”，不允許反審核！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[NOTEXISTUNAUDITEDBILL].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态不为“提交”，不允许审核！" />
+            <lang locale="zh_TW" value="單據狀態不為“提交”，不允許審核！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[NULL_ENTRY].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录为空！" />
+            <lang locale="zh_TW" value="分錄為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[NULL_LINEINFO].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="请选择需要复制的行，否则不能执行复制新增的操作！" />
+            <lang locale="zh_TW" value="請選擇需要複製的行，否則不能執行複製新增的操作！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_BizDate_Before_Start].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="入库日期应小于启用期间开始日期" />
+            <lang locale="zh_TW" value="入庫日期應小於啟用期間開始日期" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_BizDate_Must_After_Start].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据业务日期必须大于等于当前期间开始日期" />
+            <lang locale="zh_TW" value="單據業務日期必須大於等於當前期間開始日期" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_HasStart_Must_UnStart].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已结束初始化，请首先反结束初始化" />
+            <lang locale="zh_TW" value="已結束初始化，請首先反結束初始化" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_Has_Not_Start].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织的单品库存未结束初始化" />
+            <lang locale="zh_TW" value="當前組織的單品庫存未結束初始化" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Period_NotExist_StartPeriod].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="未设置启用期间" />
+            <lang locale="zh_TW" value="未設置啟用期間" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[SELECT_REMOVELINE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="请选择需要删除的行，否则不能执行删除分录的操作！" />
+            <lang locale="zh_TW" value="請選擇需要刪除的行，否則不能執行刪除分錄的操作！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[STORE_EARLY_THAN_DETAIL].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库存管理当前期间早于单品库存管理启用期间，不能对帐！" />
+            <lang locale="zh_TW" value="庫存管理當前期間早於單品庫存管理啟用期間，不能對帳！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Storage_NotExist].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="请先选择库存组织！" />
+            <lang locale="zh_TW" value="請先選擇庫存組織！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[Storage_NotExist_Company].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="库存组织不存在委托记账的财务组织" />
+            <lang locale="zh_TW" value="庫存組織不存在委託記賬的財務組織" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[UNAUDITED_RESULT].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="共反审核{0}张单据,{1}张已审核单据进行反审核。" />
+            <lang locale="zh_TW" value="共反審核{0}張單據,{1}張已審核單據進行反審核。" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[UNAUDIT_HAS_BUSINESS].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号为{0}的单据已经产生业务，不能反审核！" />
+            <lang locale="zh_TW" value="單據編號為{0}的單據已經產生業務，不能反審核！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[UNAUDIT_MUSTSELECT_ONERECORD].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="必须选择一条分录才能进行反审核操作！" />
+            <lang locale="zh_TW" value="必須選擇一條分錄才能進行反審核操作！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[UnAudit_Has_Version].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号为{0}的单据做过变更，不允许反审核！" />
+            <lang locale="zh_TW" value="單據編號為{0}的單據做過變更，不允許反審核！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].bizExceptionSubItems.bizExceptionSubItem[WEIGH_CHECK_DELETE].message">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="只有作废状态的检斤单才能删除!" />
+            <lang locale="zh_TW" value="只有作廢狀態的檢斤單才能刪除!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBillException].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁单据基类异常类" />
+            <lang locale="zh_TW" value="鋼颫裥ꢾ軧₇ꯩꎧ黦ꚺ颫냦뎹颫냦隺鐵單據基類異常類" />
+        </rs>
+    </resource>
+</bizException>
+

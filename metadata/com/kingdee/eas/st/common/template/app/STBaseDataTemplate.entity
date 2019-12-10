@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.template.app</package>
+    <name>STBaseDataTemplate</name>
+    <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].alias</alias>
+    <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].description</description>
+    <userDefined>false</userDefined>
+    <bosType>892850FE</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.st.common.template.STBaseDataTemplate</businessImplName>
+    <businessControllerName>com.kingdee.eas.st.common.template.app.STBaseDataTemplateController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].description</description>
+            <innerID>7f7ec14f-3eb9-43b4-aba1-8607629fe8a2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.template.app.STBaseDataTemplate</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].description</description>
+            <innerID>bf63b025-3d50-4571-9a99-b621927dd2db</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.template.app.STBaseDataTemplate</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].description</description>
+            <innerID>48249be6-07af-45f0-9f3e-d40dfadd15fb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.template.app.STBaseDataTemplate</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].description</description>
+            <innerID>9a18c69f-cebe-4f32-9faa-44c4c3f4c1f0</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.template.app.STBaseDataTemplate</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].description</description>
+            <innerID>44222932-366c-4dee-8b49-753c38f9ee9e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.template.app.STBaseDataTemplate</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].description</description>
+            <innerID>563c81b9-9101-4a6e-8b05-f5c3de1d6d45</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.template.app.STBaseDataTemplate</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.st.common.STBaseDataTemplate</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.st.common.app" />
+        <key name="name" value="STDataBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.st.common.template.app" />
+        <key name="name" value="T_ST_STBaseDataTemplate" />
+    </table>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁基础资料界面模版" />
+            <lang locale="zh_HK" value="鋼鐵基礎資料介面模版" />
+            <lang locale="zh_TW" value="鋼鐵基礎資料介面模版" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料模板" />
+            <lang locale="zh_HK" value="單級基礎資料範本" />
+            <lang locale="zh_TW" value="單級基礎資料範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.app.STBaseDataTemplateQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.app.STBaseDataTemplateQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.app.STBaseDataTemplateQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.template.app.STBaseDataTemplate].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</entityObject>
+

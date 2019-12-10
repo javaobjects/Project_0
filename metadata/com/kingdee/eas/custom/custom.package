@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="com.kingdee.bos.metadata">
+	<package>com.kingdee.eas.custom</package>
+	<name>custom</name>
+	<alias>package[com.kingdee.eas.custom.custom].alias</alias>
+	<description>package[com.kingdee.eas.custom.custom].description</description>
+	<basicCode/>
+	<resource>
+		<rs key="package[com.kingdee.eas.custom.custom].description">
+			<lang locale="zh_CN" value="用户自定义"/>
+			<lang locale="zh_TW" value="用戶自定義"/>
+			<lang locale="en_US" value="custom"/>
+		</rs>
+		<rs key="package[com.kingdee.eas.custom.custom].extendedProperty.userDefined">
+			<lang locale="zh_CN" value="false"/>
+			<lang locale="zh_TW" value="null"/>
+			<lang locale="en_US" value="null"/>
+		</rs>
+		<rs key="package[com.kingdee.eas.custom.custom].alias">
+			<lang locale="zh_CN" value="用户自定义"/>
+			<lang locale="zh_TW" value="用戶自定義"/>
+			<lang locale="en_US" value="custom"/>
+		</rs>
+	</resource>
+</package>

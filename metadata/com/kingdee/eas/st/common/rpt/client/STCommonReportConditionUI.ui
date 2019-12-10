@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.rpt.client</package>
+    <name>STCommonReportConditionUI</name>
+    <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportConditionUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportConditionUI].description</description>
+    <userDefined>false</userDefined>
+    <releasePackage>com.kingdee.eas.st.common.rpt.client</releasePackage>
+    <releaseClass>STCommonReportConditionUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportConditionUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.report.client" />
+        <key name="name" value="CommRptBaseConditionUI" />
+    </parent>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportConditionUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ST报表过滤界面基类" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportConditionUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportConditionUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ST报表过滤界面基类" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</uiObject>
+

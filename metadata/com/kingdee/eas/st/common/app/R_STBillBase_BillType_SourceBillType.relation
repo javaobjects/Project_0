@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>R_STBillBase_BillType_SourceBillType</name>
+    <alias>relationship[com.kingdee.eas.st.common.app.R_STBillBase_BillType_SourceBillType].alias</alias>
+    <description>relationship[com.kingdee.eas.st.common.app.R_STBillBase_BillType_SourceBillType].description</description>
+    <userDefined>false</userDefined>
+    <type>Association</type>
+    <clientCardinality>1..*</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.st.common.app" />
+        <key name="name" value="STBillBaseEntry" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.basedata.scm.common.app" />
+        <key name="name" value="BillType" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.st.common.app.R_STBillBase_BillType_SourceBillType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源单据类型" />
+            <lang locale="zh_TW" value="來源單據類型" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.st.common.app.R_STBillBase_BillType_SourceBillType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源单据类型" />
+            <lang locale="zh_TW" value="來源單據類型" />
+        </rs>
+    </resource>
+</relationship>
+

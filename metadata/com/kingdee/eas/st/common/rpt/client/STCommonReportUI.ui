@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.rpt.client</package>
+    <name>STCommonReportUI</name>
+    <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].description</description>
+    <userDefined>false</userDefined>
+    <releasePackage>com.kingdee.eas.st.common.rpt.client</releasePackage>
+    <releaseClass>STCommonReportUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.report.client" />
+        <key name="name" value="CommRptBaseUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>borderLayout1</name>
+                <type>BorderLayout</type>
+                <value>0,0</value>
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>preferredSize</name>
+                    <type>java.awt.Dimension</type>
+                    <value>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[CoreUI].properties.property[preferredSize].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemQuery</name>
+            <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints>0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemRefresh</name>
+            <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemRefresh].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints>2</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>menuItemChart</name>
+            <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemChart].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints>4</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDSeparator2</name>
+            <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[kDSeparator2].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDSeparator</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>tblMain</name>
+            <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[tblMain].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
+            <isContainer>false</isContainer>
+            <constraints>Center</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>formatXml</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[tblMain].properties.property[formatXml].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>menuItemQuery1</name>
+            <alias>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints>1</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>mnemonic</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[mnemonic].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>toolTipText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[toolTipText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>icon</name>
+                    <type>javax.swing.Icon</type>
+                    <value>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[icon].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="menuView" />
+            </parent>
+        </component>
+    </components>
+    <actions>
+        <action>
+            <instanceName>actionQuery</instanceName>
+            <className>ActionQuery</className>
+            <name>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].actions.action[actionQuery].name</name>
+            <enabled>true</enabled>
+            <actionPerformed />
+            <actionCommandKey />
+            <acceleratorKey>ctrl F</acceleratorKey>
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].actions.action[actionQuery].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].actions.action[actionQuery].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].actions.action[actionQuery].longDescription</longDescription>
+            <isBindWorkFlow>false</isBindWorkFlow>
+            <herited>true</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty />
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;/root&gt;</services>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+        </action>
+    </actions>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].actions.action[actionQuery].longDescription">
+            <lang locale="zh_CN" value="查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢" />
+            <lang locale="zh_TW" value="查詢" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].actions.action[actionQuery].name">
+            <lang locale="zh_CN" value="查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢" />
+            <lang locale="zh_TW" value="查詢" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].actions.action[actionQuery].shortDescription">
+            <lang locale="zh_CN" value="查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢" />
+            <lang locale="zh_TW" value="查詢" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].actions.action[actionQuery].smallIcon">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].alias">
+            <lang locale="zh_CN" value="钢铁报表基础框架" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼鐵報表基礎框架" />
+            <lang locale="zh_TW" value="鋼鐵報表基礎框架" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[CoreUI].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[CoreUI].properties.property[preferredSize].value">
+            <lang locale="zh_CN" value="1016,600" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="1016,600" />
+            <lang locale="zh_TW" value="1016,600" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[kDSeparator2].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemChart].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[action].value">
+            <lang locale="zh_CN" value="actionQuery" />
+            <lang locale="en_US" value="actionQuery" />
+            <lang locale="zh_HK" value="actionQuery" />
+            <lang locale="zh_TW" value="actionQuery" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[icon].value">
+            <lang locale="zh_CN" value="imgTbtn_filter" />
+            <lang locale="en_US" value="imgTbtn_filter" />
+            <lang locale="zh_HK" value="imgTbtn_filter" />
+            <lang locale="zh_TW" value="imgTbtn_filter" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[mnemonic].value">
+            <lang locale="zh_CN" value="81" />
+            <lang locale="en_US" value="81" />
+            <lang locale="zh_HK" value="81" />
+            <lang locale="zh_TW" value="81" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[text].value">
+            <lang locale="zh_CN" value="查询(Q)" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢(Q)" />
+            <lang locale="zh_TW" value="查詢(Q)" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery1].properties.property[toolTipText].value">
+            <lang locale="zh_CN" value="查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢" />
+            <lang locale="zh_TW" value="查詢" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemQuery].properties.property[text].value">
+            <lang locale="zh_CN" value="查询(Q)" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢(Q)" />
+            <lang locale="zh_TW" value="查詢(Q)" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[menuItemRefresh].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[tblMain].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].components.component[tblMain].properties.property[formatXml].value">
+            <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sTable&quot;&gt;&lt;c:Alignment horizontal=&quot;left&quot; /&gt;&lt;c:Protection locked=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;2&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot; t:styleID=&quot;sTable&quot;&gt;&lt;t:ColumnGroup /&gt;&lt;t:Head /&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt; " />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sTable&quot;&gt;&lt;c:Alignment horizontal=&quot;left&quot; /&gt;&lt;c:Protection locked=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;2&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot; t:styleID=&quot;sTable&quot;&gt;&lt;t:ColumnGroup /&gt;&lt;t:Head /&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt; " />
+            <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sTable&quot;&gt;&lt;c:Alignment horizontal=&quot;left&quot; /&gt;&lt;c:Protection locked=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;2&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot; t:styleID=&quot;sTable&quot;&gt;&lt;t:ColumnGroup /&gt;&lt;t:Head /&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt; " />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].description">
+            <lang locale="zh_CN" value="销售排名分析表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="銷售排名分析表" />
+            <lang locale="zh_TW" value="銷售排名分析表" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.rpt.client.STCommonReportUI].title">
+            <lang locale="zh_CN" value="钢铁报表基础框架" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼鐵報表基礎框架" />
+            <lang locale="zh_TW" value="鋼鐵報表基礎框架" />
+        </rs>
+    </resource>
+</uiObject>
+

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>T_ST_MaxSerial</name>
+    <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].alias</alias>
+    <description>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].description</description>
+    <userDefined>false</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FKeyItem</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FKeyItem].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FKeyItem].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FKeyItemValue</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FKeyItemValue].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FKeyItemValue].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>200</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FInitValue</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FInitValue].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FInitValue].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>9</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>FMaxSerial</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FMaxSerial].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FMaxSerial].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>9</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_ST_MaxSerial</name>
+        <userDefined>false</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FKeyItem" />
+                </column>
+            </primaryKeyColumn>
+            <primaryKeyColumn>
+                <indexID>1</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FKeyItemValue" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最大序号管理" />
+            <lang locale="zh_TW" value="最大序號管理" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FInitValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FInitValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FKeyItemValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FKeyItemValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FKeyItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FKeyItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FMaxSerial].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].columns.column[FMaxSerial].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_MaxSerial].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

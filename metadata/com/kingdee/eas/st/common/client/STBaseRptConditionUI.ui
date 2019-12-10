@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.client</package>
+    <name>STBaseRptConditionUI</name>
+    <alias>uiObject[com.kingdee.eas.st.common.client.STBaseRptConditionUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.st.common.client.STBaseRptConditionUI].description</description>
+    <userDefined>false</userDefined>
+    <releasePackage>com.kingdee.eas.st.common.client</releasePackage>
+    <releaseClass>STBaseRptConditionUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.st.common.client.STBaseRptConditionUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.report.client" />
+        <key name="name" value="CommRptBaseConditionUI" />
+    </parent>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBaseRptConditionUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁报表过滤基础界面" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBaseRptConditionUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁报表过滤基础界面" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBaseRptConditionUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁报表过滤基础界面" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</uiObject>
+

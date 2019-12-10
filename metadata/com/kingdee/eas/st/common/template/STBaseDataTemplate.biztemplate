@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizTemplate xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>STBaseDataTemplate</name>
+    <alias>bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].alias</alias>
+    <description>bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.st.common.template.app.STBaseDataTemplate</entityPK>
+    <queryPK>com.kingdee.eas.st.common.template.app.STBaseDataTemplateQuery</queryPK>
+    <editUIPK>com.kingdee.eas.st.common.template.client.STBaseDataTemplateEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.st.common.template.client.STBaseDataTemplateListUI</listUIPK>
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>DataBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].alias">
+            <lang locale="zh_CN" value="钢铁SI类基础资料界面模版" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼鐵SI类基礎資料介面模版" />
+            <lang locale="zh_TW" value="鋼鐵SI类基礎資料介面模版" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].description">
+            <lang locale="zh_CN" value="单级基础资料模板" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單級基礎資料範本" />
+            <lang locale="zh_TW" value="單級基礎資料範本" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.BizUnitDeployed">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.defaultDisplayField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.app.STBaseDataTemplateQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.app.STBaseDataTemplateQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.app.STBaseDataTemplateQuery" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateEditUI" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.isAsstAcctType">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.isSimpleEntity">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.template.client.STBaseDataTemplateListUI" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.maxFieldIndex">
+            <lang locale="zh_CN" value="3" />
+            <lang locale="en_US" value="3" />
+            <lang locale="zh_TW" value="3" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.template.STBaseDataTemplate].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizTemplate>
+

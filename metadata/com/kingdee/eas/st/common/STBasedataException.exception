@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizException xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>STBasedataException</name>
+    <alias>bizException[com.kingdee.eas.st.common.STBasedataException].alias</alias>
+    <description>bizException[com.kingdee.eas.st.common.STBasedataException].description</description>
+    <userDefined>false</userDefined>
+    <mainCode>16</mainCode>
+    <className>com.kingdee.eas.st.common.STBasedataException</className>
+    <baseException>
+        <key name="package" value="com.kingdee.eas.common" />
+        <key name="name" value="EASBizException" />
+    </baseException>
+    <bizExceptionSubItems>
+        <bizExceptionSubItem>
+            <subCode>100</subCode>
+            <name>NUMBER_IS_EMPTY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_IS_EMPTY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>101</subCode>
+            <name>NUMBER_ALREADY_EXIST</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_ALREADY_EXIST].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>102</subCode>
+            <name>NAME_IS_EMPTY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NAME_IS_EMPTY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>103</subCode>
+            <name>NAME_ALREADY_EXIST</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NAME_ALREADY_EXIST].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>104</subCode>
+            <name>NUMBER_CHECK</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_CHECK].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>105</subCode>
+            <name>LANDDEVELOPER_IS_EMPTY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[LANDDEVELOPER_IS_EMPTY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>108</subCode>
+            <name>STARTDATE_IS_NULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[STARTDATE_IS_NULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>201</subCode>
+            <name>DELETE_ISPARENT_FAIL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELETE_ISPARENT_FAIL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>202</subCode>
+            <name>DELETE_ISREFERENCE_FAIL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELETE_ISREFERENCE_FAIL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>203</subCode>
+            <name>DELETE_ISDISENABLED_FAIL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELETE_ISDISENABLED_FAIL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>106</subCode>
+            <name>NUMBER_CHECK_2</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_CHECK_2].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>107</subCode>
+            <name>NUMBER_CHECK_3</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_CHECK_3].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>300</subCode>
+            <name>CANNOT_VERSIONCHANGE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_VERSIONCHANGE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>310</subCode>
+            <name>CONTRACTTYPE_IS_EMPTY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTTYPE_IS_EMPTY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>311</subCode>
+            <name>DATATYPE_IS_EMPTY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DATATYPE_IS_EMPTY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>321</subCode>
+            <name>CONTRACTTYPE_PARENT_DISENABLE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTTYPE_PARENT_DISENABLE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>322</subCode>
+            <name>PROJECT_PARENT_DISENABLE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[PROJECT_PARENT_DISENABLE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>323</subCode>
+            <name>VERSIONSAVE_CANNOT_SAVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[VERSIONSAVE_CANNOT_SAVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>324</subCode>
+            <name>VERSIONSAVE_NAME_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[VERSIONSAVE_NAME_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>325</subCode>
+            <name>CONTRACTTYPE_DEL_REFERENCE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTTYPE_DEL_REFERENCE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>326</subCode>
+            <name>IMPORT_ONLYTOPROJECT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[IMPORT_ONLYTOPROJECT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>327</subCode>
+            <name>IMPORT_TREESELECT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[IMPORT_TREESELECT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>328</subCode>
+            <name>DISASSIGN_ISREFERENCE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DISASSIGN_ISREFERENCE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>329</subCode>
+            <name>TARGETTYPE_PARENT_DISENABLE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[TARGETTYPE_PARENT_DISENABLE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>330</subCode>
+            <name>MEASUREUNIT_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[MEASUREUNIT_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>331</subCode>
+            <name>TARGETTYPE_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[TARGETTYPE_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>332</subCode>
+            <name>TARGETTYPE_DEL_REFERENCE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[TARGETTYPE_DEL_REFERENCE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>333</subCode>
+            <name>COSTACCOUNT_ADD_SUBHAVE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNT_ADD_SUBHAVE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>334</subCode>
+            <name>COSTACCOUNT_TEMP_IMPORT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNT_TEMP_IMPORT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>335</subCode>
+            <name>DISENABLE_CANNOT_USED</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DISENABLE_CANNOT_USED].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>336</subCode>
+            <name>DISENABLE_CANNOT_ONLY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DISENABLE_CANNOT_ONLY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>337</subCode>
+            <name>DISENABLE_SUBNODE_REFERENCE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DISENABLE_SUBNODE_REFERENCE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>338</subCode>
+            <name>COSTACCOUNT_PARENT_DISENABLE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNT_PARENT_DISENABLE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>339</subCode>
+            <name>COSTACCOUNT_DISASSIGN</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNT_DISASSIGN].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>340</subCode>
+            <name>PROJECTSTATUS_IS_EMPTY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[PROJECTSTATUS_IS_EMPTY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>341</subCode>
+            <name>CHANGETYPE_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CHANGETYPE_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>342</subCode>
+            <name>CONTRACTCODINTTYPE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTCODINTTYPE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>000</subCode>
+            <name>NUMBER_IS_EXIST</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_IS_EXIST].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>343</subCode>
+            <name>CONTRACTCODINTTYPE_IS_EXIST</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTCODINTTYPE_IS_EXIST].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>344</subCode>
+            <name>CONTRACT_TYPE_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACT_TYPE_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>350</subCode>
+            <name>UNITDATAMANGER_COMPANY_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[UNITDATAMANGER_COMPANY_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>351</subCode>
+            <name>UNITDATAMANGER_ADDRESS_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[UNITDATAMANGER_ADDRESS_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>352</subCode>
+            <name>COMPANY_SAME</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COMPANY_SAME].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>353</subCode>
+            <name>COSTACCOUNTTYPE_ISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNTTYPE_ISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>354</subCode>
+            <name>PROJECTTYPE_REFERENCE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[PROJECTTYPE_REFERENCE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>001</subCode>
+            <name>DELETE_SYSDATA</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELETE_SYSDATA].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>002</subCode>
+            <name>INVALIDCOSTREASON_DEL_REFERENCE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[INVALIDCOSTREASON_DEL_REFERENCE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>003</subCode>
+            <name>INVALIDCOSTREASON_PARENT_DISENABLE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[INVALIDCOSTREASON_PARENT_DISENABLE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>355</subCode>
+            <name>AUDITORMUSTBETHESAMEUSER</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[AUDITORMUSTBETHESAMEUSER].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>004</subCode>
+            <name>AUDIT_CANNOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[AUDIT_CANNOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>005</subCode>
+            <name>ENABLE_CANNOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[ENABLE_CANNOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>006</subCode>
+            <name>AUDIT_CANNOT_DELETE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[AUDIT_CANNOT_DELETE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>007</subCode>
+            <name>ENABLE_CANNOT_DELETE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[ENABLE_CANNOT_DELETE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>008</subCode>
+            <name>ClOSED_CANNOT_DELETE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[ClOSED_CANNOT_DELETE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>009</subCode>
+            <name>CLOSED_CANNOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CLOSED_CANNOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>010</subCode>
+            <name>DELIVERY_CANNOT_DELETE</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELIVERY_CANNOT_DELETE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>011</subCode>
+            <name>DELIVERY_CANNOT_EDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELIVERY_CANNOT_EDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>012</subCode>
+            <name>DELIVERY_MUST_AUTIDT</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELIVERY_MUST_AUTIDT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>013</subCode>
+            <name>UNDELIVERY_MUST_DELIVERY</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[UNDELIVERY_MUST_DELIVERY].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>014</subCode>
+            <name>NO_MATCH_DATA</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NO_MATCH_DATA].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>015</subCode>
+            <name>NO_MATCH_UNAUDIT_DATA</name>
+            <message>bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NO_MATCH_UNAUDIT_DATA].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+    </bizExceptionSubItems>
+    <resource>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].alias">
+            <lang locale="zh_CN" value="钢铁基础资料异常类" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼颫裥ꢾ軧₇ꯩꎧ黦ꚺ颫냦뎹颫냦隺鐵基礎資料異常類" />
+            <lang locale="zh_TW" value="鋼颫裥ꢾ軧₇ꯩꎧ黦ꚺ颫냦뎹颫냦隺鐵基礎資料異常類" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[AUDITORMUSTBETHESAMEUSER].message">
+            <lang locale="zh_CN" value="审批和反审批必须同一个用户！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審批和反審批必須同一個用戶！" />
+            <lang locale="zh_TW" value="審批和反審批必須同一個用戶！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[AUDIT_CANNOT_DELETE].message">
+            <lang locale="zh_CN" value="核准状态下不能被删除！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="核准狀態下不能被刪除！" />
+            <lang locale="zh_TW" value="核准狀態下不能被刪除！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[AUDIT_CANNOT_EDIT].message">
+            <lang locale="zh_CN" value="核准状态下不能修改！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="核准狀態下不能修改！" />
+            <lang locale="zh_TW" value="核准狀態下不能修改！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CANNOT_VERSIONCHANGE].message">
+            <lang locale="zh_CN" value="修订目标内容不足以版本变更！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="修訂目標內容不足以版本變更！" />
+            <lang locale="zh_TW" value="修訂目標內容不足以版本變更！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CHANGETYPE_ISNULL].message">
+            <lang locale="zh_CN" value="变更类型不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="變更類型不能為空！" />
+            <lang locale="zh_TW" value="變更類型不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CLOSED_CANNOT_EDIT].message">
+            <lang locale="zh_CN" value="已经关闭，不能修改" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已經關閉，不能修改" />
+            <lang locale="zh_TW" value="已經關閉，不能修改" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COMPANY_SAME].message">
+            <lang locale="zh_CN" value="此公司已设定对应基础资料,请重新选择公司!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="此公司已設定對應基礎資料,請重新選擇公司!" />
+            <lang locale="zh_TW" value="此公司已設定對應基礎資料,請重新選擇公司!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTCODINTTYPE].message">
+            <lang locale="zh_CN" value="合同编码类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合同編碼類型" />
+            <lang locale="zh_TW" value="合同編碼類型" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTCODINTTYPE_IS_EXIST].message">
+            <lang locale="zh_CN" value="系统中已存在同样设置的编码类型！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="系統中已存在同樣設置的編碼類型！" />
+            <lang locale="zh_TW" value="系統中已存在同樣設置的編碼類型！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTTYPE_DEL_REFERENCE].message">
+            <lang locale="zh_CN" value="已被合同引用，不允许删除！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已被合同引用，不允許刪除！" />
+            <lang locale="zh_TW" value="已被合同引用，不允許刪除！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTTYPE_IS_EMPTY].message">
+            <lang locale="zh_CN" value="合同类型不能为空!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合同類型不能為空!" />
+            <lang locale="zh_TW" value="合同類型不能為空!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACTTYPE_PARENT_DISENABLE].message">
+            <lang locale="zh_CN" value="上级合同类型被禁用,请从上级禁用处执行启用操作!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="上級合同類型被禁用,請從上級禁用處執行啟用操作!" />
+            <lang locale="zh_TW" value="上級合同類型被禁用,請從上級禁用處執行啟用操作!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[CONTRACT_TYPE_ISNULL].message">
+            <lang locale="zh_CN" value="合同性质不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合同性質不能為空！" />
+            <lang locale="zh_TW" value="合同性質不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNTTYPE_ISNULL].message">
+            <lang locale="zh_CN" value="科目类别不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="科目類別不能為空！" />
+            <lang locale="zh_TW" value="科目類別不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNT_ADD_SUBHAVE].message">
+            <lang locale="zh_CN" value="下级已存在相同编码,系统不允许新增!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="下級已存在相同編碼,系統不允許新增!" />
+            <lang locale="zh_TW" value="下級已存在相同編碼,系統不允許新增!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNT_DISASSIGN].message">
+            <lang locale="zh_CN" value="除{0}被引用不能反分配之外，其余节点下该成本科目反分配完毕！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="除{0}被引用不能反分配之外，其餘節點下該成本科目反分配完畢！" />
+            <lang locale="zh_TW" value="除{0}被引用不能反分配之外，其餘節點下該成本科目反分配完畢！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNT_PARENT_DISENABLE].message">
+            <lang locale="zh_CN" value="上级成本科目被禁用,请从上级禁用处执行启用操作!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="上級成本科目被禁用,請從上級禁用處執行啟用操作!" />
+            <lang locale="zh_TW" value="上級成本科目被禁用,請從上級禁用處執行啟用操作!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[COSTACCOUNT_TEMP_IMPORT].message">
+            <lang locale="zh_CN" value="系统中已经存在编码为{0}的项！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="系統中已經存在編碼為{0}的項！" />
+            <lang locale="zh_TW" value="系統中已經存在編碼為{0}的項！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[ClOSED_CANNOT_DELETE].message">
+            <lang locale="zh_CN" value="已经关闭，不能删除" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已經關閉，不能刪除" />
+            <lang locale="zh_TW" value="已經關閉，不能刪除" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DATATYPE_IS_EMPTY].message">
+            <lang locale="zh_CN" value="数据类型不能为空!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="數據類型不能為空!" />
+            <lang locale="zh_TW" value="數據類型不能為空!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELETE_ISDISENABLED_FAIL].message">
+            <lang locale="zh_CN" value="已经被禁用不能被删除!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已經被禁用不能被刪除!" />
+            <lang locale="zh_TW" value="已經被禁用不能被刪除!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELETE_ISPARENT_FAIL].message">
+            <lang locale="zh_CN" value="非明细节点,不能删除!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="非明細節點,不能刪除!" />
+            <lang locale="zh_TW" value="非明細節點,不能刪除!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELETE_ISREFERENCE_FAIL].message">
+            <lang locale="zh_CN" value="已经发生业务不能删除!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已經發生業務不能刪除!" />
+            <lang locale="zh_TW" value="已經發生業務不能刪除!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELETE_SYSDATA].message">
+            <lang locale="zh_CN" value="为系统预设数据,不允许删除!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="為系統預設數據,不允許刪除!" />
+            <lang locale="zh_TW" value="為系統預設數據,不允許刪除!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELIVERY_CANNOT_DELETE].message">
+            <lang locale="zh_CN" value="已经验收，不能删除" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已經驗收，不能刪除" />
+            <lang locale="zh_TW" value="已經驗收，不能刪除" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELIVERY_CANNOT_EDIT].message">
+            <lang locale="zh_CN" value="已经验收，不能修改" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已經驗收，不能修改" />
+            <lang locale="zh_TW" value="已經驗收，不能修改" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DELIVERY_MUST_AUTIDT].message">
+            <lang locale="zh_CN" value="只有核准状态才能验收" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="只有核准狀態才能驗收" />
+            <lang locale="zh_TW" value="只有核准狀態才能驗收" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DISASSIGN_ISREFERENCE].message">
+            <lang locale="zh_CN" value="成本科目项{0}已经被引用，不可反分配！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="成本科目項{0}已經被引用，不可反分配！" />
+            <lang locale="zh_TW" value="成本科目項{0}已經被引用，不可反分配！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DISENABLE_CANNOT_ONLY].message">
+            <lang locale="zh_CN" value="系统不允许全部禁用一个节点下的项！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="系統不允許全部禁用一個節點下的項！" />
+            <lang locale="zh_TW" value="系統不允許全部禁用一個節點下的項！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DISENABLE_CANNOT_USED].message">
+            <lang locale="zh_CN" value="当前成本科目或其下级成本科目有业务发生,不允许禁用！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="當前成本科目或其下級成本科目有業務發生,不允許禁用！" />
+            <lang locale="zh_TW" value="當前成本科目或其下級成本科目有業務發生,不允許禁用！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[DISENABLE_SUBNODE_REFERENCE].message">
+            <lang locale="zh_CN" value="分配下去的科目被引用,系统不允许禁用!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分配下去的科目被引用,系統不允許禁用!" />
+            <lang locale="zh_TW" value="分配下去的科目被引用,系統不允許禁用!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[ENABLE_CANNOT_DELETE].message">
+            <lang locale="zh_CN" value="启用状态下不能被删除！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="啟用狀態下不能被刪除！" />
+            <lang locale="zh_TW" value="啟用狀態下不能被刪除！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[ENABLE_CANNOT_EDIT].message">
+            <lang locale="zh_CN" value="启用状态下不能修改！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="啟用狀態下不能修改！" />
+            <lang locale="zh_TW" value="啟用狀態下不能修改！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[IMPORT_ONLYTOPROJECT].message">
+            <lang locale="zh_CN" value="系统只支持对工程项目节点执行数据引入的操作！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="系統只支持對工程項目節點執行數據引入的操作！" />
+            <lang locale="zh_TW" value="系統只支持對工程項目節點執行數據引入的操作！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[IMPORT_TREESELECT].message">
+            <lang locale="zh_CN" value="请选中引入成本科目数据的目标工程项目节点！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="請選中引入成本科目數據的目標工程項目節點！" />
+            <lang locale="zh_TW" value="請選中引入成本科目數據的目標工程項目節點！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[INVALIDCOSTREASON_DEL_REFERENCE].message">
+            <lang locale="zh_CN" value="已经被变更审批单引用不能删除" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已經被變更審批單引用不能刪除" />
+            <lang locale="zh_TW" value="已經被變更審批單引用不能刪除" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[INVALIDCOSTREASON_PARENT_DISENABLE].message">
+            <lang locale="zh_CN" value="上级已经被禁用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="上級已經被禁用" />
+            <lang locale="zh_TW" value="上級已經被禁用" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[LANDDEVELOPER_IS_EMPTY].message">
+            <lang locale="zh_CN" value="甲方不能为空" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="甲方不能為空" />
+            <lang locale="zh_TW" value="甲方不能為空" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[MEASUREUNIT_ISNULL].message">
+            <lang locale="zh_CN" value="计量单位不能为空!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="計量單位不能為空!" />
+            <lang locale="zh_TW" value="計量單位不能為空!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NAME_ALREADY_EXIST].message">
+            <lang locale="zh_CN" value="名称{0}已经存在！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱{0}已經存在！" />
+            <lang locale="zh_TW" value="名稱{0}已經存在！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NAME_IS_EMPTY].message">
+            <lang locale="zh_CN" value="名称不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱不能為空！" />
+            <lang locale="zh_TW" value="名稱不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NO_MATCH_DATA].message">
+            <lang locale="zh_CN" value="没有未核准状态的单据，不能核准" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="沒有未核准狀態的單據，不能核准" />
+            <lang locale="zh_TW" value="沒有未核准狀態的單據，不能核准" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NO_MATCH_UNAUDIT_DATA].message">
+            <lang locale="zh_CN" value="没有核准状态的单据或者执行状态不为初始，不能反核准！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="沒有核准狀態的單據或者執行狀態不為初始，不能反核准！" />
+            <lang locale="zh_TW" value="沒有核准狀態的單據或者執行狀態不為初始，不能反核准！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_ALREADY_EXIST].message">
+            <lang locale="zh_CN" value="编码{0}已经存在！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼{0}已經存在！" />
+            <lang locale="zh_TW" value="編碼{0}已經存在！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_CHECK].message">
+            <lang locale="zh_CN" value="编码不标准，应包含上级编码段！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼不標準，應包含上級編碼段！" />
+            <lang locale="zh_TW" value="編碼不標準，應包含上級編碼段！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_CHECK_2].message">
+            <lang locale="zh_CN" value="编码不完整!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼不完整!" />
+            <lang locale="zh_TW" value="編碼不完整!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_CHECK_3].message">
+            <lang locale="zh_CN" value="编码不符合规范!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼不符合規範!" />
+            <lang locale="zh_TW" value="編碼不符合規範!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_IS_EMPTY].message">
+            <lang locale="zh_CN" value="编码不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼不能為空！" />
+            <lang locale="zh_TW" value="編碼不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_IS_EXIST].message">
+            <lang locale="zh_CN" value="该编码已存在！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="該編碼已存在！" />
+            <lang locale="zh_TW" value="該編碼已存在！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[PROJECTSTATUS_IS_EMPTY].message">
+            <lang locale="zh_CN" value="项目状态不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目狀態不能為空！" />
+            <lang locale="zh_TW" value="項目狀態不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[PROJECTTYPE_REFERENCE].message">
+            <lang locale="zh_CN" value="已被工程项目引用,不可删除！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已被工程項目引用,不可刪除！" />
+            <lang locale="zh_TW" value="已被工程項目引用,不可刪除！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[PROJECT_PARENT_DISENABLE].message">
+            <lang locale="zh_CN" value="上级工程项目被禁用,请从上级禁用处执行启用操作!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="上級工程項目被禁用,請從上級禁用處執行啟用操作!" />
+            <lang locale="zh_TW" value="上級工程項目被禁用,請從上級禁用處執行啟用操作!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[STARTDATE_IS_NULL].message">
+            <lang locale="zh_CN" value="开始日期不能为空!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="開始日期不能為空!" />
+            <lang locale="zh_TW" value="開始日期不能為空!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[TARGETTYPE_DEL_REFERENCE].message">
+            <lang locale="zh_CN" value="已被指标引用,不允许删除!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已被指標引用,不允許刪除!" />
+            <lang locale="zh_TW" value="已被指標引用,不允許刪除!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[TARGETTYPE_ISNULL].message">
+            <lang locale="zh_CN" value="指标类型不能为空!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="指標類型不能為空!" />
+            <lang locale="zh_TW" value="指標類型不能為空!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[TARGETTYPE_PARENT_DISENABLE].message">
+            <lang locale="zh_CN" value="上级指标类型被禁用,请从上级禁用处执行启用操作!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="上級指標類型被禁用,請從上級禁用處執行啟用操作!" />
+            <lang locale="zh_TW" value="上級指標類型被禁用,請從上級禁用處執行啟用操作!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[UNDELIVERY_MUST_DELIVERY].message">
+            <lang locale="zh_CN" value="只有执行状态为验收才能进行反验收" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="只有執行狀態為驗收才能進行反驗收" />
+            <lang locale="zh_TW" value="只有執行狀態為驗收才能進行反驗收" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[UNITDATAMANGER_ADDRESS_ISNULL].message">
+            <lang locale="zh_CN" value="地址不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="地址不能為空！" />
+            <lang locale="zh_TW" value="地址不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[UNITDATAMANGER_COMPANY_ISNULL].message">
+            <lang locale="zh_CN" value="组织不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="組織不能為空！" />
+            <lang locale="zh_TW" value="組織不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[VERSIONSAVE_CANNOT_SAVE].message">
+            <lang locale="zh_CN" value="当前版本面积修订数据无修改,不允许保存!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="當前版本面積修訂數據無修改,不允許保存!" />
+            <lang locale="zh_TW" value="當前版本面積修訂數據無修改,不允許保存!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].bizExceptionSubItems.bizExceptionSubItem[VERSIONSAVE_NAME_ISNULL].message">
+            <lang locale="zh_CN" value="版本名称不能为空!" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="版本名稱不能為空!" />
+            <lang locale="zh_TW" value="版本名稱不能為空!" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STBasedataException].description">
+            <lang locale="zh_CN" value="钢铁基础资料异常类" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼颫裥ꢾ軧₇ꯩꎧ黦ꚺ颫냦뎹颫냦隺鐵基礎資料異常類" />
+            <lang locale="zh_TW" value="鋼颫裥ꢾ軧₇ꯩꎧ黦ꚺ颫냦뎹颫냦隺鐵基礎資料異常類" />
+        </rs>
+    </resource>
+</bizException>
+

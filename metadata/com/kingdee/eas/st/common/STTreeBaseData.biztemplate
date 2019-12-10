@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizTemplate xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.safe</package>
+    <name>STTreeBaseData</name>
+    <alias>bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].alias</alias>
+    <description>bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.st.common.app.STTreeBaseData</entityPK>
+    <queryPK>com.kingdee.eas.st.common.app.STTreeBaseDataQuery</queryPK>
+    <editUIPK>com.kingdee.eas.st.common.client.STTreeBaseDataEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.st.common.client.STTreeBaseDataListUI</listUIPK>
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>TreeDetail4Detail</bimTemplateType>
+    <relatedTablePK>com.kingdee.eas.st.common.app.T_SF_STTreeBaseDataTREE</relatedTablePK>
+    <relatedEntityPK>com.kingdee.eas.st.common.app.STTreeBaseDataTree</relatedEntityPK>
+    <relatedEditUIPK>com.kingdee.eas.st.common.client.STTreeBaseDataTreeEditUI</relatedEditUIPK>
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].alias">
+            <lang locale="zh_CN" value="STTreeBaseData" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="STTreeBaseData" />
+            <lang locale="zh_TW" value="STTreeBaseData" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].description">
+            <lang locale="zh_CN" value="分组多列表基础资料模板" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分組多列表基礎資料範本" />
+            <lang locale="zh_TW" value="分組多列表基礎資料範本" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.BizUnitDeployed">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+            <lang locale="en_US" value="Company" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.bimRelationObjectPK">
+            <lang locale="zh_CN" value="com.kingdee.eas.bim.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.eas.bim.app.BizTreeBase" />
+            <lang locale="en_US" value="com.kingdee.eas.bim.app.BizTreeBase" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.bimTemplateType">
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+            <lang locale="en_US" value="TreeDetail" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.bim.client.BizTreeDetailEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.bim.client.BizTreeDetailEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.bim.client.BizTreeDetailEditUI" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.isAsstAcctType">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.isSimpleEntity">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="bizTemplate[com.kingdee.eas.st.common.STTreeBaseData].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</bizTemplate>
+

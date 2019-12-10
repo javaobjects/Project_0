@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>common</name>
+    <alias>package[com.kingdee.eas.st.common.common].alias</alias>
+    <description>package[com.kingdee.eas.st.common.common].description</description>
+    <basicCode />
+    <resource>
+        <rs key="package[com.kingdee.eas.st.common.common].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="common" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="package[com.kingdee.eas.st.common.common].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</package>
+

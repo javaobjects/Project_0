@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>R_STBaseDataD_AuditUser_User</name>
+    <alias>relationship[com.kingdee.eas.st.common.app.R_STBaseDataD_AuditUser_User].alias</alias>
+    <description>relationship[com.kingdee.eas.st.common.app.R_STBaseDataD_AuditUser_User].description</description>
+    <userDefined>false</userDefined>
+    <type>Association</type>
+    <clientCardinality>0..1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.st.common.app" />
+        <key name="name" value="STDataBaseD" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.base.permission.app" />
+        <key name="name" value="User" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.st.common.app.R_STBaseDataD_AuditUser_User].alias">
+            <lang locale="zh_CN" value="D类基础资料审核人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="D類基礎資料審核人" />
+            <lang locale="zh_TW" value="D類基礎資料審核人" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.st.common.app.R_STBaseDataD_AuditUser_User].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+

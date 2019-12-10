@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>MaxSerialServerFacade</name>
+    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].alias</alias>
+    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].description</description>
+    <userDefined>false</userDefined>
+    <bosType>8533B86D</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.st.common.MaxSerialServerFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.st.common.app.MaxSerialServerFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getMaxSerial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].description</description>
+            <innerID>a7e8e167-0115-1000-e000-0007c0a81298</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Long</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>keyItem</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>keyItemValue</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getMaxSerial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].description</description>
+            <innerID>a7e8e167-0115-1000-e000-0008c0a81298</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Long</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>keyItem</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>keyItemValue</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>step</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[step].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[step].description</description>
+                    <direction>in</direction>
+                    <dataType>Integer</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>initValue</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[initValue].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[initValue].description</description>
+                    <direction>in</direction>
+                    <dataType>Long</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getMaxSerial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].description</description>
+            <innerID>a7e8e167-0115-1000-e000-0009c0a81298</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Long[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>keyItem</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>keyItemValue</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].description</description>
+                    <direction>in</direction>
+                    <dataType>String[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getMaxSerial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].description</description>
+            <innerID>a7e8e167-0115-1000-e000-000ac0a81298</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Long[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>keyItem</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>keyItemValue</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].description</description>
+                    <direction>in</direction>
+                    <dataType>String[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>step</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[step].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[step].description</description>
+                    <direction>in</direction>
+                    <dataType>Integer</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>initValue</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[initValue].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[initValue].description</description>
+                    <direction>in</direction>
+                    <dataType>Long</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>isExists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].alias</alias>
+            <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].description</description>
+            <innerID>a7e8e167-0115-1000-e000-000bc0a81298</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>keyItem</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].parameters.parameter[keyItem].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].parameters.parameter[keyItem].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>keyItemValue</name>
+                    <alias>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].parameters.parameter[keyItemValue].alias</alias>
+                    <description>facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].parameters.parameter[keyItemValue].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最大序号服务器" />
+            <lang locale="zh_TW" value="最大序號服務器" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="批量获取最大序号" />
+            <lang locale="zh_TW" value="批量獲取最大序號" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[initValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="初始值" />
+            <lang locale="zh_TW" value="初始值" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[initValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键字值组" />
+            <lang locale="zh_TW" value="關鍵字值組" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItemValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键字" />
+            <lang locale="zh_TW" value="關鍵字" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[keyItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[step].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="步进" />
+            <lang locale="zh_TW" value="步進" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[getMaxSerial].parameters.parameter[step].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键字最大序号记录是否存在" />
+            <lang locale="zh_TW" value="關鍵字最大序號記錄是否存在" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].parameters.parameter[keyItemValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键字值" />
+            <lang locale="zh_TW" value="關鍵字值" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].parameters.parameter[keyItemValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].parameters.parameter[keyItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键字" />
+            <lang locale="zh_TW" value="關鍵字" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.st.common.app.MaxSerialServerFacade].methods.method[isExists].parameters.parameter[keyItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

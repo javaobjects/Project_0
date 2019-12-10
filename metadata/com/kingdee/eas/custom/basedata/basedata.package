@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata</package>
+    <name>basedata</name>
+    <alias>package[com.kingdee.eas.custom.basedata.basedata].alias</alias>
+    <description>package[com.kingdee.eas.custom.basedata.basedata].description</description>
+    <basicCode />
+    <resource>
+        <rs key="package[com.kingdee.eas.custom.basedata.basedata].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基础资料" />
+            <lang locale="zh_HK" value="基礎資料" />
+            <lang locale="zh_TW" value="基礎資料" />
+        </rs>
+        <rs key="package[com.kingdee.eas.custom.basedata.basedata].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="package[com.kingdee.eas.custom.basedata.basedata].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</package>
+

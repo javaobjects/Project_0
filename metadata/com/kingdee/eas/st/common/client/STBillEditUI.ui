@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.client</package>
+    <name>STBillEditUI</name>
+    <alias>uiObject[com.kingdee.eas.st.common.client.STBillEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.st.common.client.STBillEditUI].description</description>
+    <userDefined>false</userDefined>
+    <releasePackage>com.kingdee.eas.st.common.client</releasePackage>
+    <releaseClass>STBillEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.st.common.client.STBillEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.st.common.client" />
+        <key name="name" value="STBillBaseEditUI" />
+    </parent>
+    <dataObjects>
+        <dataObject>
+            <name>editData</name>
+            <type>com.kingdee.eas.st.common.app.STBill</type>
+            <objectType>enty</objectType>
+            <herited>true</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁业务单据基类" />
+            <lang locale="zh_TW" value="鋼鐵業務單據基類" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillEditUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.STBillEditUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="钢铁业务单据基类" />
+            <lang locale="zh_TW" value="鋼鐵業務單據基類" />
+        </rs>
+    </resource>
+</uiObject>
+

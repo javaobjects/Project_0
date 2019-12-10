@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizException xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common</package>
+    <name>STException</name>
+    <alias>bizException[com.kingdee.eas.st.common.STException].alias</alias>
+    <description>bizException[com.kingdee.eas.st.common.STException].description</description>
+    <userDefined>false</userDefined>
+    <mainCode>59</mainCode>
+    <className>com.kingdee.eas.st.common.STException</className>
+    <baseException>
+        <key name="package" value="com.kingdee.eas.common" />
+        <key name="name" value="EASBizException" />
+    </baseException>
+    <bizExceptionSubItems>
+        <bizExceptionSubItem>
+            <subCode>100</subCode>
+            <name>NULL_DATE_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_DATE_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>101</subCode>
+            <name>NULL_TEXT_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_TEXT_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>102</subCode>
+            <name>NULL_F7_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_F7_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>103</subCode>
+            <name>NULL_NUMERIC_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_NUMERIC_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>104</subCode>
+            <name>NULL_ENTRY_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_ENTRY_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>105</subCode>
+            <name>NULL_COMBO_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_COMBO_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>106</subCode>
+            <name>NULL_MULTITEXT_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_MULTITEXT_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>107</subCode>
+            <name>ADMINORGISNULL</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[ADMINORGISNULL].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>108</subCode>
+            <name>NULL_ZERO_ENTRY_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_ZERO_ENTRY_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>200</subCode>
+            <name>NULL_NUMBER</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_NUMBER].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>109</subCode>
+            <name>REFERENCE_CANT_UNAUDIT</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[REFERENCE_CANT_UNAUDIT].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>000</subCode>
+            <name>UPPER_HUNDRED_ENTRY_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[UPPER_HUNDRED_ENTRY_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>201</subCode>
+            <name>NOT_LESS_THAN_ZERO_ENTRY_FIELD</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NOT_LESS_THAN_ZERO_ENTRY_FIELD].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>202</subCode>
+            <name>NUMBER_COMPARE</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_COMPARE].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>301</subCode>
+            <name>NUMBER_DUP</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_DUP].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+        <bizExceptionSubItem>
+            <subCode>302</subCode>
+            <name>NAME_DUP</name>
+            <message>bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NAME_DUP].message</message>
+            <userDefined>false</userDefined>
+        </bizExceptionSubItem>
+    </bizExceptionSubItems>
+    <resource>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].alias">
+            <lang locale="zh_CN" value="钢铁基础资料异常" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼鐵基礎資料異常" />
+            <lang locale="zh_TW" value="鋼鐵基礎資料異常" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[ADMINORGISNULL].message">
+            <lang locale="zh_CN" value="请先录入{0}信息！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="請先錄入{0}信息！" />
+            <lang locale="zh_TW" value="請先錄入{0}信息！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NAME_DUP].message">
+            <lang locale="zh_CN" value="名称{0}不能重复！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱{0}不能重複！" />
+            <lang locale="zh_TW" value="名稱{0}不能重複！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NOT_LESS_THAN_ZERO_ENTRY_FIELD].message">
+            <lang locale="zh_CN" value="{0}第{1}行 的{2}不能为负数！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}第{1}行 的{2}不能為負數！" />
+            <lang locale="zh_TW" value="{0}第{1}行 的{2}不能為負數！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_COMBO_FIELD].message">
+            <lang locale="zh_CN" value="{0}不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}不能為空！" />
+            <lang locale="zh_TW" value="{0}不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_DATE_FIELD].message">
+            <lang locale="zh_CN" value="{0}不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}不能為空！" />
+            <lang locale="zh_TW" value="{0}不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_ENTRY_FIELD].message">
+            <lang locale="zh_CN" value="{0}第{1}行 的{2}为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}第{1}行 的{2}為空！" />
+            <lang locale="zh_TW" value="{0}第{1}行 的{2}為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_F7_FIELD].message">
+            <lang locale="zh_CN" value="{0}不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}不能為空！" />
+            <lang locale="zh_TW" value="{0}不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_MULTITEXT_FIELD].message">
+            <lang locale="zh_CN" value="{0}信息不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}信息不能為空！" />
+            <lang locale="zh_TW" value="{0}信息不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_NUMBER].message">
+            <lang locale="zh_CN" value="编码不能为空，请输入编码！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼不能為空，請輸入編碼！" />
+            <lang locale="zh_TW" value="編碼不能為空，請輸入編碼！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_NUMERIC_FIELD].message">
+            <lang locale="zh_CN" value="{0}不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}不能為空！" />
+            <lang locale="zh_TW" value="{0}不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_TEXT_FIELD].message">
+            <lang locale="zh_CN" value="{0}信息不能为空！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}信息不能為空！" />
+            <lang locale="zh_TW" value="{0}信息不能為空！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NULL_ZERO_ENTRY_FIELD].message">
+            <lang locale="zh_CN" value="{0}第{1}行 的{2}必须大于0！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}第{1}行 的{2}必須大於0！" />
+            <lang locale="zh_TW" value="{0}第{1}行 的{2}必須大於0！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_COMPARE].message">
+            <lang locale="zh_CN" value="{0}须{}零！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}須{}零！" />
+            <lang locale="zh_TW" value="{0}須{}零！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[NUMBER_DUP].message">
+            <lang locale="zh_CN" value="编号{0}不能重复！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編號{0}不能重複！" />
+            <lang locale="zh_TW" value="編號{0}不能重複！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[REFERENCE_CANT_UNAUDIT].message">
+            <lang locale="zh_CN" value="{0}" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}" />
+            <lang locale="zh_TW" value="{0}" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].bizExceptionSubItems.bizExceptionSubItem[UPPER_HUNDRED_ENTRY_FIELD].message">
+            <lang locale="zh_CN" value="{0}第{1}行 的{2}必须小于100！" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="{0}第{1}行 的{2}必須小於100！" />
+            <lang locale="zh_TW" value="{0}第{1}行 的{2}必須小於100！" />
+        </rs>
+        <rs key="bizException[com.kingdee.eas.st.common.STException].description">
+            <lang locale="zh_CN" value="钢铁基础资料异常" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼鐵基礎資料異常" />
+            <lang locale="zh_TW" value="鋼鐵基礎資料異常" />
+        </rs>
+    </resource>
+</bizException>
+

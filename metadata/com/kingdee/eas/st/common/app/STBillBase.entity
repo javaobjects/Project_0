@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>STBillBase</name>
+    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].alias</alias>
+    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].description</description>
+    <userDefined>false</userDefined>
+    <bosType>1CB26273</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.st.common.STBillBase</businessImplName>
+    <businessControllerName>com.kingdee.eas.st.common.app.STBillBaseController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>abstract</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].description</description>
+            <innerID>96c387f5-010e-1000-e000-0590c0a8139a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].description</description>
+            <innerID>96c387f5-010e-1000-e000-0591c0a8139a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].description</description>
+            <innerID>96c387f5-010e-1000-e000-0592c0a8139a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].description</description>
+            <innerID>96c387f5-010e-1000-e000-0593c0a8139a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].description</description>
+            <innerID>96c387f5-010e-1000-e000-0594c0a8139a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].description</description>
+            <innerID>96c387f5-010e-1000-e000-0595c0a8139a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>audit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[audit].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[audit].description</description>
+            <innerID>96c387f5-010e-1000-e000-0597c0a8139a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pks</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[audit].parameters.parameter[pks].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[audit].parameters.parameter[pks].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>unAudit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[unAudit].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[unAudit].description</description>
+            <innerID>96c387f5-010e-1000-e000-0599c0a8139a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pks</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[unAudit].parameters.parameter[pks].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[unAudit].parameters.parameter[pks].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAddNewPermItemName</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAddNewPermItemName].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAddNewPermItemName].description</description>
+            <innerID>e1626bfb-0113-1000-e000-000cc0a812ce</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>objectType</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAddNewPermItemName].parameters.parameter[objectType].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAddNewPermItemName].parameters.parameter[objectType].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getViewPermItemName</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getViewPermItemName].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getViewPermItemName].description</description>
+            <innerID>da3eb074-0114-1000-e000-0007c0a812a9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>objectType</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getViewPermItemName].parameters.parameter[objectType].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getViewPermItemName].parameters.parameter[objectType].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCodeRuleServer</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].description</description>
+            <innerID>4fc78b8a-0115-1000-e000-005ac0a812b9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>coreBillInfo</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].parameters.parameter[coreBillInfo].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].parameters.parameter[coreBillInfo].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>companyID</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].parameters.parameter[companyID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].parameters.parameter[companyID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>recycleNumberByOrg</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].description</description>
+            <innerID>4fc78b8a-0115-1000-e000-005cc0a812b9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>editData</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[editData].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[editData].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.st.common.app.STBillBase</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>orgType</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[orgType].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[orgType].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>number</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[number].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[number].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCodeRuleBizVo</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleBizVo].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleBizVo].description</description>
+            <innerID>4fc78b8a-0115-1000-e000-0297c0a812b9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.eas.st.common.STBillBaseCodingRuleVo</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>codeVo</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleBizVo].parameters.parameter[codeVo].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleBizVo].parameters.parameter[codeVo].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.eas.st.common.STBillBaseCodingRuleVo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getBizOrgUnit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].description</description>
+            <innerID>4fc78b8a-0115-1000-e000-0298c0a812b9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.eas.basedata.org.OrgUnitInfo[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>userID</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[userID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[userID].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.ormapping.ObjectStringPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>orgType</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[orgType].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[orgType].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.eas.basedata.org.OrgType</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>permissionItem</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[permissionItem].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[permissionItem].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getSTBillVo</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillVo].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillVo].description</description>
+            <innerID>0cdc092c-0119-1000-e000-0015c0a8127e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.HashMap</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>map</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillVo].parameters.parameter[map].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillVo].parameters.parameter[map].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.HashMap</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getSTBillParam</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillParam].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillParam].description</description>
+            <innerID>28b8e409-011e-1000-e000-00f6c0a8109b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.HashMap</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>map</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillParam].parameters.parameter[map].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillParam].parameters.parameter[map].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.HashMap</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getUnAuditBills</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getUnAuditBills].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getUnAuditBills].description</description>
+            <innerID>9e512d54-0120-1000-e000-083ac0a8109e</innerID>
+            <accessLevel>protected</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.List</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>idList</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getUnAuditBills].parameters.parameter[idList].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getUnAuditBills].parameters.parameter[idList].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.List</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAuthOrgsByType</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].description</description>
+            <innerID>d882e92d-b52d-4b38-9e15-18e6d1d5d740</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.eas.basedata.org.OrgUnitCollection</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>orgType</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].parameters.parameter[orgType].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].parameters.parameter[orgType].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.eas.basedata.org.OrgType</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>bosType</name>
+                    <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].parameters.parameter[bosType].alias</alias>
+                    <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].parameters.parameter[bosType].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.util.BOSObjectType</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>true</isAbstract>
+    <bizUnitPK />
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillBase" />
+    </baseEntity>
+    <properties>
+        <ownProperty>
+            <name>auditTime</name>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[auditTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[auditTime].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>TimeStamp</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[auditTime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAuditTime" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>billStatus</name>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[billStatus].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[billStatus].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.scm.common.BillBaseStatusEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[billStatus].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FBillStatus" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>billType</name>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.linkProperty[billType].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.linkProperty[billType].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FBillTypeID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.st.common.app" />
+                <key name="name" value="R_STBillBase_BillType_BillType" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>isFromBOTP</name>
+            <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[isFromBOTP].alias</alias>
+            <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[isFromBOTP].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[isFromBOTP].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FIsFromBOTP" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.st.common.app.STBillBase].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.st.common.app.STBillBase].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].alias">
+            <lang locale="zh_CN" value="钢铁单据基类" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼鐵單據基類" />
+            <lang locale="zh_TW" value="鋼鐵單據基類" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].description">
+            <lang locale="zh_CN" value="钢铁单据基类" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="鋼鐵單據基類" />
+            <lang locale="zh_TW" value="鋼鐵單據基類" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].extendedProperty.billFormulaClass">
+            <lang locale="zh_CN" value="com.kingdee.eas.st.common.app.botp.STFormulaFunctions" />
+            <lang locale="zh_TW" value="com.kingdee.eas.st.common.app.botp.STFormulaFunctions" />
+            <lang locale="en_US" value="com.kingdee.eas.st.common.app.botp.STFormulaFunctions" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].extendedProperty.nobotp">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[audit].alias">
+            <lang locale="zh_CN" value="单据审核" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據審核" />
+            <lang locale="zh_TW" value="單據審核" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[audit].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[audit].parameters.parameter[pks].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[audit].parameters.parameter[pks].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAddNewPermItemName].alias">
+            <lang locale="zh_CN" value="获取新增权限项名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取新增許可權項名稱" />
+            <lang locale="zh_TW" value="獲取新增許可權項名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAddNewPermItemName].description">
+            <lang locale="zh_CN" value="获取新增权限项名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取新增許可權項名稱" />
+            <lang locale="zh_TW" value="獲取新增許可權項名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAddNewPermItemName].parameters.parameter[objectType].alias">
+            <lang locale="zh_CN" value="对象类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象類型" />
+            <lang locale="zh_TW" value="對象類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAddNewPermItemName].parameters.parameter[objectType].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].alias">
+            <lang locale="zh_CN" value="获得指定类型的有权限的组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲得指定類型的有許可權的組織" />
+            <lang locale="zh_TW" value="獲得指定類型的有許可權的組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].description">
+            <lang locale="zh_CN" value="获得指定类型的有权限的组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲得指定類型的有許可權的組織" />
+            <lang locale="zh_TW" value="獲得指定類型的有許可權的組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].parameters.parameter[bosType].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].parameters.parameter[bosType].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].parameters.parameter[orgType].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getAuthOrgsByType].parameters.parameter[orgType].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].alias">
+            <lang locale="zh_CN" value="返回实体组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="返回實體組織" />
+            <lang locale="zh_TW" value="返回實體組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[orgType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[orgType].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[permissionItem].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[permissionItem].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[userID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getBizOrgUnit].parameters.parameter[userID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleBizVo].alias">
+            <lang locale="zh_CN" value="获取编码规则的VO" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取編碼規則的VO" />
+            <lang locale="zh_TW" value="獲取編碼規則的VO" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleBizVo].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleBizVo].parameters.parameter[codeVo].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleBizVo].parameters.parameter[codeVo].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].alias">
+            <lang locale="zh_CN" value="编码规则" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼規則" />
+            <lang locale="zh_TW" value="編碼規則" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].parameters.parameter[companyID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].parameters.parameter[companyID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].parameters.parameter[coreBillInfo].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCodeRuleServer].parameters.parameter[coreBillInfo].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillParam].alias">
+            <lang locale="zh_CN" value="ST单据批量参数返回接口" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ST單據批量參數返回介面" />
+            <lang locale="zh_TW" value="ST單據批量參數返回介面" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillParam].description">
+            <lang locale="zh_CN" value="ST单据批量参数返回接口" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ST單據批量參數返回介面" />
+            <lang locale="zh_TW" value="ST單據批量參數返回介面" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillParam].parameters.parameter[map].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillParam].parameters.parameter[map].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillVo].alias">
+            <lang locale="zh_CN" value="ST单据批量数据返回接口" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ST單據批量數據返回介面" />
+            <lang locale="zh_TW" value="ST單據批量數據返回介面" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillVo].description">
+            <lang locale="zh_CN" value="ST单据批量数据返回接口" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ST單據批量數據返回介面" />
+            <lang locale="zh_TW" value="ST單據批量數據返回介面" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillVo].parameters.parameter[map].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getSTBillVo].parameters.parameter[map].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getUnAuditBills].alias">
+            <lang locale="zh_CN" value="取得未审核的单据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="取得未審核的單據" />
+            <lang locale="zh_TW" value="取得未審核的單據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getUnAuditBills].description">
+            <lang locale="zh_CN" value="根据传入的ID，取得未审核的单据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="根據傳入的ID，取得未審核的單據" />
+            <lang locale="zh_TW" value="根據傳入的ID，取得未審核的單據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getUnAuditBills].parameters.parameter[idList].alias">
+            <lang locale="zh_CN" value="ID列表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID列表" />
+            <lang locale="zh_TW" value="ID列表" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getUnAuditBills].parameters.parameter[idList].description">
+            <lang locale="zh_CN" value="ID列表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID列表" />
+            <lang locale="zh_TW" value="ID列表" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getViewPermItemName].alias">
+            <lang locale="zh_CN" value="获取查看权限项名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取查看許可權項名稱" />
+            <lang locale="zh_TW" value="獲取查看許可權項名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getViewPermItemName].description">
+            <lang locale="zh_CN" value="获取查看权限项名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取查看許可權項名稱" />
+            <lang locale="zh_TW" value="獲取查看許可權項名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getViewPermItemName].parameters.parameter[objectType].alias">
+            <lang locale="zh_CN" value="对象类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象類型" />
+            <lang locale="zh_TW" value="對象類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[getViewPermItemName].parameters.parameter[objectType].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].alias">
+            <lang locale="zh_CN" value="回收编码规则" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="回收編碼規則" />
+            <lang locale="zh_TW" value="回收編碼規則" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[editData].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[editData].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[number].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[number].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[orgType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[recycleNumberByOrg].parameters.parameter[orgType].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[unAudit].alias">
+            <lang locale="zh_CN" value="单据反审核" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據反審核" />
+            <lang locale="zh_TW" value="單據反審核" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[unAudit].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[unAudit].parameters.parameter[pks].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].methods.method[unAudit].parameters.parameter[pks].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.linkProperty[billType].alias">
+            <lang locale="zh_CN" value="单据类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據類型" />
+            <lang locale="zh_TW" value="單據類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.linkProperty[billType].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.linkProperty[billType].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.linkProperty[billType].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[auditTime].alias">
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[auditTime].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[auditTime].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[auditTime].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[billStatus].alias">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[billStatus].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[billStatus].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[isFromBOTP].alias">
+            <lang locale="zh_CN" value="是否BOTP单据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否BOTP單據" />
+            <lang locale="zh_TW" value="是否BOTP單據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[isFromBOTP].defaultValue">
+            <lang locale="zh_CN" value="0" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[isFromBOTP].description">
+            <lang locale="zh_CN" value="是否BOTP单据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否BOTP單據" />
+            <lang locale="zh_TW" value="是否BOTP單據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.st.common.app.STBillBase].properties.ownProperty[isFromBOTP].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permission xmlns="com.kingdee.bos.metadata">
+    <package />
+    <name>bim</name>
+    <alias>permission[.bim].alias</alias>
+    <description>permission[.bim].description</description>
+    <userDefined>false</userDefined>
+    <permissionItems>
+        <permissionItem>
+            <innerID>b738e422-5288-450e-85ee-c2d20b8a07fbPERMITEM</innerID>
+            <name>供应链</name>
+            <alias>permission[.bim].permissionItems.permissionItem[供应链].alias</alias>
+            <description>permission[.bim].permissionItems.permissionItem[供应链].description</description>
+            <type>OTHER</type>
+            <groupName>EAS系统</groupName>
+            <group>permission[.bim].permissionItems.permissionItem[供应链].group</group>
+            <userDefined>true</userDefined>
+        </permissionItem>
+    </permissionItems>
+    <resource>
+        <rs key="permission[.bim].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="bim" />
+            <lang locale="zh_HK" value="bim" />
+            <lang locale="zh_TW" value="bim" />
+        </rs>
+        <rs key="permission[.bim].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="permission[.bim].permissionItems.permissionItem[供应链].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应链" />
+            <lang locale="zh_HK" value="供應鏈" />
+            <lang locale="zh_TW" value="供應鏈" />
+        </rs>
+        <rs key="permission[.bim].permissionItems.permissionItem[供应链].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="permission[.bim].permissionItems.permissionItem[供应链].group">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="系统" />
+            <lang locale="zh_HK" value="系統" />
+            <lang locale="zh_TW" value="系統" />
+        </rs>
+    </resource>
+</permission>
+

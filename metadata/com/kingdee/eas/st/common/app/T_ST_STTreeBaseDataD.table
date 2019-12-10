@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.app</package>
+    <name>T_ST_STTreeBaseDataD</name>
+    <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].alias</alias>
+    <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].description</description>
+    <userDefined>false</userDefined>
+    <bizUnitPK>com.kingdee.eas.st.common.STTreeBaseDataD</bizUnitPK>
+    <columns>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FDescription].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FSimpleName</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FSimpleName].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FSimpleName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FCreatorID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FCreateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FLastUpdateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FTreeID</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FTreeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FTreeID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FControlUnitID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>11111111-1111-1111-1111-111111111111CCE7AED4</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAdminCUID</name>
+            <alias>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FAdminCUID].alias</alias>
+            <description>dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FAdminCUID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_ST_STTBDDID</name>
+        <userDefined>false</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>FK_ST_STTBDDCrtr7n</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_ST_STTBDDLsUU7n</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLastUpdateUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_ST_STTBDDCntU7n</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartCtrl" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FControlUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="左树基础资料D类" />
+            <lang locale="zh_TW" value="分組基礎資料範本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FAdminCUID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="管理单元" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FAdminCUID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FControlUnitID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FControlUnitID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FCreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FCreateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FCreatorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FCreatorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FDescription].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FLastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FLastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FLastUpdateUserID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FLastUpdateUserID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FSimpleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FSimpleName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FTreeID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].columns.column[FTreeID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分组基础资料模板" />
+            <lang locale="zh_TW" value="分組基礎資料範本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.eas.bim.app.T_BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.eas.bim.app.T_BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.eas.bim.app.T_BizTreeBase" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.st.common.app.T_ST_STTreeBaseDataD].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+    </resource>
+</dataTable>
+

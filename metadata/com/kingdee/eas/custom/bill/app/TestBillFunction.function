@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functionObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>TestBillFunction</name>
+    <alias>functionObject[com.kingdee.eas.custom.bill.app.TestBillFunction].alias</alias>
+    <description>functionObject[com.kingdee.eas.custom.bill.app.TestBillFunction].description</description>
+    <userDefined>true</userDefined>
+    <isBindSingleBizObject>false</isBindSingleBizObject>
+    <resource>
+        <rs key="functionObject[com.kingdee.eas.custom.bill.app.TestBillFunction].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物资领用借用更换申请业务功能" />
+            <lang locale="zh_TW" value="物資領用借用更換申請業務功能" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.custom.bill.app.TestBillFunction].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物资领用借用更换申请业务功能" />
+            <lang locale="zh_TW" value="物資領用借用更換申請業務功能" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.custom.bill.app.TestBillFunction].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</functionObject>
+

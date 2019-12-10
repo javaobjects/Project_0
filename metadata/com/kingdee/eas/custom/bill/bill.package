@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill</package>
+    <name>bill</name>
+    <alias>package[com.kingdee.eas.custom.bill.bill].alias</alias>
+    <description>package[com.kingdee.eas.custom.bill.bill].description</description>
+    <basicCode />
+    <resource>
+        <rs key="package[com.kingdee.eas.custom.bill.bill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据" />
+            <lang locale="zh_HK" value="單據" />
+            <lang locale="zh_TW" value="單據" />
+        </rs>
+        <rs key="package[com.kingdee.eas.custom.bill.bill].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="package[com.kingdee.eas.custom.bill.bill].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</package>
+

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.st.common.client</package>
+    <name>CopyLineNumInputUI</name>
+    <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].description</description>
+    <userDefined>false</userDefined>
+    <releasePackage>com.kingdee.eas.st.common.client</releasePackage>
+    <releaseClass>CopyLineNumInputUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <components>
+        <component>
+            <name>InputUI</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[InputUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,350,150</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>InputUI_toolbar</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[InputUI_toolbar].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDToolBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,30</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>InputUI_menubar</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[InputUI_menubar].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,28</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDSeparator1</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[kDSeparator1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDSeparator</classType>
+            <isContainer>false</isContainer>
+            <constraints>3,80,350,10</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="InputUI" />
+            </parent>
+        </component>
+        <component>
+            <name>btnOk</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[btnOk].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>181,104,73,21</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[btnOk].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="InputUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>btnConfirm_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>btnCancel</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[btnCancel].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>262,104,73,21</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[btnCancel].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="InputUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contInput</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[contInput].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>11,32,246,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[contInput].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[contInput].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[contInput].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="InputUI" />
+            </parent>
+        </component>
+        <component>
+            <name>txtInput</name>
+            <alias>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[txtInput].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[txtInput].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[txtInput].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[txtInput].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contInput" />
+            </parent>
+        </component>
+    </components>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].alias">
+            <lang locale="zh_CN" value="输入界面" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="輸入介面" />
+            <lang locale="zh_TW" value="輸入介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[InputUI].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[InputUI_menubar].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[InputUI_toolbar].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[btnCancel].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[btnCancel].properties.property[text].value">
+            <lang locale="zh_CN" value="取消" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="取消" />
+            <lang locale="zh_TW" value="取消" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[btnOk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[btnOk].properties.property[text].value">
+            <lang locale="zh_CN" value="确定" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="確定" />
+            <lang locale="zh_TW" value="確定" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[contInput].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[contInput].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="120" />
+            <lang locale="en_US" value="120" />
+            <lang locale="zh_HK" value="120" />
+            <lang locale="zh_TW" value="120" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[contInput].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="输入所需要复制的行数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="輸入所需要複製的行數" />
+            <lang locale="zh_TW" value="輸入所需要複製的行數" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[contInput].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[kDSeparator1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[txtInput].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[txtInput].properties.property[maxLength].value">
+            <lang locale="zh_CN" value="80" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[txtInput].properties.property[required].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].components.component[txtInput].properties.property[text].value">
+            <lang locale="zh_CN" value="1" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="1" />
+            <lang locale="zh_TW" value="1" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].description">
+            <lang locale="zh_CN" value="输入界面" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="輸入介面" />
+            <lang locale="zh_TW" value="輸入介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.st.common.client.CopyLineNumInputUI].title">
+            <lang locale="zh_CN" value="输入界面" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="輸入介面" />
+            <lang locale="zh_TW" value="輸入介面" />
+        </rs>
+    </resource>
+</uiObject>
+

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata.app</package>
+    <name>Test</name>
+    <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].description</description>
+    <userDefined>true</userDefined>
+    <bosType>98CEE1FA</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.basedata.Test</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.basedata.app.TestController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].description</description>
+            <innerID>f767ac86-b78b-42f6-a7a8-f6e5a2d6e78e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.Test</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].description</description>
+            <innerID>ef032077-9f53-49ac-8e97-5dd545969952</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.Test</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].description</description>
+            <innerID>f16c0a05-040b-42fa-922a-d376a46e74e0</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.Test</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].description</description>
+            <innerID>65da25ae-ec42-4cae-b102-678fce559eec</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.Test</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].description</description>
+            <innerID>2d1e5c96-176b-4613-8f7f-01cb3db68df9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.Test</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].description</description>
+            <innerID>bcc947e8-5a10-4d73-9d90-e68c8754d469</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.Test</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.basedata.Test</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="DataBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+        <key name="name" value="CT_BAS_Test" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>treeid</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[treeid].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[treeid].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FTreeID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="Test_TestTree" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>isEnable</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIsEnable" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>cancelCancelUser</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFCancelCancelUser" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="R_Test_User_cancelCancelUser" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>cancelCancelDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCancelCancelDate" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>cancelUser</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFCancelUserID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="R_Test_User_cancelUser" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>cancelDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCancelDate" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多级基础资料模板样例" />
+            <lang locale="zh_HK" value="多級基礎資料範本樣例" />
+            <lang locale="zh_TW" value="多級基礎資料範本樣例" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.eas.bim.app.BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.eas.bim.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.eas.bim.app.BizTreeBase" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].defaultViewextendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="分組基礎資料範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.eas.bim.app.BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.eas.bim.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.eas.bim.app.BizTreeBase" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.app.TestQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.TestEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.TestListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用人" />
+            <lang locale="zh_HK" value="啟用人" />
+            <lang locale="zh_TW" value="啟用人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用人" />
+            <lang locale="zh_HK" value="啟用人" />
+            <lang locale="zh_TW" value="啟用人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.dataField">
+            <lang locale="en_US" value="number" />
+            <lang locale="zh_CN" value="number" />
+            <lang locale="zh_TW" value="number" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelCancelUser].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用人" />
+            <lang locale="zh_HK" value="禁用人" />
+            <lang locale="zh_TW" value="禁用人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用人" />
+            <lang locale="zh_HK" value="禁用人" />
+            <lang locale="zh_TW" value="禁用人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.dataField">
+            <lang locale="en_US" value="number" />
+            <lang locale="zh_CN" value="number" />
+            <lang locale="zh_TW" value="number" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[cancelUser].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[treeid].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[treeid].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[treeid].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.linkProperty[treeid].extendedProperty.isLinkedToGroupEntity">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用日期" />
+            <lang locale="zh_HK" value="啟用日期" />
+            <lang locale="zh_TW" value="啟用日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用日期" />
+            <lang locale="zh_HK" value="啟用日期" />
+            <lang locale="zh_TW" value="啟用日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelCancelDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用日期" />
+            <lang locale="zh_HK" value="禁用日期" />
+            <lang locale="zh_TW" value="禁用日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用日期" />
+            <lang locale="zh_HK" value="禁用日期" />
+            <lang locale="zh_TW" value="禁用日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[cancelDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用" />
+            <lang locale="zh_HK" value="是否啟用" />
+            <lang locale="zh_TW" value="是否啟用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用" />
+            <lang locale="zh_HK" value="是否啟用" />
+            <lang locale="zh_TW" value="是否啟用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用" />
+            <lang locale="zh_HK" value="是否啟用" />
+            <lang locale="zh_TW" value="是否啟用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.Test].properties.ownProperty[isEnable].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

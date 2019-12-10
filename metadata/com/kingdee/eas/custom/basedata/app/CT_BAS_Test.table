@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata.app</package>
+    <name>CT_BAS_Test</name>
+    <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].alias</alias>
+    <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK>com.kingdee.eas.custom.basedata.Test</bizUnitPK>
+    <columns>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FDescription].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FSimpleName</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FSimpleName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FSimpleName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FCreatorID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FCreateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FLastUpdateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FTreeID</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FTreeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FTreeID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FControlUnitID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>11111111-1111-1111-1111-111111111111CCE7AED4</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFIsEnable</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFIsEnable].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFIsEnable].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCancelCancelUser</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelCancelUser].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelCancelUser].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCancelCancelDate</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelCancelDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelCancelDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCancelUserID</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelUserID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCancelDate</name>
+            <alias>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_BAS_TestIDoggj</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_BAS_BAS_Testei</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_BAS_BAS_Testii</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLastUpdateUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_BAS_BAS_Testni</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartCtrl" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FControlUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_BAS_BAS_Test5j</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFCancelCancelUser" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_BAS_BAS_Testtj</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFCancelUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多级基础资料模板样例" />
+            <lang locale="zh_HK" value="多級基礎資料範本樣例" />
+            <lang locale="zh_TW" value="多級基礎資料範本樣例" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelCancelDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用日期" />
+            <lang locale="zh_HK" value="啟用日期" />
+            <lang locale="zh_TW" value="啟用日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelCancelDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用日期" />
+            <lang locale="zh_HK" value="啟用日期" />
+            <lang locale="zh_TW" value="啟用日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelCancelUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用人" />
+            <lang locale="zh_HK" value="啟用人" />
+            <lang locale="zh_TW" value="啟用人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelCancelUser].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用人" />
+            <lang locale="zh_HK" value="啟用人" />
+            <lang locale="zh_TW" value="啟用人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用日期" />
+            <lang locale="zh_HK" value="禁用日期" />
+            <lang locale="zh_TW" value="禁用日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用日期" />
+            <lang locale="zh_HK" value="禁用日期" />
+            <lang locale="zh_TW" value="禁用日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelUserID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用人" />
+            <lang locale="zh_HK" value="禁用人" />
+            <lang locale="zh_TW" value="禁用人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFCancelUserID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="禁用人" />
+            <lang locale="zh_HK" value="禁用人" />
+            <lang locale="zh_TW" value="禁用人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFIsEnable].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用" />
+            <lang locale="zh_HK" value="是否啟用" />
+            <lang locale="zh_TW" value="是否啟用" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[CFIsEnable].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用" />
+            <lang locale="zh_HK" value="是否啟用" />
+            <lang locale="zh_TW" value="是否啟用" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FControlUnitID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FControlUnitID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FCreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FCreateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FCreatorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FCreatorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FDescription].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FLastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FLastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FLastUpdateUserID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FLastUpdateUserID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FSimpleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FSimpleName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FTreeID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].columns.column[FTreeID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="分組基礎資料範本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.eas.bim.app.T_BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.eas.bim.app.T_BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.eas.bim.app.T_BizTreeBase" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.basedata.app.CT_BAS_Test].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+    </resource>
+</dataTable>
+
