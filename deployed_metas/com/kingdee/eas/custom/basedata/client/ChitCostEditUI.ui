@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata.client</package>
+    <name>ChitCostEditUI</name>
+    <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.custom.basedata.client</releasePackage>
+    <releaseClass>ChitCostEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK>com.kingdee.eas.custom.basedata.ChitCost</bizUnitPK>
+    <ruleSet>
+        <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+        <key name="name" value="ChitCostRuleSet" />
+    </ruleSet>
+    <parent>
+        <key name="package" value="com.kingdee.eas.st.common.client" />
+        <key name="name" value="STBaseDataEditUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>0,0,1425,472</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDLabelContainer1</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>13,11,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout1</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[boundLabelAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>foreground</name>
+                    <type>java.awt.Color</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[foreground].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer2</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>336,11,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout2</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[boundLabelAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>foreground</name>
+                    <type>java.awt.Color</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[foreground].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>txtDescription</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangArea</classType>
+            <isContainer>false</isContainer>
+            <constraints>76,48,203,17</constraints>
+            <tabIndex>1</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>foreground</name>
+                    <type>java.awt.Color</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[foreground].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>description</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>description</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>kDLabelContainer3</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>15,44,44,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>foreground</name>
+                    <type>java.awt.Color</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].properties.property[foreground].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>chkisEnabled</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>653,11,91,19</constraints>
+            <tabIndex>12</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>foreground</name>
+                    <type>java.awt.Color</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[foreground].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selected</propertyName>
+                    <propertyType>boolean</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>isEnabled</bindingField>
+                    <fieldType>boolean</fieldType>
+                    <accessType />
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>kdtPropertyCost</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kdtPropertyCost].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
+            <isContainer>false</isContainer>
+            <constraints>8,79,1398,358</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>formatXml</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kdtPropertyCost].properties.property[formatXml].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>seq.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.seq</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>userObject</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost</bindingField>
+                    <fieldType>com.kingdee.eas.custom.basedata.ChitCostPropertyCostCollection</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>projectCode.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.projectCode</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>projectName.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.projectName</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>changeCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.changeCost</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>fixedCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.fixedCost</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>otherCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.otherCost</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>totalCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.totalCost</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>state.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.state</bindingField>
+                    <fieldType>com.kingdee.util.enums.Enum</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>effectiveDate.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.effectiveDate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>expiryDate.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.expiryDate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>creator.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.creator</bindingField>
+                    <fieldType>java.lang.Object</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>createTime.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.createTime</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>lastUpdateUser.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.lastUpdateUser</bindingField>
+                    <fieldType>java.lang.Object</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>lastUpdateTime.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>PropertyCost.lastUpdateTime</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtNumber</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>2</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>foreground</name>
+                    <type>java.awt.Color</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[foreground].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer1" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>number</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtName</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>3</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>foreground</name>
+                    <type>java.awt.Color</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].properties.property[foreground].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer2" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>name</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>name</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>btnSave</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnSave].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnSave].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnSave].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>btnPrint</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnPrint].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnPrint].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>btnPrintPreview</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnPrintPreview].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnPrintPreview].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemPrint</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[menuItemPrint].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[menuItemPrint].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemPrintPreview</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[menuItemPrintPreview].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[menuItemPrintPreview].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+    </components>
+    <dataObjects>
+        <dataObject>
+            <name>editData</name>
+            <type>com.kingdee.eas.custom.basedata.app.ChitCost</type>
+            <objectType>enty</objectType>
+            <herited>true</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <statuses>
+        <status>
+            <id />
+            <name>ADDNEW</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[ADDNEW].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[ADDNEW].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+        <status>
+            <id />
+            <name>EDIT</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[EDIT].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[EDIT].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+        <status>
+            <id />
+            <name>VIEW</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[VIEW].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[VIEW].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+    </statuses>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_HK" value="收費項目成本" />
+            <lang locale="zh_TW" value="收費項目成本" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[CoreUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnPrintPreview].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnPrintPreview].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnPrint].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnPrint].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnSave].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnSave].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[btnSave].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用" />
+            <lang locale="zh_HK" value="是否啟用" />
+            <lang locale="zh_TW" value="是否啟用" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[foreground].value">
+            <lang locale="en_US" value="r=0,g=0,b=0" />
+            <lang locale="zh_CN" value="r=0,g=0,b=0" />
+            <lang locale="zh_HK" value="r=0,g=0,b=0" />
+            <lang locale="zh_TW" value="r=0,g=0,b=0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用" />
+            <lang locale="zh_HK" value="是否啟用" />
+            <lang locale="zh_TW" value="是否啟用" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[chkisEnabled].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[boundLabelAlignment].value">
+            <lang locale="en_US" value="7" />
+            <lang locale="zh_CN" value="7" />
+            <lang locale="zh_HK" value="7" />
+            <lang locale="zh_TW" value="7" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[foreground].value">
+            <lang locale="en_US" value="r=0,g=0,b=0" />
+            <lang locale="zh_CN" value="r=0,g=0,b=0" />
+            <lang locale="zh_HK" value="r=0,g=0,b=0" />
+            <lang locale="zh_TW" value="r=0,g=0,b=0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer1].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[boundLabelAlignment].value">
+            <lang locale="en_US" value="7" />
+            <lang locale="zh_CN" value="7" />
+            <lang locale="zh_HK" value="7" />
+            <lang locale="zh_TW" value="7" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[foreground].value">
+            <lang locale="en_US" value="r=0,g=0,b=0" />
+            <lang locale="zh_CN" value="r=0,g=0,b=0" />
+            <lang locale="zh_HK" value="r=0,g=0,b=0" />
+            <lang locale="zh_TW" value="r=0,g=0,b=0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer2].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].properties.property[foreground].value">
+            <lang locale="en_US" value="r=0,g=0,b=0" />
+            <lang locale="zh_CN" value="r=0,g=0,b=0" />
+            <lang locale="zh_HK" value="r=0,g=0,b=0" />
+            <lang locale="zh_TW" value="r=0,g=0,b=0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kDLabelContainer3].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kdtPropertyCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kdtPropertyCost].extendedProperty.buildDetail">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[kdtPropertyCost].properties.property[formatXml].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;int&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol3&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol4&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol6&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol9&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol11&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol13&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;projectCode&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;changeCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol3&quot; /&gt;&lt;t:Column t:key=&quot;fixedCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol4&quot; /&gt;&lt;t:Column t:key=&quot;otherCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;totalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol6&quot; /&gt;&lt;t:Column t:key=&quot;state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;effectiveDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;expiryDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol9&quot; /&gt;&lt;t:Column t:key=&quot;creator&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;createTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol11&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol13&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;单据分录序列号&lt;/t:Cell&gt;&lt;t:Cell&gt;物业项目编码&lt;/t:Cell&gt;&lt;t:Cell&gt;物业项目名称&lt;/t:Cell&gt;&lt;t:Cell&gt;变动成本&lt;/t:Cell&gt;&lt;t:Cell&gt;固定成本&lt;/t:Cell&gt;&lt;t:Cell&gt;其他成本&lt;/t:Cell&gt;&lt;t:Cell&gt;总成本&lt;/t:Cell&gt;&lt;t:Cell&gt;状态&lt;/t:Cell&gt;&lt;t:Cell&gt;生效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;失效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;创建人&lt;/t:Cell&gt;&lt;t:Cell&gt;创建日期&lt;/t:Cell&gt;&lt;t:Cell&gt;最后修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;最后修改日期&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;int&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol3&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol4&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol6&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol9&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol11&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol13&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;projectCode&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;changeCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol3&quot; /&gt;&lt;t:Column t:key=&quot;fixedCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol4&quot; /&gt;&lt;t:Column t:key=&quot;otherCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;totalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol6&quot; /&gt;&lt;t:Column t:key=&quot;state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;effectiveDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;expiryDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol9&quot; /&gt;&lt;t:Column t:key=&quot;creator&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;createTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol11&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol13&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;單據分錄序列號&lt;/t:Cell&gt;&lt;t:Cell&gt;物業項目編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;物業項目名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;變動成本&lt;/t:Cell&gt;&lt;t:Cell&gt;固定成本&lt;/t:Cell&gt;&lt;t:Cell&gt;其他成本&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本&lt;/t:Cell&gt;&lt;t:Cell&gt;狀態&lt;/t:Cell&gt;&lt;t:Cell&gt;生效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;失效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;創建人&lt;/t:Cell&gt;&lt;t:Cell&gt;創建日期&lt;/t:Cell&gt;&lt;t:Cell&gt;最後修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;最後修改日期&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;int&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol3&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol4&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol6&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol9&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol11&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol13&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;projectCode&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;changeCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol3&quot; /&gt;&lt;t:Column t:key=&quot;fixedCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol4&quot; /&gt;&lt;t:Column t:key=&quot;otherCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;totalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol6&quot; /&gt;&lt;t:Column t:key=&quot;state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;effectiveDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;expiryDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol9&quot; /&gt;&lt;t:Column t:key=&quot;creator&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;createTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol11&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol13&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;單據分錄序列號&lt;/t:Cell&gt;&lt;t:Cell&gt;物業項目編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;物業項目名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;變動成本&lt;/t:Cell&gt;&lt;t:Cell&gt;固定成本&lt;/t:Cell&gt;&lt;t:Cell&gt;其他成本&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本&lt;/t:Cell&gt;&lt;t:Cell&gt;狀態&lt;/t:Cell&gt;&lt;t:Cell&gt;生效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;失效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;創建人&lt;/t:Cell&gt;&lt;t:Cell&gt;創建日期&lt;/t:Cell&gt;&lt;t:Cell&gt;最後修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;最後修改日期&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[menuItemPrintPreview].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[menuItemPrintPreview].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[menuItemPrint].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[menuItemPrint].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[enabled].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[foreground].value">
+            <lang locale="en_US" value="r=0,g=0,b=0" />
+            <lang locale="zh_CN" value="r=0,g=0,b=0" />
+            <lang locale="zh_HK" value="r=0,g=0,b=0" />
+            <lang locale="zh_TW" value="r=0,g=0,b=0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[maxLength].value">
+            <lang locale="en_US" value="255" />
+            <lang locale="zh_CN" value="255" />
+            <lang locale="zh_HK" value="255" />
+            <lang locale="zh_TW" value="255" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtDescription].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].properties.property[enabled].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].properties.property[foreground].value">
+            <lang locale="en_US" value="r=0,g=0,b=0" />
+            <lang locale="zh_CN" value="r=0,g=0,b=0" />
+            <lang locale="zh_HK" value="r=0,g=0,b=0" />
+            <lang locale="zh_TW" value="r=0,g=0,b=0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtName].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[enabled].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[foreground].value">
+            <lang locale="en_US" value="r=0,g=0,b=0" />
+            <lang locale="zh_CN" value="r=0,g=0,b=0" />
+            <lang locale="zh_HK" value="r=0,g=0,b=0" />
+            <lang locale="zh_TW" value="r=0,g=0,b=0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].components.component[txtNumber].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料模板界面" />
+            <lang locale="zh_HK" value="單級基礎資料範本介面" />
+            <lang locale="zh_TW" value="單級基礎資料範本介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="DataBase" />
+            <lang locale="zh_CN" value="DataBase" />
+            <lang locale="zh_TW" value="DataBase" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].extendedProperty.bimUIType">
+            <lang locale="en_US" value="EditUI" />
+            <lang locale="zh_CN" value="EditUI" />
+            <lang locale="zh_TW" value="EditUI" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[ADDNEW].alias">
+            <lang locale="en_US" value="AddNew" />
+            <lang locale="zh_CN" value="AddNew" />
+            <lang locale="zh_HK" value="AddNew" />
+            <lang locale="zh_TW" value="AddNew" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[ADDNEW].description">
+            <lang locale="en_US" value="AddNew" />
+            <lang locale="zh_CN" value="AddNew" />
+            <lang locale="zh_HK" value="AddNew" />
+            <lang locale="zh_TW" value="AddNew" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[EDIT].alias">
+            <lang locale="en_US" value="EDIT" />
+            <lang locale="zh_CN" value="EDIT" />
+            <lang locale="zh_HK" value="EDIT" />
+            <lang locale="zh_TW" value="EDIT" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[EDIT].description">
+            <lang locale="en_US" value="EDIT" />
+            <lang locale="zh_CN" value="EDIT" />
+            <lang locale="zh_HK" value="EDIT" />
+            <lang locale="zh_TW" value="EDIT" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[VIEW].alias">
+            <lang locale="en_US" value="View" />
+            <lang locale="zh_CN" value="View" />
+            <lang locale="zh_HK" value="View" />
+            <lang locale="zh_TW" value="View" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].statuses.status[VIEW].description">
+            <lang locale="en_US" value="View" />
+            <lang locale="zh_CN" value="View" />
+            <lang locale="zh_HK" value="View" />
+            <lang locale="zh_TW" value="View" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostEditUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_HK" value="收費項目成本" />
+            <lang locale="zh_TW" value="收費項目成本" />
+        </rs>
+    </resource>
+</uiObject>
+

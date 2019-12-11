@@ -12,6 +12,11 @@
             <value>i18nResource[com.kingdee.eas.custom.basedata.client.BasedataResource].resourceItems.resourceItem[TestQueryF7WindowTitle].value</value>
             <userDefined>true</userDefined>
         </resourceItem>
+        <resourceItem>
+            <name>ChitCostQueryF7WindowTitle</name>
+            <value>i18nResource[com.kingdee.eas.custom.basedata.client.BasedataResource].resourceItems.resourceItem[ChitCostQueryF7WindowTitle].value</value>
+            <userDefined>true</userDefined>
+        </resourceItem>
     </resourceItems>
     <resource>
         <rs key="i18nResource[com.kingdee.eas.custom.basedata.client.BasedataResource].alias">
@@ -25,6 +30,12 @@
             <lang locale="zh_CN" value="null" />
             <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="i18nResource[com.kingdee.eas.custom.basedata.client.BasedataResource].resourceItems.resourceItem[ChitCostQueryF7WindowTitle].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_HK" value="收費項目成本" />
+            <lang locale="zh_TW" value="收費項目成本" />
         </rs>
         <rs key="i18nResource[com.kingdee.eas.custom.basedata.client.BasedataResource].resourceItems.resourceItem[TestQueryF7WindowTitle].value">
             <lang locale="en_US" value="null" />

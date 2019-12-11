@@ -1,0 +1,2192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata.app</package>
+    <name>ChitCostPropertyCost</name>
+    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].description</description>
+    <userDefined>true</userDefined>
+    <bosType>07E9CD87</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.basedata.ChitCostPropertyCost</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCostController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].description</description>
+            <innerID>4e6d5d9c-640c-4b47-9c22-bf0f8b422524</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].description</description>
+            <innerID>f3ac6d2b-d793-400d-b1a9-68e6e5817468</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].description</description>
+            <innerID>c5e4ddcc-7f6b-4f70-aecc-a9ce6452ab7c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].description</description>
+            <innerID>dad32558-1e4d-4d90-8c92-b9403f97949a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].description</description>
+            <innerID>f157012a-9af5-443a-9d1d-6d1658749cbb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].description</description>
+            <innerID>0001b333-fdda-4422-86c0-f18e58082f85</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].description</description>
+            <innerID>0ec3463b-5102-42a9-b06d-d8d74f66397b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].description</description>
+            <innerID>5cb846f4-ea25-4a2a-9384-330b7e361e85</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>update</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].description</description>
+            <innerID>2df310de-908a-46d5-9e9a-e9b47c0679ff</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updatePartial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].description</description>
+            <innerID>8007a292-6b81-44af-a03c-2808212fbb07</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updateBigObject</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].description</description>
+            <innerID>166249ef-64b8-4449-a69c-ccd84468d3a7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].description</description>
+            <innerID>918f2b2f-acef-4d00-92c4-98eb1ff271bf</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].description</description>
+            <innerID>6e74e4d2-44ee-4c68-b4fa-813ba016fcc2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].description</description>
+            <innerID>25647ee7-6240-48db-9672-dd0fb20459c1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].description</description>
+            <innerID>50a9682c-0256-4e80-ab71-27aeb7e57b63</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>sorter</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[sorter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[sorter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SorterItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].description</description>
+            <innerID>72cf4907-35e4-4c8f-9260-cf958ee22461</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].description</description>
+            <innerID>de38d49b-708b-48f4-a051-11b351a13aa7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].description</description>
+            <innerID>30c6708b-7d3c-465b-8fa7-e726d2ed070e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].description</description>
+            <innerID>36fbbf2d-5786-4186-8503-40b0124606b0</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].description</description>
+            <innerID>25078eee-4f61-48c9-b44d-3f3e549a4b69</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].description</description>
+            <innerID>c4975692-888b-4a90-98e9-f0169b4b272d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>arrayPK</name>
+                    <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[arrayPK].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[arrayPK].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK[]</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.basedata.ChitCost</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillEntryBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+        <key name="name" value="CT_BAS_ChitCostPropertyCost" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[parent].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="R_ChitCost_ChitCostPropertyCost" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>projectCode</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFProjectCode" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>projectName</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFProjectName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>changeCost</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>2</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFChangeCost" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>fixedCost</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>2</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFFixedCost" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>otherCost</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>2</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFOtherCost" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>totalCost</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>2</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTotalCost" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>state</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.base.ssc.StatusEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFState" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>effectiveDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFEffectiveDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>expiryDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFExpiryDate" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>creator</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFCreatorID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="R_ChitCostPropertyCost_User_creator" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>createTime</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCreateTime" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>lastUpdateUser</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFLastUpdateUserID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="R_ChitCostPropertyCost_User_lastUpdateUser" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>lastUpdateTime</name>
+            <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFLastUpdateTime" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本单据体" />
+            <lang locale="zh_HK" value="收費項目成本單據體" />
+            <lang locale="zh_TW" value="收費項目成本單據體" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_HK" value="收費項目成本" />
+            <lang locale="zh_TW" value="收費項目成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].extendedProperty.genImplementCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[addnew].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[arrayPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[arrayPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[delete].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[exists].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[sorter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getPKList].parameters.parameter[sorter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updateBigObject].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[updatePartial].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].methods.method[update].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建人" />
+            <lang locale="zh_HK" value="創建人" />
+            <lang locale="zh_TW" value="創建人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建人" />
+            <lang locale="zh_HK" value="創建人" />
+            <lang locale="zh_TW" value="創建人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.dataField">
+            <lang locale="en_US" value="password" />
+            <lang locale="zh_CN" value="password" />
+            <lang locale="zh_TW" value="password" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[creator].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改人" />
+            <lang locale="zh_HK" value="最後修改人" />
+            <lang locale="zh_TW" value="最後修改人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改人" />
+            <lang locale="zh_HK" value="最後修改人" />
+            <lang locale="zh_TW" value="最後修改人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.dataField">
+            <lang locale="en_US" value="password" />
+            <lang locale="zh_CN" value="password" />
+            <lang locale="zh_TW" value="password" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[lastUpdateUser].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[parent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.linkProperty[parent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="变动成本" />
+            <lang locale="zh_HK" value="變動成本" />
+            <lang locale="zh_TW" value="變動成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="变动成本" />
+            <lang locale="zh_HK" value="變動成本" />
+            <lang locale="zh_TW" value="變動成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[changeCost].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建日期" />
+            <lang locale="zh_HK" value="創建日期" />
+            <lang locale="zh_TW" value="創建日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建日期" />
+            <lang locale="zh_HK" value="創建日期" />
+            <lang locale="zh_TW" value="創建日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[createTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生效日期" />
+            <lang locale="zh_HK" value="生效日期" />
+            <lang locale="zh_TW" value="生效日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生效日期" />
+            <lang locale="zh_HK" value="生效日期" />
+            <lang locale="zh_TW" value="生效日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[effectiveDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="失效日期" />
+            <lang locale="zh_HK" value="失效日期" />
+            <lang locale="zh_TW" value="失效日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="失效日期" />
+            <lang locale="zh_HK" value="失效日期" />
+            <lang locale="zh_TW" value="失效日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[expiryDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定成本" />
+            <lang locale="zh_HK" value="固定成本" />
+            <lang locale="zh_TW" value="固定成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定成本" />
+            <lang locale="zh_HK" value="固定成本" />
+            <lang locale="zh_TW" value="固定成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[fixedCost].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改日期" />
+            <lang locale="zh_HK" value="最後修改日期" />
+            <lang locale="zh_TW" value="最後修改日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改日期" />
+            <lang locale="zh_HK" value="最後修改日期" />
+            <lang locale="zh_TW" value="最後修改日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[lastUpdateTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其他成本" />
+            <lang locale="zh_HK" value="其他成本" />
+            <lang locale="zh_TW" value="其他成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其他成本" />
+            <lang locale="zh_HK" value="其他成本" />
+            <lang locale="zh_TW" value="其他成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[otherCost].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目编码" />
+            <lang locale="zh_HK" value="物業項目編碼" />
+            <lang locale="zh_TW" value="物業項目編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目编码" />
+            <lang locale="zh_HK" value="物業項目編碼" />
+            <lang locale="zh_TW" value="物業項目編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectCode].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目名称" />
+            <lang locale="zh_HK" value="物業項目名稱" />
+            <lang locale="zh_TW" value="物業項目名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目名称" />
+            <lang locale="zh_HK" value="物業項目名稱" />
+            <lang locale="zh_TW" value="物業項目名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[projectName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="Enable" />
+            <lang locale="zh_HK" value="Enable" />
+            <lang locale="zh_TW" value="Enable" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.defaultValue">
+            <lang locale="en_US" value="Enable" />
+            <lang locale="zh_CN" value="Enable" />
+            <lang locale="zh_TW" value="Enable" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[state].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总成本" />
+            <lang locale="zh_HK" value="總成本" />
+            <lang locale="zh_TW" value="總成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总成本" />
+            <lang locale="zh_HK" value="總成本" />
+            <lang locale="zh_TW" value="總成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].properties.ownProperty[totalCost].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

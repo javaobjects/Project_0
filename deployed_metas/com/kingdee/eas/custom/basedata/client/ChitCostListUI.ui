@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata.client</package>
+    <name>ChitCostListUI</name>
+    <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.custom.basedata.client</releasePackage>
+    <releaseClass>ChitCostListUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK>com.kingdee.eas.custom.basedata.ChitCost</bizUnitPK>
+    <parent>
+        <key name="package" value="com.kingdee.eas.st.common.client" />
+        <key name="name" value="STBaseDataListUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>kDLayout1</name>
+                <type>KDLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>tblMain</name>
+            <alias>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].components.component[tblMain].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
+            <isContainer>false</isContainer>
+            <constraints>10,10,996,580,15</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>formatXml</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].components.component[tblMain].properties.property[formatXml].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>id.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>id</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>number.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>number</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>creator.name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>creator.name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>createTime.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>createTime</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>lastUpdateUser.name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>lastUpdateUser.name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>lastUpdateTime.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>lastUpdateTime</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>isEnabled.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>isEnabled</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType />
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.seq.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.seq</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.projectCode.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.projectCode</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.projectName.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.projectName</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.changeCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.changeCost</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.fixedCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.fixedCost</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.otherCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.otherCost</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.totalCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.totalCost</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.state.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.state</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.effectiveDate.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.effectiveDate</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.expiryDate.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.expiryDate</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.creator.password.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.creator.password</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.createTime0.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.createTime0</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.lastUpdateUser.password.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.lastUpdateUser.password</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>PropertyCost.lastUpdateTime0.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>mainQuery</bindingObject>
+                    <bindingField>PropertyCost.lastUpdateTime0</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+    </components>
+    <dataObjects>
+        <dataObject>
+            <name>mainQuery</name>
+            <type>com.kingdee.eas.custom.basedata.app.ChitCostQuery</type>
+            <objectType>jqye</objectType>
+            <herited>true</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_HK" value="收費項目成本" />
+            <lang locale="zh_TW" value="收費項目成本" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].components.component[CoreUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].components.component[tblMain].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].components.component[tblMain].properties.property[formatXml].value">
+            <lang locale="en_US" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles /&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;isEnabled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;creator.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;createTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;id&lt;/t:Cell&gt;&lt;t:Cell&gt;number&lt;/t:Cell&gt;&lt;t:Cell&gt;name&lt;/t:Cell&gt;&lt;t:Cell&gt;isEnabled&lt;/t:Cell&gt;&lt;t:Cell&gt;creator.name&lt;/t:Cell&gt;&lt;t:Cell&gt;createTime&lt;/t:Cell&gt;&lt;t:Cell&gt;lastUpdateUser.name&lt;/t:Cell&gt;&lt;t:Cell&gt;lastUpdateTime&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;c:NumberFormat&gt;&amp;amp;int&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol11&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol12&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol13&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol14&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol16&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol17&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol19&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol21&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;isEnabled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;creator.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;createTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.projectCode&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.changeCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol11&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.fixedCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol12&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.otherCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol13&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.totalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol14&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.effectiveDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol16&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.expiryDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol17&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.creator.password&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.createTime0&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol19&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.lastUpdateUser.password&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.lastUpdateTime0&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol21&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;id&lt;/t:Cell&gt;&lt;t:Cell&gt;编码&lt;/t:Cell&gt;&lt;t:Cell&gt;名称&lt;/t:Cell&gt;&lt;t:Cell&gt;是否启用&lt;/t:Cell&gt;&lt;t:Cell&gt;创建者&lt;/t:Cell&gt;&lt;t:Cell&gt;创建时间&lt;/t:Cell&gt;&lt;t:Cell&gt;修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;修改时间&lt;/t:Cell&gt;&lt;t:Cell&gt;单据分录序列号&lt;/t:Cell&gt;&lt;t:Cell&gt;物业项目编码&lt;/t:Cell&gt;&lt;t:Cell&gt;物业项目名称&lt;/t:Cell&gt;&lt;t:Cell&gt;变动成本&lt;/t:Cell&gt;&lt;t:Cell&gt;固定成本&lt;/t:Cell&gt;&lt;t:Cell&gt;其他成本&lt;/t:Cell&gt;&lt;t:Cell&gt;总成本&lt;/t:Cell&gt;&lt;t:Cell&gt;状态&lt;/t:Cell&gt;&lt;t:Cell&gt;生效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;失效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;创建人&lt;/t:Cell&gt;&lt;t:Cell&gt;创建日期&lt;/t:Cell&gt;&lt;t:Cell&gt;最后修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;最后修改日期&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;c:NumberFormat&gt;&amp;amp;int&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol11&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol12&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol13&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol14&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol16&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol17&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol19&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol21&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;isEnabled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;creator.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;createTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.projectCode&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.changeCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol11&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.fixedCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol12&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.otherCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol13&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.totalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol14&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.effectiveDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol16&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.expiryDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol17&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.creator.password&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.createTime0&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol19&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.lastUpdateUser.password&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.lastUpdateTime0&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol21&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;id&lt;/t:Cell&gt;&lt;t:Cell&gt;編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;是否啟用&lt;/t:Cell&gt;&lt;t:Cell&gt;創建者&lt;/t:Cell&gt;&lt;t:Cell&gt;創建時間&lt;/t:Cell&gt;&lt;t:Cell&gt;修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;修改時間&lt;/t:Cell&gt;&lt;t:Cell&gt;單據分錄序列號&lt;/t:Cell&gt;&lt;t:Cell&gt;物業項目編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;物業項目名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;變動成本&lt;/t:Cell&gt;&lt;t:Cell&gt;固定成本&lt;/t:Cell&gt;&lt;t:Cell&gt;其他成本&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本&lt;/t:Cell&gt;&lt;t:Cell&gt;狀態&lt;/t:Cell&gt;&lt;t:Cell&gt;生效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;失效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;創建人&lt;/t:Cell&gt;&lt;t:Cell&gt;創建日期&lt;/t:Cell&gt;&lt;t:Cell&gt;最後修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;最後修改日期&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol8&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;c:NumberFormat&gt;&amp;amp;int&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol11&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol12&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol13&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol14&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol16&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol17&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol19&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol21&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;isEnabled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;creator.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;createTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateUser.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;lastUpdateTime&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol8&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.projectCode&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.changeCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol11&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.fixedCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol12&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.otherCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol13&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.totalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol14&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.effectiveDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol16&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.expiryDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol17&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.creator.password&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.createTime0&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol19&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.lastUpdateUser.password&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;PropertyCost.lastUpdateTime0&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol21&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;id&lt;/t:Cell&gt;&lt;t:Cell&gt;編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;是否啟用&lt;/t:Cell&gt;&lt;t:Cell&gt;創建者&lt;/t:Cell&gt;&lt;t:Cell&gt;創建時間&lt;/t:Cell&gt;&lt;t:Cell&gt;修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;修改時間&lt;/t:Cell&gt;&lt;t:Cell&gt;單據分錄序列號&lt;/t:Cell&gt;&lt;t:Cell&gt;物業項目編碼&lt;/t:Cell&gt;&lt;t:Cell&gt;物業項目名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;變動成本&lt;/t:Cell&gt;&lt;t:Cell&gt;固定成本&lt;/t:Cell&gt;&lt;t:Cell&gt;其他成本&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本&lt;/t:Cell&gt;&lt;t:Cell&gt;狀態&lt;/t:Cell&gt;&lt;t:Cell&gt;生效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;失效日期&lt;/t:Cell&gt;&lt;t:Cell&gt;創建人&lt;/t:Cell&gt;&lt;t:Cell&gt;創建日期&lt;/t:Cell&gt;&lt;t:Cell&gt;最後修改人&lt;/t:Cell&gt;&lt;t:Cell&gt;最後修改日期&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料查询模板" />
+            <lang locale="zh_HK" value="單級基礎資料查詢範本" />
+            <lang locale="zh_TW" value="單級基礎資料查詢範本" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="DataBase" />
+            <lang locale="zh_CN" value="DataBase" />
+            <lang locale="zh_TW" value="DataBase" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].extendedProperty.bimUIType">
+            <lang locale="en_US" value="ListUI" />
+            <lang locale="zh_CN" value="ListUI" />
+            <lang locale="zh_TW" value="ListUI" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.basedata.client.ChitCostListUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_HK" value="收費項目成本" />
+            <lang locale="zh_TW" value="收費項目成本" />
+        </rs>
+    </resource>
+</uiObject>
+

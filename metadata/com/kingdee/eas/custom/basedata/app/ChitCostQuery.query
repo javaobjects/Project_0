@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata.app</package>
+    <name>ChitCostQuery</name>
+    <alias>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.custom.basedata.ChitCost</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>ChitCost</name>
+            <alias>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[ChitCost].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCost" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>PropertyCost</name>
+            <alias>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[PropertyCost].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostPropertyCost" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>PropertyCost_creator</name>
+            <alias>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[PropertyCost_creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.ssc.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>PropertyCost_lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[PropertyCost_lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.ssc.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isEnabled</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[isEnabled].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>29749aac-50a6-436f-ba4f-ed4bd31dbc0e</key>
+                    <parentUnit>
+                        <key name="name" value="isEnabled" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isEnabled" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>7ea8f496-d5ec-4402-9515-7b431f7cefdc</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[7ea8f496-d5ec-4402-9515-7b431f7cefdc].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="7ea8f496-d5ec-4402-9515-7b431f7cefdc" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>88c037b8-465f-4495-ad7d-f4d6a5f7fa61</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[88c037b8-465f-4495-ad7d-f4d6a5f7fa61].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="88c037b8-465f-4495-ad7d-f4d6a5f7fa61" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>9731ba90-6c4c-4362-98bc-df9afdbadeba</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[9731ba90-6c4c-4362-98bc-df9afdbadeba].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="9731ba90-6c4c-4362-98bc-df9afdbadeba" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>83038c31-513e-48fa-a2b4-2d529945272b</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[83038c31-513e-48fa-a2b4-2d529945272b].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="83038c31-513e-48fa-a2b4-2d529945272b" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>PropertyCost.seq</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.seq].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b45b46f9-ac02-425e-8c1f-d4f806cdf5f6</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.seq" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="seq" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>05b15415-313b-4514-97aa-e04041042c68</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[05b15415-313b-4514-97aa-e04041042c68].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>6bb93577-8eb0-43ca-a4da-90ab0ccdbbb7</key>
+                    <parentUnit>
+                        <key name="name" value="05b15415-313b-4514-97aa-e04041042c68" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ChitCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>f3b9ced9-afc4-4561-88c3-0f3f2d4f4a6d</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[f3b9ced9-afc4-4561-88c3-0f3f2d4f4a6d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>9a7093c3-0b99-4c7d-bcb3-05091c0a9e3a</key>
+                    <parentUnit>
+                        <key name="name" value="f3b9ced9-afc4-4561-88c3-0f3f2d4f4a6d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>PropertyCost.projectCode</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.projectCode].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>36e2dad5-12be-45ec-a250-842ea71805f1</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.projectCode" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="projectCode" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.projectName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.projectName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>714ec685-7f4b-47c0-b895-ae65a3547d1b</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.projectName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="projectName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.changeCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.changeCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e9590dd6-31b3-4e6d-915a-52065b1ef0c8</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.changeCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="changeCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.fixedCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.fixedCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c50d87c8-f889-4230-ba31-3bdd409e1143</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.fixedCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="fixedCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.otherCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.otherCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5af477af-2f19-4927-a900-ac088a0be159</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.otherCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="otherCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.totalCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.totalCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>27243f81-fbb4-4a9b-b861-8f841aaa0248</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.totalCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="totalCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.state</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.state].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5df6e316-d046-4d75-992e-ccfeb733c77f</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.state" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="state" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.effectiveDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.effectiveDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e8368fb3-94c7-4370-b62d-7d2c3bc1a938</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.effectiveDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="effectiveDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.expiryDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.expiryDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>50fd30ad-ebce-49fa-a1ad-88c56325a533</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.expiryDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="expiryDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.creator.password</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.creator.password].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4113286c-68d5-4704-9a7a-e4a6fbfabb1d</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.creator.password" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost_creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="password" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>09ee914d-b4d6-43a9-a76f-35336044a275</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[09ee914d-b4d6-43a9-a76f-35336044a275].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0f507e50-3353-490c-8045-8c713e4fb881</key>
+                    <parentUnit>
+                        <key name="name" value="09ee914d-b4d6-43a9-a76f-35336044a275" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>fd4f225b-0841-44f6-948e-8d319c6d6313</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[fd4f225b-0841-44f6-948e-8d319c6d6313].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>fa0a1968-2a69-4c6e-9c91-815192b9c719</key>
+                    <parentUnit>
+                        <key name="name" value="fd4f225b-0841-44f6-948e-8d319c6d6313" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost_creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>PropertyCost.createTime0</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.createTime0].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>40b58de2-a3a0-46dc-9c75-55b9a01878ef</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.createTime0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PropertyCost.lastUpdateUser.password</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateUser.password].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>584a49d0-f446-417d-8b98-ec9a155fe85f</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.lastUpdateUser.password" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost_lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="password" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>46401c66-9314-4632-9edc-3554d2a2b526</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[46401c66-9314-4632-9edc-3554d2a2b526].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>b9980776-0f66-4706-9cb7-4b4c86c24281</key>
+                    <parentUnit>
+                        <key name="name" value="46401c66-9314-4632-9edc-3554d2a2b526" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>f6928dbb-ab0b-4ff8-9d6a-ce13000d6228</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[f6928dbb-ab0b-4ff8-9d6a-ce13000d6228].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>06b30723-3e7c-4914-b298-48af74b95dc9</key>
+                    <parentUnit>
+                        <key name="name" value="f6928dbb-ab0b-4ff8-9d6a-ce13000d6228" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost_lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>PropertyCost.lastUpdateTime0</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateTime0].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a6dbc048-1c70-4a03-bb85-7d820e05ffc2</key>
+                    <parentUnit>
+                        <key name="name" value="PropertyCost.lastUpdateTime0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PropertyCost" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+            <key name="name" value="ChitCostQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ChitCost" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="9731ba90-6c4c-4362-98bc-df9afdbadeba" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="83038c31-513e-48fa-a2b4-2d529945272b" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ChitCost" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="7ea8f496-d5ec-4402-9515-7b431f7cefdc" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="88c037b8-465f-4495-ad7d-f4d6a5f7fa61" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </join>
+        <join>
+            <name>7f832679-e784-42b9-8a17-631a1f8cb835</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="ChitCost" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="PropertyCost" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>fe42999e-a707-4d59-8ff3-e9ecb12a223c</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="05b15415-313b-4514-97aa-e04041042c68" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="f3b9ced9-afc4-4561-88c3-0f3f2d4f4a6d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="7f832679-e784-42b9-8a17-631a1f8cb835" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </join>
+        <join>
+            <name>fa70f104-d12d-4f78-80a2-633defd1a720</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PropertyCost" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="PropertyCost_creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>88e114ec-f794-4397-9071-d32f964f98ba</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="09ee914d-b4d6-43a9-a76f-35336044a275" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="fd4f225b-0841-44f6-948e-8d319c6d6313" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="fa70f104-d12d-4f78-80a2-633defd1a720" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </join>
+        <join>
+            <name>19fd397b-f540-496b-b738-4c7baae9ba38</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PropertyCost" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="PropertyCost_lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>a3958e10-d460-4136-9c09-2f2db621f53b</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="46401c66-9314-4632-9edc-3554d2a2b526" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="f6928dbb-ab0b-4ff8-9d6a-ce13000d6228" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="19fd397b-f540-496b-b738-4c7baae9ba38" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+                <key name="name" value="ChitCostQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_HK" value="收費項目成本" />
+            <lang locale="zh_TW" value="收費項目成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].defaultSorters.querySorterItemextendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].defaultSorters.querySorterItemextendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].defaultSorters.querySorterItemextendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].defaultSorters.querySorterItemextendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].defaultSorters.querySorterItemextendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料查询" />
+            <lang locale="zh_HK" value="單級基礎資料查詢" />
+            <lang locale="zh_TW" value="單級基礎資料查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.BasedataResource.ChitCostQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.BasedataResource.ChitCostQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.BasedataResource.ChitCostQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="收费项目成本" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_TW" value="收费项目成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[ChitCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[PropertyCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[PropertyCost_creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[PropertyCost_lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[05b15415-313b-4514-97aa-e04041042c68].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[09ee914d-b4d6-43a9-a76f-35336044a275].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[46401c66-9314-4632-9edc-3554d2a2b526].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[7ea8f496-d5ec-4402-9515-7b431f7cefdc].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[83038c31-513e-48fa-a2b4-2d529945272b].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[88c037b8-465f-4495-ad7d-f4d6a5f7fa61].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[9731ba90-6c4c-4362-98bc-df9afdbadeba].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[f3b9ced9-afc4-4561-88c3-0f3f2d4f4a6d].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[f6928dbb-ab0b-4ff8-9d6a-ce13000d6228].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.propertyUnit[fd4f225b-0841-44f6-948e-8d319c6d6313].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.changeCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="变动成本" />
+            <lang locale="zh_HK" value="變動成本" />
+            <lang locale="zh_TW" value="變動成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.changeCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.changeCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.createTime0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建日期" />
+            <lang locale="zh_HK" value="創建日期" />
+            <lang locale="zh_TW" value="創建日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.createTime0].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.createTime0].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.creator.password].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建人" />
+            <lang locale="zh_HK" value="創建人" />
+            <lang locale="zh_TW" value="創建人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.creator.password].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.creator.password].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.creator.password].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.effectiveDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生效日期" />
+            <lang locale="zh_HK" value="生效日期" />
+            <lang locale="zh_TW" value="生效日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.effectiveDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.effectiveDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.expiryDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="失效日期" />
+            <lang locale="zh_HK" value="失效日期" />
+            <lang locale="zh_TW" value="失效日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.expiryDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.expiryDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.fixedCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定成本" />
+            <lang locale="zh_HK" value="固定成本" />
+            <lang locale="zh_TW" value="固定成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.fixedCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.fixedCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateTime0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改日期" />
+            <lang locale="zh_HK" value="最後修改日期" />
+            <lang locale="zh_TW" value="最後修改日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateTime0].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateTime0].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateUser.password].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改人" />
+            <lang locale="zh_HK" value="最後修改人" />
+            <lang locale="zh_TW" value="最後修改人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateUser.password].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateUser.password].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.lastUpdateUser.password].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.otherCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其他成本" />
+            <lang locale="zh_HK" value="其他成本" />
+            <lang locale="zh_TW" value="其他成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.otherCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.otherCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.projectCode].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目编码" />
+            <lang locale="zh_HK" value="物業項目編碼" />
+            <lang locale="zh_TW" value="物業項目編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.projectCode].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.projectCode].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.projectName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目名称" />
+            <lang locale="zh_HK" value="物業項目名稱" />
+            <lang locale="zh_TW" value="物業項目名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.projectName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.projectName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.seq].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.seq].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.seq].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.state].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.state].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.state].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.totalCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总成本" />
+            <lang locale="zh_HK" value="總成本" />
+            <lang locale="zh_TW" value="總成本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.totalCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[PropertyCost.totalCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[createTime].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[createTime].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[createTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[creator.name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[creator.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[creator.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[creator.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[creator.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[id].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[id].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[id].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[id].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[isEnabled].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用" />
+            <lang locale="zh_HK" value="是否啟用" />
+            <lang locale="zh_TW" value="是否啟用" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[isEnabled].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[isEnabled].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改时间" />
+            <lang locale="zh_HK" value="修改時間" />
+            <lang locale="zh_TW" value="修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateTime].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateTime].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改人" />
+            <lang locale="zh_HK" value="修改人" />
+            <lang locale="zh_TW" value="修改人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateUser.name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateUser.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[lastUpdateUser.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[number].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.basedata.app.ChitCostQuery].units.queryField[number].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

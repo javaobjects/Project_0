@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata</package>
+    <name>ChitCost</name>
+    <alias>bizUnit[com.kingdee.eas.custom.basedata.ChitCost].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.basedata.ChitCost].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.basedata.app.ChitCost</entityPK>
+    <queryPK>com.kingdee.eas.custom.basedata.app.ChitCostQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.basedata.client.ChitCostEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.basedata.client.ChitCostListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>DataBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收费项目成本" />
+            <lang locale="zh_HK" value="收費項目成本" />
+            <lang locale="zh_TW" value="收費項目成本" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.configured">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.app.ChitCostQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.app.ChitCostQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.app.ChitCostQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.ChitCostEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.ChitCostEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.ChitCostEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.ChitCostListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.ChitCostListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.ChitCostListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="14" />
+            <lang locale="zh_CN" value="14" />
+            <lang locale="zh_TW" value="14" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.useTableEditUI">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.ChitCost].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+
