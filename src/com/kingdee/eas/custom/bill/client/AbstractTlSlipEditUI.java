@@ -178,17 +178,18 @@ public abstract class AbstractTlSlipEditUI extends com.kingdee.eas.st.common.cli
         this.pkcreateDate.setName("pkcreateDate");
         this.pklastUpdateDate.setName("pklastUpdateDate");
         this.pkauditDate.setName("pkauditDate");
-        // CoreUI
+        // CoreUI		
+        this.setEnabled(false);
         // contbillStatus		
         this.contbillStatus.setBoundLabelText(resHelper.getString("contbillStatus.boundLabelText"));		
         this.contbillStatus.setBoundLabelLength(100);		
         this.contbillStatus.setBoundLabelUnderline(true);		
-        this.contbillStatus.setVisible(true);
+        this.contbillStatus.setVisible(false);
         // contauditTime		
         this.contauditTime.setBoundLabelText(resHelper.getString("contauditTime.boundLabelText"));		
         this.contauditTime.setBoundLabelLength(100);		
         this.contauditTime.setBoundLabelUnderline(true);		
-        this.contauditTime.setVisible(true);
+        this.contauditTime.setVisible(false);
         // contnumber		
         this.contnumber.setBoundLabelText(resHelper.getString("contnumber.boundLabelText"));		
         this.contnumber.setBoundLabelLength(100);		
@@ -218,7 +219,7 @@ public abstract class AbstractTlSlipEditUI extends com.kingdee.eas.st.common.cli
         this.contcreateTime.setBoundLabelText(resHelper.getString("contcreateTime.boundLabelText"));		
         this.contcreateTime.setBoundLabelLength(100);		
         this.contcreateTime.setBoundLabelUnderline(true);		
-        this.contcreateTime.setVisible(true);
+        this.contcreateTime.setVisible(false);
         // contlastUpdateUser		
         this.contlastUpdateUser.setBoundLabelText(resHelper.getString("contlastUpdateUser.boundLabelText"));		
         this.contlastUpdateUser.setBoundLabelLength(100);		
@@ -228,7 +229,7 @@ public abstract class AbstractTlSlipEditUI extends com.kingdee.eas.st.common.cli
         this.contlastUpdateTime.setBoundLabelText(resHelper.getString("contlastUpdateTime.boundLabelText"));		
         this.contlastUpdateTime.setBoundLabelLength(100);		
         this.contlastUpdateTime.setBoundLabelUnderline(true);		
-        this.contlastUpdateTime.setVisible(true);
+        this.contlastUpdateTime.setVisible(false);
         // kdtEntry
 		String kdtEntryStrXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><DocRoot xmlns:c=\"http://www.kingdee.com/Common\" xmlns:f=\"http://www.kingdee.com/Form\" xmlns:t=\"http://www.kingdee.com/Table\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.kingdee.com/KDF KDFSchema.xsd\" version=\"0.0\"><Styles><c:Style id=\"sCol2\"><c:NumberFormat>&amp;date</c:NumberFormat></c:Style><c:Style id=\"sCol3\"><c:NumberFormat>&amp;date</c:NumberFormat></c:Style><c:Style id=\"sCol5\"><c:NumberFormat>&amp;int</c:NumberFormat></c:Style><c:Style id=\"sCol6\"><c:NumberFormat>&amp;double</c:NumberFormat></c:Style><c:Style id=\"sCol7\"><c:NumberFormat>&amp;double</c:NumberFormat></c:Style><c:Style id=\"sCol8\"><c:NumberFormat>&amp;double</c:NumberFormat></c:Style><c:Style id=\"sCol9\"><c:NumberFormat>&amp;int</c:NumberFormat></c:Style><c:Style id=\"sCol10\"><c:NumberFormat>&amp;double</c:NumberFormat></c:Style></Styles><Table id=\"KDTable\"><t:Sheet name=\"sheet1\"><t:Table t:selectMode=\"15\" t:mergeMode=\"0\" t:dataRequestMode=\"0\" t:pageRowCount=\"100\"><t:ColumnGroup><t:Column t:key=\"seq\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" /><t:Column t:key=\"personnel\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" /><t:Column t:key=\"startDate\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" t:styleID=\"sCol2\" /><t:Column t:key=\"endDate\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" t:styleID=\"sCol3\" /><t:Column t:key=\"destination\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" /><t:Column t:key=\"vehicle\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" t:styleID=\"sCol5\" /><t:Column t:key=\"trafficFee1\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" t:styleID=\"sCol6\" /><t:Column t:key=\"trafficFee2\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" t:styleID=\"sCol7\" /><t:Column t:key=\"quarterFee\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" t:styleID=\"sCol8\" /><t:Column t:key=\"otherFee\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" t:styleID=\"sCol9\" /><t:Column t:key=\"totalAmount\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" t:styleID=\"sCol10\" /><t:Column t:key=\"remark\" t:width=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\" t:moveable=\"true\" t:group=\"false\" t:required=\"false\" t:index=\"-1\" /></t:ColumnGroup><t:Head><t:Row t:name=\"header1\" t:height=\"-1\" t:mergeable=\"true\" t:resizeable=\"true\"><t:Cell>$Resource{seq}</t:Cell><t:Cell>$Resource{personnel}</t:Cell><t:Cell>$Resource{startDate}</t:Cell><t:Cell>$Resource{endDate}</t:Cell><t:Cell>$Resource{destination}</t:Cell><t:Cell>$Resource{vehicle}</t:Cell><t:Cell>$Resource{trafficFee1}</t:Cell><t:Cell>$Resource{trafficFee2}</t:Cell><t:Cell>$Resource{quarterFee}</t:Cell><t:Cell>$Resource{otherFee}</t:Cell><t:Cell>$Resource{totalAmount}</t:Cell><t:Cell>$Resource{remark}</t:Cell></t:Row></t:Head></t:Table><t:SheetOptions><t:MergeBlocks><t:Head /></t:MergeBlocks></t:SheetOptions></t:Sheet></Table></DocRoot>";
 		
@@ -369,12 +370,12 @@ public abstract class AbstractTlSlipEditUI extends com.kingdee.eas.st.common.cli
         this.contauditDate.setBoundLabelUnderline(true);		
         this.contauditDate.setVisible(true);
         // billStatus		
-        this.billStatus.setVisible(true);		
+        this.billStatus.setVisible(false);		
         this.billStatus.addItems(EnumUtils.getEnumList("com.kingdee.eas.scm.common.BillBaseStatusEnum").toArray());		
         this.billStatus.setRequired(false);		
         this.billStatus.setEnabled(false);
         // pkauditTime		
-        this.pkauditTime.setVisible(true);		
+        this.pkauditTime.setVisible(false);		
         this.pkauditTime.setRequired(false);		
         this.pkauditTime.setEnabled(false);
         // txtnumber		
@@ -409,7 +410,7 @@ public abstract class AbstractTlSlipEditUI extends com.kingdee.eas.st.common.cli
         this.prmtcreator.setRequired(false);		
         this.prmtcreator.setEnabled(false);
         // pkcreateTime		
-        this.pkcreateTime.setVisible(true);		
+        this.pkcreateTime.setVisible(false);		
         this.pkcreateTime.setRequired(false);		
         this.pkcreateTime.setEnabled(false);
         // prmtlastUpdateUser		
@@ -421,7 +422,7 @@ public abstract class AbstractTlSlipEditUI extends com.kingdee.eas.st.common.cli
         this.prmtlastUpdateUser.setRequired(false);		
         this.prmtlastUpdateUser.setEnabled(false);
         // pklastUpdateTime		
-        this.pklastUpdateTime.setVisible(true);		
+        this.pklastUpdateTime.setVisible(false);		
         this.pklastUpdateTime.setRequired(false);		
         this.pklastUpdateTime.setEnabled(false);
         // prmtcompany		
@@ -513,9 +514,9 @@ public abstract class AbstractTlSlipEditUI extends com.kingdee.eas.st.common.cli
         this.add(contlastUpdateUser, new KDLayout.Constraints(738, 569, 270, 19, KDLayout.Constraints.ANCHOR_BOTTOM | KDLayout.Constraints.ANCHOR_LEFT_SCALE | KDLayout.Constraints.ANCHOR_RIGHT));
         contlastUpdateTime.setBounds(new Rectangle(738, 542, 270, 19));
         this.add(contlastUpdateTime, new KDLayout.Constraints(738, 542, 270, 19, KDLayout.Constraints.ANCHOR_BOTTOM | KDLayout.Constraints.ANCHOR_LEFT_SCALE | KDLayout.Constraints.ANCHOR_RIGHT));
-        kdtEntry.setBounds(new Rectangle(10, 82, 993, 451));
+        kdtEntry.setBounds(new Rectangle(10, 82, 993, 483));
         kdtEntry_detailPanel = (com.kingdee.eas.framework.client.multiDetail.DetailPanel)com.kingdee.eas.framework.client.multiDetail.HMDUtils.buildDetail(this,dataBinder,kdtEntry,new com.kingdee.eas.custom.bill.TlSlipEntryInfo(),null,false);
-        this.add(kdtEntry_detailPanel, new KDLayout.Constraints(10, 82, 993, 451, KDLayout.Constraints.ANCHOR_TOP | KDLayout.Constraints.ANCHOR_BOTTOM | KDLayout.Constraints.ANCHOR_LEFT | KDLayout.Constraints.ANCHOR_RIGHT));
+        this.add(kdtEntry_detailPanel, new KDLayout.Constraints(10, 82, 993, 483, KDLayout.Constraints.ANCHOR_TOP | KDLayout.Constraints.ANCHOR_BOTTOM | KDLayout.Constraints.ANCHOR_LEFT | KDLayout.Constraints.ANCHOR_RIGHT));
         contcompany.setBounds(new Rectangle(371, 8, 270, 19));
         this.add(contcompany, new KDLayout.Constraints(371, 8, 270, 19, 0));
         continstancy.setBounds(new Rectangle(10, 33, 270, 19));

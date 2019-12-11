@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>TtaskListQuery</name>
+    <alias>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.custom.bill.TtaskList</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>TtaskList</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[TtaskList].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskList" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entries</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[entries].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListEntry" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>FICompany</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[FICompany].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entries.id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="entries.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>billStatus</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[billStatus].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="billStatus" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="billStatus" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a192f119-162d-4135-b2ea-2691872e7bf7</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.seq</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.seq].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="entries.seq" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="seq" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>55a22f13-5088-413b-a697-04324fc4b817</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[55a22f13-5088-413b-a697-04324fc4b817].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5797fa55-c2d2-460a-91e2-6949c72c62d3</key>
+                    <parentUnit>
+                        <key name="name" value="55a22f13-5088-413b-a697-04324fc4b817" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b2483a65-8a47-417a-8a1b-776b6c790891</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[b2483a65-8a47-417a-8a1b-776b6c790891].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bace332c-0af5-49d3-b088-468ed30774ea</key>
+                    <parentUnit>
+                        <key name="name" value="b2483a65-8a47-417a-8a1b-776b6c790891" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3524b266-218e-412d-9df8-7af63f045cbb</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[3524b266-218e-412d-9df8-7af63f045cbb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5bfdbb3a-48b9-45f9-ac36-ebcf76d57b01</key>
+                    <parentUnit>
+                        <key name="name" value="3524b266-218e-412d-9df8-7af63f045cbb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3a10a1b9-423a-4985-b8e5-66f9c934bbe6</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[3a10a1b9-423a-4985-b8e5-66f9c934bbe6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>288b34cf-2809-4672-b367-2f9b3329b3d5</key>
+                    <parentUnit>
+                        <key name="name" value="3a10a1b9-423a-4985-b8e5-66f9c934bbe6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>74b04d64-292c-4dfa-984d-2844edb3dd98</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[74b04d64-292c-4dfa-984d-2844edb3dd98].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c85cdd96-eeb3-4b6c-b3a8-d5772b118d5b</key>
+                    <parentUnit>
+                        <key name="name" value="74b04d64-292c-4dfa-984d-2844edb3dd98" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>e159fef8-7499-4014-b8b7-0a9e2d145219</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[e159fef8-7499-4014-b8b7-0a9e2d145219].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>146c8f3f-1302-4778-b87c-4d1c7ae2ec4b</key>
+                    <parentUnit>
+                        <key name="name" value="e159fef8-7499-4014-b8b7-0a9e2d145219" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>91fe8ac9-052a-4f39-bd9f-191facc9c0ee</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>586b0324-da61-4da0-b6e5-d1227aedbc26</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cdd35cd8-b886-4b27-a8d3-e05e340888ba</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditor.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>56104d64-9a12-47ba-ad47-ca652f1da391</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>dc363e9d-65f5-43b4-b181-4edc62287658</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8e53d7f3-069d-4673-bcf4-e8b99679539c</key>
+                    <parentUnit>
+                        <key name="name" value="auditTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8ee0a16f-510f-42e4-982a-6bd8119cb8fd</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a2adf224-3921-4c3f-a458-3977be450e31</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>178ec62b-4e23-4329-93c5-96116909ed13</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>FICompany.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[FICompany.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0fee0e39-1313-4744-aeaf-d84812e85ad2</key>
+                    <parentUnit>
+                        <key name="name" value="FICompany.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FICompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>e1c7b416-2e9b-4a5a-9735-3f3488c2989b</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[e1c7b416-2e9b-4a5a-9735-3f3488c2989b].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>fdd2d129-eb2f-495a-a13c-efb1fe7fdb6e</key>
+                    <parentUnit>
+                        <key name="name" value="e1c7b416-2e9b-4a5a-9735-3f3488c2989b" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="FICompany" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>7b28bc46-1049-490a-8fe5-248724dc4f7d</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[7b28bc46-1049-490a-8fe5-248724dc4f7d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>a0e083fa-d6df-40e2-b0ac-70df8fb4627d</key>
+                    <parentUnit>
+                        <key name="name" value="7b28bc46-1049-490a-8fe5-248724dc4f7d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FICompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>company</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[company].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5207ffc8-e3df-4fd4-8cfd-7ba4cd52ee87</key>
+                    <parentUnit>
+                        <key name="name" value="company" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="company" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currency</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[currency].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>81a206ff-e304-412c-a02e-f194b8c18f06</key>
+                    <parentUnit>
+                        <key name="name" value="currency" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="currency" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>exchangeRate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[exchangeRate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bfaa003b-add0-46b6-8bf2-03f52d0dad7b</key>
+                    <parentUnit>
+                        <key name="name" value="exchangeRate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="exchangeRate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>instancy</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[instancy].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5dc48a5c-34d2-4b02-b779-6268e4e84266</key>
+                    <parentUnit>
+                        <key name="name" value="instancy" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="instancy" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.personnel</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.personnel].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5915b334-9a98-42ba-a1e1-44b0fc1a9a50</key>
+                    <parentUnit>
+                        <key name="name" value="entries.personnel" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="personnel" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.destination</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.destination].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>96e0165e-1fa8-4aa0-941b-fbb49fddd34c</key>
+                    <parentUnit>
+                        <key name="name" value="entries.destination" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="destination" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.startDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.startDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d932dda3-c6ae-4243-9d2a-cb42a8058f41</key>
+                    <parentUnit>
+                        <key name="name" value="entries.startDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="startDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.endDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.endDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6e3b65ae-2a26-4e20-97d6-f6d39d51e8f5</key>
+                    <parentUnit>
+                        <key name="name" value="entries.endDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="endDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.vehicle</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.vehicle].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>525a74b1-27d0-4216-8029-6e0256db9c33</key>
+                    <parentUnit>
+                        <key name="name" value="entries.vehicle" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="vehicle" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.amount</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.amount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>83a0d042-f610-43da-8dc0-c0d5ca27ceca</key>
+                    <parentUnit>
+                        <key name="name" value="entries.amount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[createDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>41cc21ad-76ef-4e1d-a44e-4c9a9f42831c</key>
+                    <parentUnit>
+                        <key name="name" value="createDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>770f1240-69a2-4518-8cd6-5861974416f3</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>648e7a34-f747-4fc9-954a-02b2aad25f88</key>
+                    <parentUnit>
+                        <key name="name" value="auditDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TtaskList" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.custom.bill.app" />
+            <key name="name" value="TtaskListQuery" />
+        </query>
+    </defaultFilter>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+            <queryField>
+                <key name="name" value="entries.id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>RIGHT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TtaskList" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entries" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </join>
+        <join>
+            <name>37bba934-d16c-4d80-b4ff-655c04c7d99e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TtaskList" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>a420d143-c4bd-4218-8d44-cb297eb669b9</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="55a22f13-5088-413b-a697-04324fc4b817" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b2483a65-8a47-417a-8a1b-776b6c790891" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="37bba934-d16c-4d80-b4ff-655c04c7d99e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </join>
+        <join>
+            <name>7fa9ebe9-9b1a-41c7-858f-de100f268471</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TtaskList" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>feac8d6f-f101-4e23-af9c-6a7832dade4e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="3524b266-218e-412d-9df8-7af63f045cbb" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3a10a1b9-423a-4985-b8e5-66f9c934bbe6" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="7fa9ebe9-9b1a-41c7-858f-de100f268471" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </join>
+        <join>
+            <name>3988f9db-8f84-468d-b2e3-0c8ae5e6f471</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="TtaskList" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>a5fe7b99-cac6-4af3-a3f6-4c9fc73b74cb</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="74b04d64-292c-4dfa-984d-2844edb3dd98" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="e159fef8-7499-4014-b8b7-0a9e2d145219" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="3988f9db-8f84-468d-b2e3-0c8ae5e6f471" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </join>
+        <join>
+            <name>5d47ae15-3d42-4fe3-89f3-8b70349fac13</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TtaskList" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="FICompany" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>47fa1994-1ae3-45c6-b9ff-77069ee9be0b</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="e1c7b416-2e9b-4a5a-9735-3f3488c2989b" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="7b28bc46-1049-490a-8fe5-248724dc4f7d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="5d47ae15-3d42-4fe3-89f3-8b70349fac13" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="TtaskListQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出差任务单" />
+            <lang locale="zh_HK" value="出差任務單" />
+            <lang locale="zh_TW" value="出差任務單" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.BillResource.TtaskListQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.BillResource.TtaskListQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.BillResource.TtaskListQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="出差任务单" />
+            <lang locale="zh_CN" value="出差任务单" />
+            <lang locale="zh_TW" value="出差任务单" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[FICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[TtaskList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[entries].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[3524b266-218e-412d-9df8-7af63f045cbb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[3a10a1b9-423a-4985-b8e5-66f9c934bbe6].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[55a22f13-5088-413b-a697-04324fc4b817].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[74b04d64-292c-4dfa-984d-2844edb3dd98].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[7b28bc46-1049-490a-8fe5-248724dc4f7d].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[b2483a65-8a47-417a-8a1b-776b6c790891].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[e159fef8-7499-4014-b8b7-0a9e2d145219].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.propertyUnit[e1c7b416-2e9b-4a5a-9735-3f3488c2989b].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[FICompany.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[FICompany.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[FICompany.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[FICompany.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="zh_HK" value="審核日期" />
+            <lang locale="zh_TW" value="審核日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditor.name].displayName">
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_CN" value="审核人名称" />
+            <lang locale="zh_HK" value="審核人名稱" />
+            <lang locale="zh_TW" value="審核人名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[auditor.number].displayName">
+            <lang locale="en_US" value="用户名称" />
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="zh_HK" value="審核人" />
+            <lang locale="zh_TW" value="審核人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[billStatus].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[billStatus].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[billStatus].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[bizDate].displayName">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[company].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织" />
+            <lang locale="zh_HK" value="當前組織" />
+            <lang locale="zh_TW" value="當前組織" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[company].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[company].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[createDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单日期" />
+            <lang locale="zh_HK" value="制單日期" />
+            <lang locale="zh_TW" value="制單日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[createDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[createDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="createTime" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_CN" value="创建者名称" />
+            <lang locale="zh_HK" value="創建者名稱" />
+            <lang locale="zh_TW" value="創建者名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="用户名称" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[currency].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_HK" value="幣種" />
+            <lang locale="zh_TW" value="幣種" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[currency].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[currency].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.amount].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="预计费用" />
+            <lang locale="zh_HK" value="預計費用" />
+            <lang locale="zh_TW" value="預計費用" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.amount].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.amount].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.destination].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="目标地" />
+            <lang locale="zh_HK" value="目標地" />
+            <lang locale="zh_TW" value="目標地" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.destination].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.destination].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.endDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束日期" />
+            <lang locale="zh_HK" value="結束日期" />
+            <lang locale="zh_TW" value="結束日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.endDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.endDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.personnel].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出差人" />
+            <lang locale="zh_HK" value="出差人" />
+            <lang locale="zh_TW" value="出差人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.personnel].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.personnel].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.seq].displayName">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.seq].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.seq].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.startDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="起始日期" />
+            <lang locale="zh_HK" value="起始日期" />
+            <lang locale="zh_TW" value="起始日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.startDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.startDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.vehicle].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="交通工具" />
+            <lang locale="zh_HK" value="交通工具" />
+            <lang locale="zh_TW" value="交通工具" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.vehicle].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[entries.vehicle].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[exchangeRate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_HK" value="匯率" />
+            <lang locale="zh_TW" value="匯率" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[exchangeRate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[exchangeRate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[instancy].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="紧急程度" />
+            <lang locale="zh_HK" value="緊急程度" />
+            <lang locale="zh_TW" value="緊急程度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[instancy].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[instancy].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改日期" />
+            <lang locale="zh_HK" value="修改日期" />
+            <lang locale="zh_TW" value="修改日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="lastUpdateTime" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_CN" value="最后修改者名称" />
+            <lang locale="zh_HK" value="最後修改者名稱" />
+            <lang locale="zh_TW" value="最後修改者名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="用户名称" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.TtaskListQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

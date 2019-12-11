@@ -17,6 +17,11 @@
             <value>i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[TlSlipQueryF7WindowTitle].value</value>
             <userDefined>true</userDefined>
         </resourceItem>
+        <resourceItem>
+            <name>TtaskListQueryF7WindowTitle</name>
+            <value>i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[TtaskListQueryF7WindowTitle].value</value>
+            <userDefined>true</userDefined>
+        </resourceItem>
     </resourceItems>
     <resource>
         <rs key="i18nResource[com.kingdee.eas.custom.bill.client.BillResource].alias">
@@ -42,6 +47,12 @@
             <lang locale="zh_CN" value="出差借款单" />
             <lang locale="zh_HK" value="出差借款單" />
             <lang locale="zh_TW" value="出差借款單" />
+        </rs>
+        <rs key="i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[TtaskListQueryF7WindowTitle].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出差任务单" />
+            <lang locale="zh_HK" value="出差任務單" />
+            <lang locale="zh_TW" value="出差任務單" />
         </rs>
     </resource>
 </i18nResource>

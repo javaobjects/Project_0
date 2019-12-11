@@ -1,0 +1,3415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.client</package>
+    <name>TtaskListEditUI</name>
+    <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.custom.bill.client</releasePackage>
+    <releaseClass>TtaskListEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK>com.kingdee.eas.custom.bill.TtaskList</bizUnitPK>
+    <ruleSet>
+        <key name="package" value="com.kingdee.eas.custom.bill.app" />
+        <key name="name" value="TtaskListRuleSet" />
+    </ruleSet>
+    <parent>
+        <key name="package" value="com.kingdee.eas.st.common.client" />
+        <key name="name" value="STBillBaseEditUI" />
+    </parent>
+    <components>
+        <component>
+            <name>contbillStatus</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>736,70,270,19,137</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contauditTime</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>732,604,270,19,386</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contnumber</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,6,270,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contbizDate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>736,6,270,19,137</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contdescription</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>373,70,270,19,385</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contauditor</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>371,604,270,19,386</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contcreator</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,578,270,19,262</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contcreateTime</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>371,556,270,19,262</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contlastUpdateUser</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>732,578,270,19,138</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contlastUpdateTime</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>732,556,270,19,138</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kdtEntry</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[kdtEntry].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
+            <isContainer>false</isContainer>
+            <constraints>10,98,993,455,15</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>formatXml</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[kdtEntry].properties.property[formatXml].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>seq.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries.seq</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType />
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>userObject</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries</bindingField>
+                    <fieldType>com.kingdee.eas.custom.bill.TtaskListEntryCollection</fieldType>
+                    <accessType />
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>personnel.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries.personnel</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>destination.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries.destination</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>startDate.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries.startDate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>endDate.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries.endDate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>vehicle.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries.vehicle</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>amount.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries.amount</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>remark.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>entries.remark</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>contFICompany</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,70,270,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contcompany</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>373,6,270,19,385</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contcurrency</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,38,270,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contexchangeRate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>373,38,270,19,385</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>continstancy</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>736,38,270,19,137</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contcreateDate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>371,578,270,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contlastUpdateDate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,604,270,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contauditDate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,556,270,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>billStatus</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDComboBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>items</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].properties.property[items].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contbillStatus" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selectedItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>billStatus</bindingField>
+                    <fieldType>com.kingdee.eas.scm.common.BillBaseStatusEnum</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>pkauditTime</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contauditTime" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>auditTime</bindingField>
+                    <fieldType>java.sql.Timestamp</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtnumber</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contnumber" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>number</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>pkbizDate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkbizDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkbizDate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkbizDate].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contbizDate" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>bizDate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtdescription</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contdescription" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>description</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>prmtauditor</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editable</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[editable].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>displayFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[displayFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[editFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>commitFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[commitFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contauditor" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>data</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>auditor</bindingField>
+                    <fieldType>com.kingdee.eas.base.permission.UserInfo</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>prmtcreator</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editable</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[editable].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>displayFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[displayFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[editFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>commitFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[commitFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contcreator" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>data</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>creator</bindingField>
+                    <fieldType>com.kingdee.eas.base.permission.UserInfo</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>pkcreateTime</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contcreateTime" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>createTime</bindingField>
+                    <fieldType>java.sql.Timestamp</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>prmtlastUpdateUser</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editable</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[editable].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>displayFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[displayFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[editFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>commitFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[commitFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contlastUpdateUser" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>data</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>lastUpdateUser</bindingField>
+                    <fieldType>com.kingdee.eas.base.permission.UserInfo</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>pklastUpdateTime</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contlastUpdateTime" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>lastUpdateTime</bindingField>
+                    <fieldType>java.sql.Timestamp</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>prmtFICompany</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>queryInfo</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[queryInfo].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editable</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[editable].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>displayFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[displayFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[editFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>commitFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[commitFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contFICompany" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>data</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>FICompany</bindingField>
+                    <fieldType>com.kingdee.eas.basedata.org.CompanyOrgUnitInfo</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtcompany</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>20</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contcompany" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>company</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtcurrency</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>21</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contcurrency" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>currency</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtexchangeRate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>22</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>minimumValue</name>
+                    <type>java.math.BigDecimal</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[minimumValue].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maximumValue</name>
+                    <type>java.math.BigDecimal</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[maximumValue].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>precision</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[precision].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contexchangeRate" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>exchangeRate</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>instancy</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDComboBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>23</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>items</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].properties.property[items].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="continstancy" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selectedItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>instancy</bindingField>
+                    <fieldType>com.kingdee.eas.cp.taskmng.instancyDegree</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>pkcreateDate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>24</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateDate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateDate].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contcreateDate" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>createDate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>pklastUpdateDate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>25</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contlastUpdateDate" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>lastUpdateDate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>pkauditDate</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>26</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditDate].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditDate].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contauditDate" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>auditDate</bindingField>
+                    <fieldType>java.util.Date</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+    </components>
+    <dataObjects>
+        <dataObject>
+            <name>editData</name>
+            <type>com.kingdee.eas.custom.bill.app.TtaskList</type>
+            <objectType>enty</objectType>
+            <herited>true</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出差任务单" />
+            <lang locale="zh_HK" value="出差任務單" />
+            <lang locale="zh_TW" value="出差任務單" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].properties.property[items].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="[Enum]com.kingdee.eas.scm.common.BillBaseStatusEnum" />
+            <lang locale="zh_HK" value="[Enum]com.kingdee.eas.scm.common.BillBaseStatusEnum" />
+            <lang locale="zh_TW" value="[Enum]com.kingdee.eas.scm.common.BillBaseStatusEnum" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[billStatus].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contFICompany].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="zh_HK" value="審核日期" />
+            <lang locale="zh_TW" value="審核日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditDate].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditTime].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="zh_HK" value="審核人" />
+            <lang locale="zh_TW" value="審核人" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contauditor].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbillStatus].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据日期" />
+            <lang locale="zh_HK" value="單據日期" />
+            <lang locale="zh_TW" value="單據日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contbizDate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织" />
+            <lang locale="zh_HK" value="當前組織" />
+            <lang locale="zh_TW" value="當前組織" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcompany].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单日期" />
+            <lang locale="zh_HK" value="制單日期" />
+            <lang locale="zh_TW" value="制單日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateDate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreateTime].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单人" />
+            <lang locale="zh_HK" value="制單人" />
+            <lang locale="zh_TW" value="制單人" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcreator].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_HK" value="幣種" />
+            <lang locale="zh_TW" value="幣種" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contcurrency].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contdescription].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_HK" value="匯率" />
+            <lang locale="zh_TW" value="匯率" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contexchangeRate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="紧急程度" />
+            <lang locale="zh_HK" value="緊急程度" />
+            <lang locale="zh_TW" value="緊急程度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[continstancy].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改日期" />
+            <lang locale="zh_HK" value="修改日期" />
+            <lang locale="zh_TW" value="修改日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateDate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateTime].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改人" />
+            <lang locale="zh_HK" value="修改人" />
+            <lang locale="zh_TW" value="修改人" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contlastUpdateUser].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[contnumber].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="紧急程度" />
+            <lang locale="zh_HK" value="緊急程度" />
+            <lang locale="zh_TW" value="緊急程度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="紧急程度" />
+            <lang locale="zh_CN" value="紧急程度" />
+            <lang locale="zh_TW" value="紧急程度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].properties.property[items].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="[Enum]com.kingdee.eas.cp.taskmng.instancyDegree" />
+            <lang locale="zh_HK" value="[Enum]com.kingdee.eas.cp.taskmng.instancyDegree" />
+            <lang locale="zh_TW" value="[Enum]com.kingdee.eas.cp.taskmng.instancyDegree" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[instancy].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[kdtEntry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[kdtEntry].extendedProperty.buildDetail">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[kdtEntry].properties.property[formatXml].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol3&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol4&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol6&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;personnel&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;destination&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;startDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol3&quot; /&gt;&lt;t:Column t:key=&quot;endDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol4&quot; /&gt;&lt;t:Column t:key=&quot;vehicle&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;amount&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol6&quot; /&gt;&lt;t:Column t:key=&quot;remark&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header1&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;行号&lt;/t:Cell&gt;&lt;t:Cell&gt;出差人&lt;/t:Cell&gt;&lt;t:Cell&gt;目标地&lt;/t:Cell&gt;&lt;t:Cell&gt;起始日期&lt;/t:Cell&gt;&lt;t:Cell&gt;结束日期&lt;/t:Cell&gt;&lt;t:Cell&gt;交通工具&lt;/t:Cell&gt;&lt;t:Cell&gt;预计费用&lt;/t:Cell&gt;&lt;t:Cell&gt;备注&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol3&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol4&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol6&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;personnel&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;destination&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;startDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol3&quot; /&gt;&lt;t:Column t:key=&quot;endDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol4&quot; /&gt;&lt;t:Column t:key=&quot;vehicle&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;amount&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol6&quot; /&gt;&lt;t:Column t:key=&quot;remark&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header1&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;行號&lt;/t:Cell&gt;&lt;t:Cell&gt;出差人&lt;/t:Cell&gt;&lt;t:Cell&gt;目標地&lt;/t:Cell&gt;&lt;t:Cell&gt;起始日期&lt;/t:Cell&gt;&lt;t:Cell&gt;結束日期&lt;/t:Cell&gt;&lt;t:Cell&gt;交通工具&lt;/t:Cell&gt;&lt;t:Cell&gt;預計費用&lt;/t:Cell&gt;&lt;t:Cell&gt;備註&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol3&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol4&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol5&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;date&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol6&quot;&gt;&lt;c:NumberFormat&gt;&amp;amp;double&lt;/c:NumberFormat&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;seq&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;personnel&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;destination&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;startDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol3&quot; /&gt;&lt;t:Column t:key=&quot;endDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol4&quot; /&gt;&lt;t:Column t:key=&quot;vehicle&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol5&quot; /&gt;&lt;t:Column t:key=&quot;amount&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:styleID=&quot;sCol6&quot; /&gt;&lt;t:Column t:key=&quot;remark&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header1&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;行號&lt;/t:Cell&gt;&lt;t:Cell&gt;出差人&lt;/t:Cell&gt;&lt;t:Cell&gt;目標地&lt;/t:Cell&gt;&lt;t:Cell&gt;起始日期&lt;/t:Cell&gt;&lt;t:Cell&gt;結束日期&lt;/t:Cell&gt;&lt;t:Cell&gt;交通工具&lt;/t:Cell&gt;&lt;t:Cell&gt;預計費用&lt;/t:Cell&gt;&lt;t:Cell&gt;備註&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="zh_HK" value="審核日期" />
+            <lang locale="zh_TW" value="審核日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditDate].extendedProperty.addedByBIM">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditDate].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditDate].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].extendedProperty.addedByBIM">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="审核时间" />
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="zh_TW" value="审核时间" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkauditTime].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkbizDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkbizDate].extendedProperty.addedByBIM">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkbizDate].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="业务日期" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_TW" value="业务日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkbizDate].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkbizDate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单日期" />
+            <lang locale="zh_HK" value="制單日期" />
+            <lang locale="zh_TW" value="制單日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateDate].extendedProperty.addedByBIM">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateDate].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateDate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].extendedProperty.addedByBIM">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pkcreateTime].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改日期" />
+            <lang locale="zh_HK" value="修改日期" />
+            <lang locale="zh_TW" value="修改日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].extendedProperty.addedByBIM">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="修改日期" />
+            <lang locale="zh_CN" value="修改日期" />
+            <lang locale="zh_TW" value="修改日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateDate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].extendedProperty.addedByBIM">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[pklastUpdateTime].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[commitFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[displayFormat].value">
+            <lang locale="en_US" value="$name$" />
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="zh_HK" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[editFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[editable].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[queryInfo].value">
+            <lang locale="en_US" value="com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct" />
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct" />
+            <lang locale="zh_HK" value="com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtFICompany].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="zh_HK" value="審核人" />
+            <lang locale="zh_TW" value="審核人" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="审核人" />
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="zh_TW" value="审核人" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[commitFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[displayFormat].value">
+            <lang locale="en_US" value="$name$" />
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="zh_HK" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[editFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[editable].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtauditor].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="创建者" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_TW" value="创建者" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[commitFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[displayFormat].value">
+            <lang locale="en_US" value="$name$" />
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="zh_HK" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[editFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[editable].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtcreator].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="最后修改者" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_TW" value="最后修改者" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[commitFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[displayFormat].value">
+            <lang locale="en_US" value="$name$" />
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="zh_HK" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[editFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[editable].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[prmtlastUpdateUser].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织" />
+            <lang locale="zh_HK" value="當前組織" />
+            <lang locale="zh_TW" value="當前組織" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="当前组织" />
+            <lang locale="zh_CN" value="当前组织" />
+            <lang locale="zh_TW" value="当前组织" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].properties.property[maxLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcompany].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_HK" value="幣種" />
+            <lang locale="zh_TW" value="幣種" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="币种" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_TW" value="币种" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].properties.property[maxLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtcurrency].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtdescription].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_HK" value="匯率" />
+            <lang locale="zh_TW" value="匯率" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="汇率" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_TW" value="汇率" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[dataType].value">
+            <lang locale="en_US" value="1" />
+            <lang locale="zh_CN" value="1" />
+            <lang locale="zh_HK" value="1" />
+            <lang locale="zh_TW" value="1" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[maximumValue].value">
+            <lang locale="en_US" value="&quot;1.0E18&quot;" />
+            <lang locale="zh_CN" value="&quot;1.0E18&quot;" />
+            <lang locale="zh_HK" value="&quot;1.0E18&quot;" />
+            <lang locale="zh_TW" value="&quot;1.0E18&quot;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[minimumValue].value">
+            <lang locale="en_US" value="&quot;-1.0E18&quot;" />
+            <lang locale="zh_CN" value="&quot;-1.0E18&quot;" />
+            <lang locale="zh_HK" value="&quot;-1.0E18&quot;" />
+            <lang locale="zh_TW" value="&quot;-1.0E18&quot;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[precision].value">
+            <lang locale="en_US" value="4" />
+            <lang locale="zh_CN" value="4" />
+            <lang locale="zh_HK" value="4" />
+            <lang locale="zh_TW" value="4" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtexchangeRate].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].components.component[txtnumber].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TtaskListEditUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出差任务单" />
+            <lang locale="zh_HK" value="出差任務單" />
+            <lang locale="zh_TW" value="出差任務單" />
+        </rs>
+    </resource>
+</uiObject>
+

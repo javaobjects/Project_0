@@ -465,6 +465,11 @@
             <lang locale="zh_CN" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TlSlip].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
         <rs key="entityObject[com.kingdee.eas.custom.bill.app.TlSlip].extendedProperty.isParamObject">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />

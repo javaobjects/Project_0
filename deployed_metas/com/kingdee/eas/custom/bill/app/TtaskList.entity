@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>TtaskList</name>
+    <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].description</description>
+    <userDefined>true</userDefined>
+    <bosType>BBBB14DB</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.bill.TtaskList</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.bill.app.TtaskListController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].description</description>
+            <innerID>4f7f3843-e643-4ff8-b3cf-f93db0975876</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.TtaskList</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].description</description>
+            <innerID>a5baf408-be82-43c0-8d0a-b9bc1493df67</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.TtaskList</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].description</description>
+            <innerID>35f283f7-fc05-4bd5-826f-9c83734c0a63</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.TtaskList</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].description</description>
+            <innerID>9f7c3485-53a5-4754-b003-cefe7ec1f095</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.TtaskList</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].description</description>
+            <innerID>1fd1b771-832d-480c-b42c-11fe1429b19c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.TtaskList</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].description</description>
+            <innerID>79c2bfcd-1cbe-466a-b8ef-e8bb5aa825c8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.TtaskList</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.bill.TtaskList</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.st.common.app" />
+        <key name="name" value="STBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.bill.app" />
+        <key name="name" value="CT_BIL_TtaskList" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>entries</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[entries].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[entries].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="R_TtaskList_TtaskListEntry_entries" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>FICompany</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFFICompanyID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="R_TtaskList_CompanyOrgUnit_FICompany" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>company</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCompany" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>currency</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCurrency" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>exchangeRate</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFExchangeRate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>instancy</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.cp.taskmng.instancyDegree</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFInstancy" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>createDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCreateDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>lastUpdateDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFLastUpdateDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>auditDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFAuditDate" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出差任务单" />
+            <lang locale="zh_HK" value="出差任務單" />
+            <lang locale="zh_TW" value="出差任務單" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="FICompany" />
+            <lang locale="zh_CN" value="FICompany" />
+            <lang locale="zh_TW" value="FICompany" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.app.TtaskListQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.app.TtaskListQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.app.TtaskListQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.TtaskListEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.TtaskListEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.TtaskListEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.TtaskListListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.TtaskListListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.TtaskListListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].defaultViewextendedProperty.nobotp">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="鋼鐵單據範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="FICompany" />
+            <lang locale="zh_CN" value="FICompany" />
+            <lang locale="zh_TW" value="FICompany" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.app.TtaskListQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.app.TtaskListQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.app.TtaskListQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.TtaskListEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.TtaskListEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.TtaskListEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.TtaskListListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.TtaskListListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.TtaskListListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].extendedProperty.nobotp">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[FICompany].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[entries].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录" />
+            <lang locale="zh_HK" value="單據分錄" />
+            <lang locale="zh_TW" value="單據分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.linkProperty[entries].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="zh_HK" value="審核日期" />
+            <lang locale="zh_TW" value="審核日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="zh_HK" value="審核日期" />
+            <lang locale="zh_TW" value="審核日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[auditDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织" />
+            <lang locale="zh_HK" value="當前組織" />
+            <lang locale="zh_TW" value="當前組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织" />
+            <lang locale="zh_HK" value="當前組織" />
+            <lang locale="zh_TW" value="當前組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[company].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单日期" />
+            <lang locale="zh_HK" value="制單日期" />
+            <lang locale="zh_TW" value="制單日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="制单日期" />
+            <lang locale="zh_HK" value="制單日期" />
+            <lang locale="zh_TW" value="制單日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[createDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_HK" value="幣種" />
+            <lang locale="zh_TW" value="幣種" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_HK" value="幣種" />
+            <lang locale="zh_TW" value="幣種" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[currency].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_HK" value="匯率" />
+            <lang locale="zh_TW" value="匯率" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_HK" value="匯率" />
+            <lang locale="zh_TW" value="匯率" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="QUANTITY" />
+            <lang locale="zh_CN" value="QUANTITY" />
+            <lang locale="zh_TW" value="QUANTITY" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[exchangeRate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="紧急程度" />
+            <lang locale="zh_HK" value="緊急程度" />
+            <lang locale="zh_TW" value="緊急程度" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="insGeneral" />
+            <lang locale="zh_HK" value="insGeneral" />
+            <lang locale="zh_TW" value="insGeneral" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="紧急程度" />
+            <lang locale="zh_HK" value="緊急程度" />
+            <lang locale="zh_TW" value="緊急程度" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.defaultValue">
+            <lang locale="en_US" value="insGeneral" />
+            <lang locale="zh_CN" value="insGeneral" />
+            <lang locale="zh_TW" value="insGeneral" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[instancy].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改日期" />
+            <lang locale="zh_HK" value="修改日期" />
+            <lang locale="zh_TW" value="修改日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改日期" />
+            <lang locale="zh_HK" value="修改日期" />
+            <lang locale="zh_TW" value="修改日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.TtaskList].properties.ownProperty[lastUpdateDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

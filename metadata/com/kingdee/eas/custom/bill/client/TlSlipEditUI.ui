@@ -21,6 +21,26 @@
     </parent>
     <components>
         <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[CoreUI].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
             <name>contbillStatus</name>
             <alias>uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contbillStatus].alias</alias>
             <userDefined>true</userDefined>
@@ -222,7 +242,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>371,56,269,19,261</constraints>
+            <constraints>371,56,269,19,385</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -516,7 +536,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
             <isContainer>false</isContainer>
-            <constraints>10,82,993,451,15</constraints>
+            <constraints>10,82,993,483,15</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -689,7 +709,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>371,8,270,19,0</constraints>
+            <constraints>371,8,270,19,385</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -738,7 +758,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>10,33,270,19,0</constraints>
+            <constraints>10,33,270,19,261</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -787,7 +807,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>371,33,270,19,0</constraints>
+            <constraints>371,33,270,19,385</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -836,7 +856,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>733,33,270,19,0</constraints>
+            <constraints>733,33,270,19,137</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -885,7 +905,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>10,56,270,19,0</constraints>
+            <constraints>10,56,270,19,261</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -934,7 +954,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>371,569,270,19,0</constraints>
+            <constraints>371,569,270,19,386</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -983,7 +1003,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>4,596,270,19,0</constraints>
+            <constraints>4,596,270,19,262</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -1032,7 +1052,7 @@
             <userDefined>true</userDefined>
             <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
             <isContainer>true</isContainer>
-            <constraints>738,596,270,19,0</constraints>
+            <constraints>738,596,270,19,138</constraints>
             <tabIndex>0</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
@@ -2099,6 +2119,11 @@
             <tabIndex>24</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
             <properties>
                 <property>
                     <name>visible</name>
@@ -2142,6 +2167,11 @@
             <tabIndex>25</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
             <properties>
                 <property>
                     <name>visible</name>
@@ -2185,6 +2215,11 @@
             <tabIndex>26</tabIndex>
             <herited>false</herited>
             <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
             <properties>
                 <property>
                     <name>visible</name>
@@ -2235,6 +2270,18 @@
             <lang locale="zh_HK" value="出差借款單" />
             <lang locale="zh_TW" value="出差借款單" />
         </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[CoreUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[CoreUI].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[billStatus].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="单据状态" />
@@ -2260,10 +2307,10 @@
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[billStatus].properties.property[visible].value">
-            <lang locale="en_US" value="true" />
-            <lang locale="zh_CN" value="true" />
-            <lang locale="zh_HK" value="true" />
-            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contauditDate].alias">
             <lang locale="en_US" value="null" />
@@ -2320,10 +2367,10 @@
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contauditTime].properties.property[visible].value">
-            <lang locale="en_US" value="true" />
-            <lang locale="zh_CN" value="true" />
-            <lang locale="zh_HK" value="true" />
-            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contauditor].alias">
             <lang locale="en_US" value="null" />
@@ -2380,10 +2427,10 @@
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contbillStatus].properties.property[visible].value">
-            <lang locale="en_US" value="true" />
-            <lang locale="zh_CN" value="true" />
-            <lang locale="zh_HK" value="true" />
-            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contbizDate].alias">
             <lang locale="en_US" value="null" />
@@ -2500,10 +2547,10 @@
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contcreateTime].properties.property[visible].value">
-            <lang locale="en_US" value="true" />
-            <lang locale="zh_CN" value="true" />
-            <lang locale="zh_HK" value="true" />
-            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contcreator].alias">
             <lang locale="en_US" value="null" />
@@ -2710,10 +2757,10 @@
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contlastUpdateTime].properties.property[visible].value">
-            <lang locale="en_US" value="true" />
-            <lang locale="zh_CN" value="true" />
-            <lang locale="zh_HK" value="true" />
-            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[contlastUpdateUser].alias">
             <lang locale="en_US" value="null" />
@@ -2923,10 +2970,10 @@
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[pkauditTime].properties.property[visible].value">
-            <lang locale="en_US" value="true" />
-            <lang locale="zh_CN" value="true" />
-            <lang locale="zh_HK" value="true" />
-            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[pkbizDate].alias">
             <lang locale="en_US" value="null" />
@@ -3003,10 +3050,10 @@
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[pkcreateTime].properties.property[visible].value">
-            <lang locale="en_US" value="true" />
-            <lang locale="zh_CN" value="true" />
-            <lang locale="zh_HK" value="true" />
-            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[pklastUpdateDate].alias">
             <lang locale="en_US" value="null" />
@@ -3055,10 +3102,10 @@
             <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[pklastUpdateTime].properties.property[visible].value">
-            <lang locale="en_US" value="true" />
-            <lang locale="zh_CN" value="true" />
-            <lang locale="zh_HK" value="true" />
-            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
         </rs>
         <rs key="uiObject[com.kingdee.eas.custom.bill.client.TlSlipEditUI].components.component[prmtauditor].alias">
             <lang locale="en_US" value="null" />
