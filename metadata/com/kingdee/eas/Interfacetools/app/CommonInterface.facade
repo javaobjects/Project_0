@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.Interfacetools.app</package>
+    <name>CommonInterface</name>
+    <alias>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].alias</alias>
+    <description>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].description</description>
+    <userDefined>true</userDefined>
+    <bosType>2F5B901A</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.Interfacetools.CommonInterface</businessImplName>
+    <businessControllerName>com.kingdee.eas.Interfacetools.app.CommonInterfaceController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>onloadData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].alias</alias>
+            <description>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].description</description>
+            <innerID>43354026-e4c0-4691-9341-b1488468d649</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String[][]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>easTemplateNumber</name>
+                    <alias>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[easTemplateNumber].alias</alias>
+                    <description>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[easTemplateNumber].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>jsonDatas</name>
+                    <alias>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[jsonDatas].alias</alias>
+                    <description>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[jsonDatas].description</description>
+                    <direction>in</direction>
+                    <dataType>String[]</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>isUpdate</name>
+                    <alias>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[isUpdate].alias</alias>
+                    <description>facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[isUpdate].description</description>
+                    <direction>in</direction>
+                    <dataType>Boolean</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公用接口" />
+            <lang locale="zh_HK" value="公用介面" />
+            <lang locale="zh_TW" value="公用介面" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="上传数据" />
+            <lang locale="zh_HK" value="上傳數據" />
+            <lang locale="zh_TW" value="上傳數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[easTemplateNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导入模板编码" />
+            <lang locale="zh_HK" value="導入範本編碼" />
+            <lang locale="zh_TW" value="導入範本編碼" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[easTemplateNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[isUpdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否更新" />
+            <lang locale="zh_HK" value="是否更新" />
+            <lang locale="zh_TW" value="是否更新" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[isUpdate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[jsonDatas].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务数据" />
+            <lang locale="zh_HK" value="業務數據" />
+            <lang locale="zh_TW" value="業務數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.Interfacetools.app.CommonInterface].methods.method[onloadData].parameters.parameter[jsonDatas].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

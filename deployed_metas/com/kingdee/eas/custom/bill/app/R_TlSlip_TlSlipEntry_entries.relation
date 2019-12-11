@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>R_TlSlip_TlSlipEntry_entries</name>
+    <alias>relationship[com.kingdee.eas.custom.bill.app.R_TlSlip_TlSlipEntry_entries].alias</alias>
+    <description>relationship[com.kingdee.eas.custom.bill.app.R_TlSlip_TlSlipEntry_entries].description</description>
+    <userDefined>true</userDefined>
+    <type>Composition</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>1..*</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.custom.bill.app" />
+        <key name="name" value="TlSlip" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.custom.bill.app" />
+        <key name="name" value="TlSlipEntry" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.custom.bill.app.R_TlSlip_TlSlipEntry_entries].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.custom.bill.app.R_TlSlip_TlSlipEntry_entries].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+
