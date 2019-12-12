@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.basedata</package>
+    <name>NewMaterial</name>
+    <alias>bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.basedata.app.NewMaterial</entityPK>
+    <queryPK>com.kingdee.eas.custom.basedata.app.NewMaterialQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.basedata.client.NewMaterialEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.basedata.client.NewMaterialListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>TreeDetail</bimTemplateType>
+    <relatedTablePK>com.kingdee.eas.custom.basedata.app.T_BAS_NewMaterialTREE</relatedTablePK>
+    <relatedEntityPK>com.kingdee.eas.custom.basedata.app.NewMaterialTree</relatedEntityPK>
+    <relatedEditUIPK>com.kingdee.eas.custom.basedata.client.NewMaterialTreeEditUI</relatedEditUIPK>
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新建物料" />
+            <lang locale="zh_HK" value="新建物料" />
+            <lang locale="zh_TW" value="新建物料" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新建物料" />
+            <lang locale="zh_HK" value="新建物料" />
+            <lang locale="zh_TW" value="新建物料" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.app.NewMaterialQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.app.NewMaterialQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.app.NewMaterialQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.NewMaterialEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.NewMaterialEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.NewMaterialEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.basedata.client.NewMaterialListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.basedata.client.NewMaterialListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.basedata.client.NewMaterialListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.basedata.NewMaterial].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+
