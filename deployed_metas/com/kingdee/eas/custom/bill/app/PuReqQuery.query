@@ -113,6 +113,19 @@
                 <key name="name" value="NewMaterial" />
             </entityRef>
         </subEntity>
+        <subEntity>
+            <name>applicant</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].subObjects.subEntity[applicant].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.ssc.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
     </subObjects>
     <units>
         <propertyUnit>
@@ -1355,6 +1368,223 @@
                 <key name="name" value="PuReqQuery" />
             </query>
         </queryField>
+        <queryField>
+            <name>supplier</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[supplier].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9bb9d891-6df5-4313-ab1e-955cbd638010</key>
+                    <parentUnit>
+                        <key name="name" value="supplier" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PuReq" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="supplier" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currency</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[currency].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cb168760-5ad0-414c-a8d0-096d011ef72a</key>
+                    <parentUnit>
+                        <key name="name" value="currency" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PuReq" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="currency" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>applicant.password</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicant.password].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4b308a6a-17b2-451d-b3c1-8e742afc1b9e</key>
+                    <parentUnit>
+                        <key name="name" value="applicant.password" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applicant" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="password" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>46f1cedf-21c2-44df-bd6d-a1d59cbdc082</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.propertyUnit[46f1cedf-21c2-44df-bd6d-a1d59cbdc082].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8ba43787-40fd-4a8b-a700-96b1ea901420</key>
+                    <parentUnit>
+                        <key name="name" value="46f1cedf-21c2-44df-bd6d-a1d59cbdc082" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PuReq" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="applicant" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b4117484-350b-4b2b-9289-aae8dca500e8</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.propertyUnit[b4117484-350b-4b2b-9289-aae8dca500e8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>fc471e97-08c7-4e00-9f71-b1f9bd995349</key>
+                    <parentUnit>
+                        <key name="name" value="b4117484-350b-4b2b-9289-aae8dca500e8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applicant" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>applicationTime</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicationTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>34d68c55-4030-422e-87f4-b141c099b341</key>
+                    <parentUnit>
+                        <key name="name" value="applicationTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PuReq" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="applicationTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>status</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[status].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3e5703c9-1e12-41da-bc9f-31082ae71107</key>
+                    <parentUnit>
+                        <key name="name" value="status" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PuReq" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="status" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+        </queryField>
     </units>
     <defaultFilter>
         <name>defaultFilter</name>
@@ -1611,6 +1841,36 @@
                 <key name="name" value="PuReqQuery" />
             </query>
         </join>
+        <join>
+            <name>8ab938e4-9c0b-40c6-a7fa-36b8bdded98b</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="PuReq" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="applicant" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>32d680b2-04da-4b3d-87ae-33431264165d</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="46f1cedf-21c2-44df-bd6d-a1d59cbdc082" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b4117484-350b-4b2b-9289-aae8dca500e8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="8ab938e4-9c0b-40c6-a7fa-36b8bdded98b" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="PuReqQuery" />
+            </query>
+        </join>
     </joins>
     <resource>
         <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].alias">
@@ -1653,6 +1913,12 @@
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].subObjects.subEntity[PuReq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].subObjects.subEntity[applicant].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
             <lang locale="zh_HK" value="null" />
@@ -1707,6 +1973,12 @@
             <lang locale="zh_TW" value="null" />
         </rs>
         <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.propertyUnit[1a3bd134-1508-4233-a761-fcf53662aa58].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.propertyUnit[46f1cedf-21c2-44df-bd6d-a1d59cbdc082].displayName">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
             <lang locale="zh_HK" value="null" />
@@ -1772,6 +2044,12 @@
             <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.propertyUnit[b4117484-350b-4b2b-9289-aae8dca500e8].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
         <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.propertyUnit[bb5a6401-c0b6-43dd-95ba-67a75330ae3c].displayName">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
@@ -1796,6 +2074,43 @@
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[Fivouchered].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicant.password].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请人" />
+            <lang locale="zh_HK" value="申請人" />
+            <lang locale="zh_TW" value="申請人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicant.password].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicant.password].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicant.password].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicationTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请时间" />
+            <lang locale="zh_HK" value="申請時間" />
+            <lang locale="zh_TW" value="申請時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicationTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[applicationTime].extendedProperty.isCommonQuerySorter">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
             <lang locale="zh_TW" value="true" />
@@ -1855,6 +2170,22 @@
             <lang locale="zh_CN" value="用户名" />
             <lang locale="zh_HK" value="用戶名" />
             <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[currency].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_HK" value="幣種" />
+            <lang locale="zh_TW" value="幣種" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[currency].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[currency].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[description].displayName">
             <lang locale="en_US" value="null" />
@@ -2106,6 +2437,38 @@
             <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[purchaseOrg.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[status].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[status].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[status].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[supplier].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="zh_HK" value="供應商" />
+            <lang locale="zh_TW" value="供應商" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[supplier].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.PuReqQuery].units.queryField[supplier].extendedProperty.isCommonQuerySorter">
             <lang locale="en_US" value="true" />
             <lang locale="zh_CN" value="true" />
             <lang locale="zh_TW" value="true" />

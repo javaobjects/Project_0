@@ -37,6 +37,11 @@
             <value>i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[PuReqQueryF7WindowTitle].value</value>
             <userDefined>true</userDefined>
         </resourceItem>
+        <resourceItem>
+            <name>PuOrderQueryF7WindowTitle</name>
+            <value>i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[PuOrderQueryF7WindowTitle].value</value>
+            <userDefined>true</userDefined>
+        </resourceItem>
     </resourceItems>
     <resource>
         <rs key="i18nResource[com.kingdee.eas.custom.bill.client.BillResource].alias">
@@ -62,6 +67,12 @@
             <lang locale="zh_CN" value="新建物料" />
             <lang locale="zh_HK" value="新建物料" />
             <lang locale="zh_TW" value="新建物料" />
+        </rs>
+        <rs key="i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[PuOrderQueryF7WindowTitle].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="采购订单" />
+            <lang locale="zh_HK" value="採購訂單" />
+            <lang locale="zh_TW" value="採購訂單" />
         </rs>
         <rs key="i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[PuReqQueryF7WindowTitle].value">
             <lang locale="en_US" value="null" />

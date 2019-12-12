@@ -57,6 +57,11 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
     protected com.kingdee.bos.ctrl.kdf.table.KDTable kdtEntrys;
 	protected com.kingdee.eas.framework.client.multiDetail.DetailPanel kdtEntrys_detailPanel = null;
     protected com.kingdee.bos.ctrl.swing.KDLabelContainer contpurchaseOrg;
+    protected com.kingdee.bos.ctrl.swing.KDLabelContainer contsupplier;
+    protected com.kingdee.bos.ctrl.swing.KDLabelContainer contcurrency;
+    protected com.kingdee.bos.ctrl.swing.KDLabelContainer contapplicant;
+    protected com.kingdee.bos.ctrl.swing.KDLabelContainer contapplicationTime;
+    protected com.kingdee.bos.ctrl.swing.KDLabelContainer contstatus;
     protected com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox prmtCreator;
     protected com.kingdee.bos.ctrl.swing.KDDatePicker kDDateCreateTime;
     protected com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox prmtLastUpdateUser;
@@ -66,6 +71,11 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
     protected com.kingdee.bos.ctrl.swing.KDTextField txtDescription;
     protected com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox prmtAuditor;
     protected com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox prmtpurchaseOrg;
+    protected com.kingdee.bos.ctrl.swing.KDTextField txtsupplier;
+    protected com.kingdee.bos.ctrl.swing.KDTextField txtcurrency;
+    protected com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox prmtapplicant;
+    protected com.kingdee.bos.ctrl.swing.KDDatePicker pkapplicationTime;
+    protected com.kingdee.bos.ctrl.swing.KDTextField txtstatus;
     protected com.kingdee.eas.custom.bill.PuReqInfo editData = null;
     /**
      * output class constructor
@@ -140,6 +150,11 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
         this.contAuditor = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
         this.kdtEntrys = new com.kingdee.bos.ctrl.kdf.table.KDTable();
         this.contpurchaseOrg = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
+        this.contsupplier = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
+        this.contcurrency = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
+        this.contapplicant = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
+        this.contapplicationTime = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
+        this.contstatus = new com.kingdee.bos.ctrl.swing.KDLabelContainer();
         this.prmtCreator = new com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox();
         this.kDDateCreateTime = new com.kingdee.bos.ctrl.swing.KDDatePicker();
         this.prmtLastUpdateUser = new com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox();
@@ -149,6 +164,11 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
         this.txtDescription = new com.kingdee.bos.ctrl.swing.KDTextField();
         this.prmtAuditor = new com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox();
         this.prmtpurchaseOrg = new com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox();
+        this.txtsupplier = new com.kingdee.bos.ctrl.swing.KDTextField();
+        this.txtcurrency = new com.kingdee.bos.ctrl.swing.KDTextField();
+        this.prmtapplicant = new com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox();
+        this.pkapplicationTime = new com.kingdee.bos.ctrl.swing.KDDatePicker();
+        this.txtstatus = new com.kingdee.bos.ctrl.swing.KDTextField();
         this.contCreator.setName("contCreator");
         this.contCreateTime.setName("contCreateTime");
         this.contLastUpdateUser.setName("contLastUpdateUser");
@@ -159,6 +179,11 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
         this.contAuditor.setName("contAuditor");
         this.kdtEntrys.setName("kdtEntrys");
         this.contpurchaseOrg.setName("contpurchaseOrg");
+        this.contsupplier.setName("contsupplier");
+        this.contcurrency.setName("contcurrency");
+        this.contapplicant.setName("contapplicant");
+        this.contapplicationTime.setName("contapplicationTime");
+        this.contstatus.setName("contstatus");
         this.prmtCreator.setName("prmtCreator");
         this.kDDateCreateTime.setName("kDDateCreateTime");
         this.prmtLastUpdateUser.setName("prmtLastUpdateUser");
@@ -168,6 +193,11 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
         this.txtDescription.setName("txtDescription");
         this.prmtAuditor.setName("prmtAuditor");
         this.prmtpurchaseOrg.setName("prmtpurchaseOrg");
+        this.txtsupplier.setName("txtsupplier");
+        this.txtcurrency.setName("txtcurrency");
+        this.prmtapplicant.setName("prmtapplicant");
+        this.pkapplicationTime.setName("pkapplicationTime");
+        this.txtstatus.setName("txtstatus");
         // CoreUI		
         this.btnTraceUp.setVisible(false);		
         this.btnTraceDown.setVisible(false);		
@@ -344,6 +374,31 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
         this.contpurchaseOrg.setBoundLabelLength(100);		
         this.contpurchaseOrg.setBoundLabelUnderline(true);		
         this.contpurchaseOrg.setVisible(false);
+        // contsupplier		
+        this.contsupplier.setBoundLabelText(resHelper.getString("contsupplier.boundLabelText"));		
+        this.contsupplier.setBoundLabelLength(100);		
+        this.contsupplier.setBoundLabelUnderline(true);		
+        this.contsupplier.setVisible(true);
+        // contcurrency		
+        this.contcurrency.setBoundLabelText(resHelper.getString("contcurrency.boundLabelText"));		
+        this.contcurrency.setBoundLabelLength(100);		
+        this.contcurrency.setBoundLabelUnderline(true);		
+        this.contcurrency.setVisible(true);
+        // contapplicant		
+        this.contapplicant.setBoundLabelText(resHelper.getString("contapplicant.boundLabelText"));		
+        this.contapplicant.setBoundLabelLength(100);		
+        this.contapplicant.setBoundLabelUnderline(true);		
+        this.contapplicant.setVisible(true);
+        // contapplicationTime		
+        this.contapplicationTime.setBoundLabelText(resHelper.getString("contapplicationTime.boundLabelText"));		
+        this.contapplicationTime.setBoundLabelLength(100);		
+        this.contapplicationTime.setBoundLabelUnderline(true);		
+        this.contapplicationTime.setVisible(true);
+        // contstatus		
+        this.contstatus.setBoundLabelText(resHelper.getString("contstatus.boundLabelText"));		
+        this.contstatus.setBoundLabelLength(100);		
+        this.contstatus.setBoundLabelUnderline(true);		
+        this.contstatus.setVisible(true);
         // prmtCreator		
         this.prmtCreator.setEnabled(false);
         // kDDateCreateTime		
@@ -373,7 +428,33 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
         this.prmtpurchaseOrg.setRequired(true);
         		setOrgF7(prmtpurchaseOrg,com.kingdee.eas.basedata.org.OrgType.getEnum("Purchase"));
 					
-        this.setFocusTraversalPolicy(new com.kingdee.bos.ui.UIFocusTraversalPolicy(new java.awt.Component[] {kDDateLastUpdateTime,prmtLastUpdateUser,kDDateCreateTime,prmtCreator,prmtAuditor,txtDescription,pkBizDate,txtNumber,prmtpurchaseOrg,kdtEntrys}));
+        // txtsupplier		
+        this.txtsupplier.setVisible(true);		
+        this.txtsupplier.setHorizontalAlignment(2);		
+        this.txtsupplier.setMaxLength(100);		
+        this.txtsupplier.setRequired(false);
+        // txtcurrency		
+        this.txtcurrency.setVisible(true);		
+        this.txtcurrency.setHorizontalAlignment(2);		
+        this.txtcurrency.setMaxLength(100);		
+        this.txtcurrency.setRequired(false);
+        // prmtapplicant		
+        this.prmtapplicant.setQueryInfo("com.kingdee.eas.base.ssc.app.UserQuery");		
+        this.prmtapplicant.setVisible(true);		
+        this.prmtapplicant.setEditable(true);		
+        this.prmtapplicant.setDisplayFormat("$password$");		
+        this.prmtapplicant.setEditFormat("$number$");		
+        this.prmtapplicant.setCommitFormat("$number$");		
+        this.prmtapplicant.setRequired(false);
+        // pkapplicationTime		
+        this.pkapplicationTime.setVisible(true);		
+        this.pkapplicationTime.setRequired(false);
+        // txtstatus		
+        this.txtstatus.setVisible(true);		
+        this.txtstatus.setHorizontalAlignment(2);		
+        this.txtstatus.setMaxLength(100);		
+        this.txtstatus.setRequired(false);
+        this.setFocusTraversalPolicy(new com.kingdee.bos.ui.UIFocusTraversalPolicy(new java.awt.Component[] {kDDateLastUpdateTime,prmtLastUpdateUser,kDDateCreateTime,prmtCreator,prmtAuditor,txtDescription,pkBizDate,txtNumber,prmtpurchaseOrg,kdtEntrys,txtsupplier,txtcurrency,prmtapplicant,pkapplicationTime,txtstatus}));
         this.setFocusCycleRoot(true);
 		//Register control's property binding
 		registerBindings();
@@ -401,27 +482,37 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
     {
         this.setBounds(new Rectangle(0, 0, 1013, 629));
         this.setLayout(null);
-        contCreator.setBounds(new Rectangle(440, 524, 270, 19));
+        contCreator.setBounds(new Rectangle(372, 574, 270, 19));
         this.add(contCreator, null);
-        contCreateTime.setBounds(new Rectangle(730, 524, 270, 19));
+        contCreateTime.setBounds(new Rectangle(734, 574, 270, 19));
         this.add(contCreateTime, null);
-        contLastUpdateUser.setBounds(new Rectangle(440, 555, 270, 19));
+        contLastUpdateUser.setBounds(new Rectangle(372, 603, 270, 19));
         this.add(contLastUpdateUser, null);
-        contLastUpdateTime.setBounds(new Rectangle(730, 555, 270, 19));
+        contLastUpdateTime.setBounds(new Rectangle(734, 603, 270, 19));
         this.add(contLastUpdateTime, null);
-        contNumber.setBounds(new Rectangle(9, 7, 270, 19));
+        contNumber.setBounds(new Rectangle(14, 5, 270, 19));
         this.add(contNumber, null);
-        contBizDate.setBounds(new Rectangle(715, 7, 270, 19));
+        contBizDate.setBounds(new Rectangle(371, 76, 270, 19));
         this.add(contBizDate, null);
-        contDescription.setBounds(new Rectangle(362, 7, 270, 19));
+        contDescription.setBounds(new Rectangle(14, 76, 270, 19));
         this.add(contDescription, null);
-        contAuditor.setBounds(new Rectangle(15, 528, 270, 19));
+        contAuditor.setBounds(new Rectangle(10, 574, 270, 19));
         this.add(contAuditor, null);
-        kdtEntrys.setBounds(new Rectangle(12, 99, 991, 413));
+        kdtEntrys.setBounds(new Rectangle(12, 106, 991, 454));
         kdtEntrys_detailPanel = (com.kingdee.eas.framework.client.multiDetail.DetailPanel)com.kingdee.eas.framework.client.multiDetail.HMDUtils.buildDetail(this,dataBinder,kdtEntrys,new com.kingdee.eas.custom.bill.PuReqEntryInfo(),null,false);
         this.add(kdtEntrys_detailPanel, null);
-        contpurchaseOrg.setBounds(new Rectangle(9, 42, 270, 19));
+        contpurchaseOrg.setBounds(new Rectangle(728, 38, 270, 19));
         this.add(contpurchaseOrg, null);
+        contsupplier.setBounds(new Rectangle(371, 5, 270, 19));
+        this.add(contsupplier, null);
+        contcurrency.setBounds(new Rectangle(728, 5, 270, 19));
+        this.add(contcurrency, null);
+        contapplicant.setBounds(new Rectangle(14, 38, 270, 19));
+        this.add(contapplicant, null);
+        contapplicationTime.setBounds(new Rectangle(371, 38, 270, 19));
+        this.add(contapplicationTime, null);
+        contstatus.setBounds(new Rectangle(10, 603, 270, 19));
+        this.add(contstatus, null);
         //contCreator
         contCreator.setBoundEditor(prmtCreator);
         //contCreateTime
@@ -440,6 +531,16 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
         contAuditor.setBoundEditor(prmtAuditor);
         //contpurchaseOrg
         contpurchaseOrg.setBoundEditor(prmtpurchaseOrg);
+        //contsupplier
+        contsupplier.setBoundEditor(txtsupplier);
+        //contcurrency
+        contcurrency.setBoundEditor(txtcurrency);
+        //contapplicant
+        contapplicant.setBoundEditor(prmtapplicant);
+        //contapplicationTime
+        contapplicationTime.setBoundEditor(pkapplicationTime);
+        //contstatus
+        contstatus.setBoundEditor(txtstatus);
 
     }
 
@@ -630,7 +731,12 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
 		dataBinder.registerBinding("bizDate", java.util.Date.class, this.pkBizDate, "value");
 		dataBinder.registerBinding("description", String.class, this.txtDescription, "text");
 		dataBinder.registerBinding("auditor", com.kingdee.eas.base.permission.UserInfo.class, this.prmtAuditor, "data");
-		dataBinder.registerBinding("purchaseOrg", com.kingdee.eas.basedata.org.PurchaseOrgUnitInfo.class, this.prmtpurchaseOrg, "data");		
+		dataBinder.registerBinding("purchaseOrg", com.kingdee.eas.basedata.org.PurchaseOrgUnitInfo.class, this.prmtpurchaseOrg, "data");
+		dataBinder.registerBinding("supplier", String.class, this.txtsupplier, "text");
+		dataBinder.registerBinding("currency", String.class, this.txtcurrency, "text");
+		dataBinder.registerBinding("applicant", com.kingdee.eas.base.ssc.UserInfo.class, this.prmtapplicant, "data");
+		dataBinder.registerBinding("applicationTime", java.util.Date.class, this.pkapplicationTime, "value");
+		dataBinder.registerBinding("status", String.class, this.txtstatus, "text");		
 	}
 	//Regiester UI State
 	private void registerUIState(){		
@@ -791,7 +897,12 @@ public abstract class AbstractPuReqEditUI extends com.kingdee.eas.framework.clie
 		getValidateHelper().registerBindProperty("bizDate", ValidateHelper.ON_SAVE);    
 		getValidateHelper().registerBindProperty("description", ValidateHelper.ON_SAVE);    
 		getValidateHelper().registerBindProperty("auditor", ValidateHelper.ON_SAVE);    
-		getValidateHelper().registerBindProperty("purchaseOrg", ValidateHelper.ON_SAVE);    		
+		getValidateHelper().registerBindProperty("purchaseOrg", ValidateHelper.ON_SAVE);    
+		getValidateHelper().registerBindProperty("supplier", ValidateHelper.ON_SAVE);    
+		getValidateHelper().registerBindProperty("currency", ValidateHelper.ON_SAVE);    
+		getValidateHelper().registerBindProperty("applicant", ValidateHelper.ON_SAVE);    
+		getValidateHelper().registerBindProperty("applicationTime", ValidateHelper.ON_SAVE);    
+		getValidateHelper().registerBindProperty("status", ValidateHelper.ON_SAVE);    		
 	}
 
 
@@ -901,6 +1012,20 @@ kdtEntrys.getCell(rowIndex,"meteriaName").setValue(com.kingdee.bos.ui.face.UIRul
         	sic.add(new SelectorItemInfo("purchaseOrg.number"));
         	sic.add(new SelectorItemInfo("purchaseOrg.name"));
 		}
+        sic.add(new SelectorItemInfo("supplier"));
+        sic.add(new SelectorItemInfo("currency"));
+		if(selectorAll.equalsIgnoreCase("true"))
+		{
+			sic.add(new SelectorItemInfo("applicant.*"));
+		}
+		else{
+        	sic.add(new SelectorItemInfo("applicant.id"));
+        	sic.add(new SelectorItemInfo("applicant.number"));
+        	sic.add(new SelectorItemInfo("applicant.name"));
+        	sic.add(new SelectorItemInfo("applicant.password"));
+		}
+        sic.add(new SelectorItemInfo("applicationTime"));
+        sic.add(new SelectorItemInfo("status"));
         return sic;
     }        
     	

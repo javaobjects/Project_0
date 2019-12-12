@@ -85,6 +85,11 @@
             <lang locale="zh_CN" value="false" />
             <lang locale="zh_TW" value="false" />
         </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
         <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.isAsstAcctType">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
@@ -101,9 +106,9 @@
             <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.PuReqListUI" />
         </rs>
         <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.maxFieldIndex">
-            <lang locale="en_US" value="10" />
-            <lang locale="zh_CN" value="10" />
-            <lang locale="zh_TW" value="10" />
+            <lang locale="en_US" value="15" />
+            <lang locale="zh_CN" value="15" />
+            <lang locale="zh_TW" value="15" />
         </rs>
         <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.userDefined">
             <lang locale="en_US" value="true" />

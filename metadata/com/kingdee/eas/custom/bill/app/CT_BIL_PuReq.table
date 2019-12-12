@@ -197,7 +197,7 @@
             <isMultilingual>false</isMultilingual>
             <isEncoded>false</isEncoded>
             <isNullable>false</isNullable>
-            <defaultValue />
+            <defaultValue>''</defaultValue>
             <sqlType>VARCHAR</sqlType>
             <length>44</length>
             <scale>0</scale>
@@ -228,6 +228,76 @@
             <defaultValue />
             <sqlType>VARCHAR</sqlType>
             <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFSupplier</name>
+            <alias>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFSupplier].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFSupplier].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCurrency</name>
+            <alias>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFCurrency].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFCurrency].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFApplicantID</name>
+            <alias>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFApplicantID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFApplicantID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFApplicationTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFApplicationTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFApplicationTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFStatus</name>
+            <alias>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFStatus].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFStatus].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
             <scale>0</scale>
             <precision>0</precision>
         </column>
@@ -360,6 +430,25 @@
                 </fkColumnPair>
             </fkColumnPairs>
         </foreignKey>
+        <foreignKey>
+            <name>CFK_BIL_BILPRPlcs7</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.ssc.app" />
+                <key name="name" value="T_SSC_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFApplicantID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
     </foreignKeys>
     <resource>
         <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].alias">
@@ -367,6 +456,42 @@
             <lang locale="zh_CN" value="采购申请单" />
             <lang locale="zh_HK" value="採購申請單" />
             <lang locale="zh_TW" value="採購申請單" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFApplicantID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请人" />
+            <lang locale="zh_HK" value="申請人" />
+            <lang locale="zh_TW" value="申請人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFApplicantID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请人" />
+            <lang locale="zh_HK" value="申請人" />
+            <lang locale="zh_TW" value="申請人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFApplicationTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请时间" />
+            <lang locale="zh_HK" value="申請時間" />
+            <lang locale="zh_TW" value="申請時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFApplicationTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请时间" />
+            <lang locale="zh_HK" value="申請時間" />
+            <lang locale="zh_TW" value="申請時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFCurrency].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_HK" value="幣種" />
+            <lang locale="zh_TW" value="幣種" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFCurrency].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币种" />
+            <lang locale="zh_HK" value="幣種" />
+            <lang locale="zh_TW" value="幣種" />
         </rs>
         <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFPurchaseOrgID].alias">
             <lang locale="en_US" value="null" />
@@ -379,6 +504,30 @@
             <lang locale="zh_CN" value="采购组织" />
             <lang locale="zh_HK" value="採購組織" />
             <lang locale="zh_TW" value="採購組織" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFStatus].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFSupplier].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="zh_HK" value="供應商" />
+            <lang locale="zh_TW" value="供應商" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[CFSupplier].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="zh_HK" value="供應商" />
+            <lang locale="zh_TW" value="供應商" />
         </rs>
         <rs key="dataTable[com.kingdee.eas.custom.bill.app.CT_BIL_PuReq].columns.column[FAuditorID].alias">
             <lang locale="en_US" value="null" />

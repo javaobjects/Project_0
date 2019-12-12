@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom</package>
+    <name>payType</name>
+    <alias>bizEnum[com.kingdee.eas.custom.payType].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.payType].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.payType</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>card</name>
+            <alias>bizEnum[com.kingdee.eas.custom.payType].enumValues.enumValue[card].alias</alias>
+            <userDefined>true</userDefined>
+            <value>1</value>
+        </enumValue>
+        <enumValue>
+            <name>cash</name>
+            <alias>bizEnum[com.kingdee.eas.custom.payType].enumValues.enumValue[cash].alias</alias>
+            <userDefined>true</userDefined>
+            <value>2</value>
+        </enumValue>
+        <enumValue>
+            <name>lagPay</name>
+            <alias>bizEnum[com.kingdee.eas.custom.payType].enumValues.enumValue[lagPay].alias</alias>
+            <userDefined>true</userDefined>
+            <value>3</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.payType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款方式" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.payType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.payType].enumValues.enumValue[card].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="刷卡" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.payType].enumValues.enumValue[cash].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="现金" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.payType].enumValues.enumValue[lagPay].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="赊账" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</bizEnum>
+

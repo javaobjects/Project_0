@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>R_PuOrder_PuOrderEntry_entrys</name>
+    <alias>relationship[com.kingdee.eas.custom.bill.app.R_PuOrder_PuOrderEntry_entrys].alias</alias>
+    <description>relationship[com.kingdee.eas.custom.bill.app.R_PuOrder_PuOrderEntry_entrys].description</description>
+    <userDefined>true</userDefined>
+    <type>Composition</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..*</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.custom.bill.app" />
+        <key name="name" value="PuOrder" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.custom.bill.app" />
+        <key name="name" value="PuOrderEntry" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.custom.bill.app.R_PuOrder_PuOrderEntry_entrys].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多分录基础模板关系" />
+            <lang locale="zh_HK" value="多分錄基礎範本關係" />
+            <lang locale="zh_TW" value="多分錄基礎範本關係" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.custom.bill.app.R_PuOrder_PuOrderEntry_entrys].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多分录基础模板关系" />
+            <lang locale="zh_HK" value="多分錄基礎範本關係" />
+            <lang locale="zh_TW" value="多分錄基礎範本關係" />
+        </rs>
+    </resource>
+</relationship>
+

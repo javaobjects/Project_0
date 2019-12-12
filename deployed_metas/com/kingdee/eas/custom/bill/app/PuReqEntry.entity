@@ -388,6 +388,11 @@
             <lang locale="zh_CN" value="" />
             <lang locale="zh_TW" value="null" />
         </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.PuReqEntry].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
         <rs key="entityObject[com.kingdee.eas.custom.bill.app.PuReqEntry].logicalKey[id].alias">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="null" />
