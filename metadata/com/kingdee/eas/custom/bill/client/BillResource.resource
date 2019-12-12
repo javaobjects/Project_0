@@ -22,6 +22,11 @@
             <value>i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[TtaskListQueryF7WindowTitle].value</value>
             <userDefined>true</userDefined>
         </resourceItem>
+        <resourceItem>
+            <name>KsfcsBillQueryF7WindowTitle</name>
+            <value>i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[KsfcsBillQueryF7WindowTitle].value</value>
+            <userDefined>true</userDefined>
+        </resourceItem>
     </resourceItems>
     <resource>
         <rs key="i18nResource[com.kingdee.eas.custom.bill.client.BillResource].alias">
@@ -35,6 +40,12 @@
             <lang locale="zh_CN" value="null" />
             <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[KsfcsBillQueryF7WindowTitle].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键服务费用确认单" />
+            <lang locale="zh_HK" value="關鍵服務費用確認單" />
+            <lang locale="zh_TW" value="關鍵服務費用確認單" />
         </rs>
         <rs key="i18nResource[com.kingdee.eas.custom.bill.client.BillResource].resourceItems.resourceItem[TestBillQueryF7WindowTitle].value">
             <lang locale="en_US" value="null" />

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill</package>
+    <name>KsfcsBill</name>
+    <alias>bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.bill.app.KsfcsBill</entityPK>
+    <queryPK>com.kingdee.eas.custom.bill.app.KsfcsBillQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.bill.client.KsfcsBillEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.bill.client.KsfcsBillListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType />
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键服务费用确认单" />
+            <lang locale="zh_HK" value="關鍵服務費用確認單" />
+            <lang locale="zh_TW" value="關鍵服務費用確認單" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键服务费用确认单" />
+            <lang locale="zh_HK" value="關鍵服務費用確認單" />
+            <lang locale="zh_TW" value="關鍵服務費用確認單" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="FICompany" />
+            <lang locale="zh_CN" value="FICompany" />
+            <lang locale="zh_TW" value="FICompany" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="26" />
+            <lang locale="zh_CN" value="26" />
+            <lang locale="zh_TW" value="26" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.nobotp">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.KsfcsBill].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

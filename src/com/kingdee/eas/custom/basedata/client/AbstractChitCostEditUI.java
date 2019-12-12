@@ -292,7 +292,7 @@ public abstract class AbstractChitCostEditUI extends com.kingdee.eas.st.common.c
      */
     public void initUIContentLayout()
     {
-        this.setBounds(new Rectangle(0, 0, 1425, 472));
+        this.setBounds(new Rectangle(0, 0, 1425, 609));
         this.setLayout(null);
         kDLabelContainer1.setBounds(new Rectangle(13, 11, 270, 19));
         this.add(kDLabelContainer1, null);
@@ -304,7 +304,7 @@ public abstract class AbstractChitCostEditUI extends com.kingdee.eas.st.common.c
         this.add(kDLabelContainer3, null);
         chkisEnabled.setBounds(new Rectangle(653, 11, 91, 19));
         this.add(chkisEnabled, null);
-        kdtPropertyCost.setBounds(new Rectangle(8, 79, 1398, 358));
+        kdtPropertyCost.setBounds(new Rectangle(8, 79, 1398, 510));
         kdtPropertyCost_detailPanel = (com.kingdee.eas.framework.client.multiDetail.DetailPanel)com.kingdee.eas.framework.client.multiDetail.HMDUtils.buildDetail(this,dataBinder,kdtPropertyCost,new com.kingdee.eas.custom.basedata.ChitCostPropertyCostInfo(),null,false);
         this.add(kdtPropertyCost_detailPanel, null);
 		kdtPropertyCost_detailPanel.addAddListener(new com.kingdee.eas.framework.client.multiDetail.IDetailPanelListener() {

@@ -1,0 +1,2556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>KsfcsBill</name>
+    <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].description</description>
+    <userDefined>true</userDefined>
+    <bosType>0B0FCEB9</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.bill.KsfcsBill</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.bill.app.KsfcsBillController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].description</description>
+            <innerID>279e9c64-b87b-42c1-bbc5-cd32db445fd3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.KsfcsBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].description</description>
+            <innerID>043e9c6c-6069-4832-bd45-48fea18f845f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.KsfcsBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].description</description>
+            <innerID>25f15742-357b-45bf-bf82-67cb9a0b8ee1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.KsfcsBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].description</description>
+            <innerID>504d9a26-7c5a-4746-8ac6-43dd6f3bc25d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.KsfcsBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].description</description>
+            <innerID>d0d48648-f2fa-4416-a141-7965012ffa43</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.KsfcsBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].description</description>
+            <innerID>e5dbe990-067e-4e81-b1c1-de496a344f7e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.bill.app.KsfcsBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.bill.KsfcsBill</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.st.common.app" />
+        <key name="name" value="STBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.bill.app" />
+        <key name="name" value="CT_BIL_KsfcsBill" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>entries</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[entries].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[entries].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="R_KsfcsBill_KsfcsBillEntry_entries" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>FICompany</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFFICompanyID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="R_KsfcsBill_CompanyOrgUnit_FICompany" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>company</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFCompanyID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="R_KsfcsBill_CompanyOrgUnit_company" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>propertyName</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFPropertyName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>propertyNumber</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFPropertyNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>supplier</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFSupplier" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>Status</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fm.fin.BillStatusEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFStatus" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>contractNumber</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFContractNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>contractSumCost</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFContractSumCost" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>currency</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCurrency" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>bDefaultTxt</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFBDefaultTxt" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>bDefaultMoney</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFBDefaultMoney" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>aDefaultTxt</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFADefaultTxt" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>aDefaultMoney</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFADefaultMoney" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>remarks</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFRemarks" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>taxRate</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>2</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTaxRate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>amountPayable</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFAmountPayable" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>amountContentious</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFAmountContentious" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>amountConfirmation</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFAmountConfirmation" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>dueDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFDueDate" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>costItem</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFCostItemID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="R_KsfcsBill_ExpenseItem_costItem" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>sourceSystem</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFSourceSystem" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>totalSum</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTotalSum" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>totalTax</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTotalTax" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>totalNoTax</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTotalNoTax" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>noInvoiceSum</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFNoInvoiceSum" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>YesInvoiceSum</name>
+            <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFYesInvoiceSum" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键服务费用确认单" />
+            <lang locale="zh_HK" value="關鍵服務費用確認單" />
+            <lang locale="zh_TW" value="關鍵服務費用確認單" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="FICompany" />
+            <lang locale="zh_CN" value="FICompany" />
+            <lang locale="zh_TW" value="FICompany" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].defaultViewextendedProperty.nobotp">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键服务费用确认单" />
+            <lang locale="zh_HK" value="關鍵服務費用確認單" />
+            <lang locale="zh_TW" value="關鍵服務費用確認單" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="FICompany" />
+            <lang locale="zh_CN" value="FICompany" />
+            <lang locale="zh_TW" value="FICompany" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.app.KsfcsBillQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.KsfcsBillEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.KsfcsBillListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].extendedProperty.nobotp">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[FICompany].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司" />
+            <lang locale="zh_HK" value="公司" />
+            <lang locale="zh_TW" value="公司" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司" />
+            <lang locale="zh_HK" value="公司" />
+            <lang locale="zh_TW" value="公司" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].extendedProperty.dataField">
+            <lang locale="en_US" value="taxNumber" />
+            <lang locale="zh_CN" value="taxNumber" />
+            <lang locale="zh_TW" value="taxNumber" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[company].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用项目" />
+            <lang locale="zh_HK" value="費用項目" />
+            <lang locale="zh_TW" value="費用項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用项目" />
+            <lang locale="zh_HK" value="費用項目" />
+            <lang locale="zh_TW" value="費用項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].extendedProperty.dataField">
+            <lang locale="en_US" value="status" />
+            <lang locale="zh_CN" value="status" />
+            <lang locale="zh_TW" value="status" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[costItem].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[entries].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据分录" />
+            <lang locale="zh_HK" value="單據分錄" />
+            <lang locale="zh_TW" value="單據分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.linkProperty[entries].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="AUDITED" />
+            <lang locale="zh_HK" value="AUDITED" />
+            <lang locale="zh_TW" value="AUDITED" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.defaultValue">
+            <lang locale="en_US" value="AUDITED" />
+            <lang locale="zh_CN" value="AUDITED" />
+            <lang locale="zh_TW" value="AUDITED" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[Status].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已开票金额" />
+            <lang locale="zh_HK" value="已開票金額" />
+            <lang locale="zh_TW" value="已開票金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已开票金额" />
+            <lang locale="zh_HK" value="已開票金額" />
+            <lang locale="zh_TW" value="已開票金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[YesInvoiceSum].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="甲方违约金" />
+            <lang locale="zh_HK" value="甲方違約金" />
+            <lang locale="zh_TW" value="甲方違約金" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="甲方违约金" />
+            <lang locale="zh_HK" value="甲方違約金" />
+            <lang locale="zh_TW" value="甲方違約金" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultMoney].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="甲方违约事项描述" />
+            <lang locale="zh_HK" value="甲方違約事項描述" />
+            <lang locale="zh_TW" value="甲方違約事項描述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="甲方违约事项描述" />
+            <lang locale="zh_HK" value="甲方違約事項描述" />
+            <lang locale="zh_TW" value="甲方違約事項描述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[aDefaultTxt].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本期确认应付金额" />
+            <lang locale="zh_HK" value="本期確認應付金額" />
+            <lang locale="zh_TW" value="本期確認應付金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本期确认应付金额" />
+            <lang locale="zh_HK" value="本期確認應付金額" />
+            <lang locale="zh_TW" value="本期確認應付金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountConfirmation].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="争议金额" />
+            <lang locale="zh_HK" value="爭議金額" />
+            <lang locale="zh_TW" value="爭議金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="争议金额" />
+            <lang locale="zh_HK" value="爭議金額" />
+            <lang locale="zh_TW" value="爭議金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountContentious].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同本期应付金额" />
+            <lang locale="zh_HK" value="合同本期應付金額" />
+            <lang locale="zh_TW" value="合同本期應付金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同本期应付金额" />
+            <lang locale="zh_HK" value="合同本期應付金額" />
+            <lang locale="zh_TW" value="合同本期應付金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[amountPayable].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="乙方违约金" />
+            <lang locale="zh_HK" value="乙方違約金" />
+            <lang locale="zh_TW" value="乙方違約金" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="乙方违约金" />
+            <lang locale="zh_HK" value="乙方違約金" />
+            <lang locale="zh_TW" value="乙方違約金" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultMoney].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="乙方违约事项描述" />
+            <lang locale="zh_HK" value="乙方違約事項描述" />
+            <lang locale="zh_TW" value="乙方違約事項描述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="乙方违约事项描述" />
+            <lang locale="zh_HK" value="乙方違約事項描述" />
+            <lang locale="zh_TW" value="乙方違約事項描述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[bDefaultTxt].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同编号" />
+            <lang locale="zh_HK" value="合同編號" />
+            <lang locale="zh_TW" value="合同編號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同编号" />
+            <lang locale="zh_HK" value="合同編號" />
+            <lang locale="zh_TW" value="合同編號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同总金额" />
+            <lang locale="zh_HK" value="合同總金額" />
+            <lang locale="zh_TW" value="合同總金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同总金额" />
+            <lang locale="zh_HK" value="合同總金額" />
+            <lang locale="zh_TW" value="合同總金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[contractSumCost].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[currency].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计划支付日期" />
+            <lang locale="zh_HK" value="計畫支付日期" />
+            <lang locale="zh_TW" value="計畫支付日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计划支付日期" />
+            <lang locale="zh_HK" value="計畫支付日期" />
+            <lang locale="zh_TW" value="計畫支付日期" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DATE" />
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[dueDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="待开票金额" />
+            <lang locale="zh_HK" value="待開票金額" />
+            <lang locale="zh_TW" value="待開票金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="待开票金额" />
+            <lang locale="zh_HK" value="待開票金額" />
+            <lang locale="zh_TW" value="待開票金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[noInvoiceSum].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目" />
+            <lang locale="zh_HK" value="物業項目" />
+            <lang locale="zh_TW" value="物業項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目" />
+            <lang locale="zh_HK" value="物業項目" />
+            <lang locale="zh_TW" value="物業項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目编码" />
+            <lang locale="zh_HK" value="物業項目編碼" />
+            <lang locale="zh_TW" value="物業項目編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目编码" />
+            <lang locale="zh_HK" value="物業項目編碼" />
+            <lang locale="zh_TW" value="物業項目編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[propertyNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[remarks].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源系统" />
+            <lang locale="zh_HK" value="來源系統" />
+            <lang locale="zh_TW" value="來源系統" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源系统" />
+            <lang locale="zh_HK" value="來源系統" />
+            <lang locale="zh_TW" value="來源系統" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[sourceSystem].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务供方" />
+            <lang locale="zh_HK" value="服務供方" />
+            <lang locale="zh_TW" value="服務供方" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务供方" />
+            <lang locale="zh_HK" value="服務供方" />
+            <lang locale="zh_TW" value="服務供方" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[supplier].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="税率" />
+            <lang locale="zh_HK" value="稅率" />
+            <lang locale="zh_TW" value="稅率" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="税率" />
+            <lang locale="zh_HK" value="稅率" />
+            <lang locale="zh_TW" value="稅率" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.bizDataType">
+            <lang locale="en_US" value="DECIMAL" />
+            <lang locale="zh_CN" value="DECIMAL" />
+            <lang locale="zh_TW" value="DECIMAL" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[taxRate].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总不含税金额" />
+            <lang locale="zh_HK" value="總不含稅金額" />
+            <lang locale="zh_TW" value="總不含稅金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总不含税金额" />
+            <lang locale="zh_HK" value="總不含稅金額" />
+            <lang locale="zh_TW" value="總不含稅金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalNoTax].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总金额" />
+            <lang locale="zh_HK" value="總金額" />
+            <lang locale="zh_TW" value="總金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总金额" />
+            <lang locale="zh_HK" value="總金額" />
+            <lang locale="zh_TW" value="總金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalSum].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总税额" />
+            <lang locale="zh_HK" value="總稅額" />
+            <lang locale="zh_TW" value="總稅額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总税额" />
+            <lang locale="zh_HK" value="總稅額" />
+            <lang locale="zh_TW" value="總稅額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.bizDataType">
+            <lang locale="en_US" value="AMOUNT" />
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.bill.app.KsfcsBill].properties.ownProperty[totalTax].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

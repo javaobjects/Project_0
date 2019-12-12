@@ -901,11 +901,21 @@
             <lang locale="zh_HK" value="null" />
             <lang locale="zh_TW" value="null" />
         </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].defaultViewextendedProperty.genImplementCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
         <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].description">
             <lang locale="en_US" value="null" />
             <lang locale="zh_CN" value="收费项目成本" />
             <lang locale="zh_HK" value="收費項目成本" />
             <lang locale="zh_TW" value="收費項目成本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].extendedProperty.genBusinessImplCode">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
         </rs>
         <rs key="entityObject[com.kingdee.eas.custom.basedata.app.ChitCostPropertyCost].extendedProperty.genImplementCode">
             <lang locale="en_US" value="true" />

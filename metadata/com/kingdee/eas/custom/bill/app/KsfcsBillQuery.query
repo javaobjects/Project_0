@@ -1,0 +1,2828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>KsfcsBillQuery</name>
+    <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.custom.bill.KsfcsBill</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>KsfcsBill</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[KsfcsBill].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBill" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entries</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[entries].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillEntry" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>FICompany</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[FICompany].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>company</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[company].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>costItem</name>
+            <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[costItem].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.scm.common.app" />
+                <key name="name" value="ExpenseItem" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entries.id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[entries.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="entries.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>billStatus</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[billStatus].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="billStatus" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="billStatus" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a192f119-162d-4135-b2ea-2691872e7bf7</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entries.seq</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[entries.seq].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="entries.seq" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entries" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="seq" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>55a22f13-5088-413b-a697-04324fc4b817</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[55a22f13-5088-413b-a697-04324fc4b817].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5797fa55-c2d2-460a-91e2-6949c72c62d3</key>
+                    <parentUnit>
+                        <key name="name" value="55a22f13-5088-413b-a697-04324fc4b817" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b2483a65-8a47-417a-8a1b-776b6c790891</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[b2483a65-8a47-417a-8a1b-776b6c790891].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bace332c-0af5-49d3-b088-468ed30774ea</key>
+                    <parentUnit>
+                        <key name="name" value="b2483a65-8a47-417a-8a1b-776b6c790891" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3524b266-218e-412d-9df8-7af63f045cbb</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[3524b266-218e-412d-9df8-7af63f045cbb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5bfdbb3a-48b9-45f9-ac36-ebcf76d57b01</key>
+                    <parentUnit>
+                        <key name="name" value="3524b266-218e-412d-9df8-7af63f045cbb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3a10a1b9-423a-4985-b8e5-66f9c934bbe6</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[3a10a1b9-423a-4985-b8e5-66f9c934bbe6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>288b34cf-2809-4672-b367-2f9b3329b3d5</key>
+                    <parentUnit>
+                        <key name="name" value="3a10a1b9-423a-4985-b8e5-66f9c934bbe6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>74b04d64-292c-4dfa-984d-2844edb3dd98</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[74b04d64-292c-4dfa-984d-2844edb3dd98].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c85cdd96-eeb3-4b6c-b3a8-d5772b118d5b</key>
+                    <parentUnit>
+                        <key name="name" value="74b04d64-292c-4dfa-984d-2844edb3dd98" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>e159fef8-7499-4014-b8b7-0a9e2d145219</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[e159fef8-7499-4014-b8b7-0a9e2d145219].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>146c8f3f-1302-4778-b87c-4d1c7ae2ec4b</key>
+                    <parentUnit>
+                        <key name="name" value="e159fef8-7499-4014-b8b7-0a9e2d145219" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>91fe8ac9-052a-4f39-bd9f-191facc9c0ee</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>586b0324-da61-4da0-b6e5-d1227aedbc26</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cdd35cd8-b886-4b27-a8d3-e05e340888ba</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[auditor.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>56104d64-9a12-47ba-ad47-ca652f1da391</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>dc363e9d-65f5-43b4-b181-4edc62287658</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[auditTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8e53d7f3-069d-4673-bcf4-e8b99679539c</key>
+                    <parentUnit>
+                        <key name="name" value="auditTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8ee0a16f-510f-42e4-982a-6bd8119cb8fd</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a2adf224-3921-4c3f-a458-3977be450e31</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>178ec62b-4e23-4329-93c5-96116909ed13</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>FICompany.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[FICompany.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>954ff68a-dfed-4c6c-ae38-abe4a95daae2</key>
+                    <parentUnit>
+                        <key name="name" value="FICompany.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FICompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>68d5cfe8-e7ec-4509-9412-126e848b16c7</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[68d5cfe8-e7ec-4509-9412-126e848b16c7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0a5219eb-ee2a-47da-b533-a62938338b45</key>
+                    <parentUnit>
+                        <key name="name" value="68d5cfe8-e7ec-4509-9412-126e848b16c7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="FICompany" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>e6da52da-1a1d-4585-8d8f-7062d76599d7</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[e6da52da-1a1d-4585-8d8f-7062d76599d7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8ce35ba6-0922-4d48-9310-8fe842ba6b85</key>
+                    <parentUnit>
+                        <key name="name" value="e6da52da-1a1d-4585-8d8f-7062d76599d7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FICompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>company.taxNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[company.taxNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5675598a-f797-4547-af70-bbf47c7cced2</key>
+                    <parentUnit>
+                        <key name="name" value="company.taxNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="taxNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>a1a7287d-05a1-4d84-b30e-ffcecf2be139</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[a1a7287d-05a1-4d84-b30e-ffcecf2be139].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>042d0ad6-07e0-46c9-a7ad-61895e20b163</key>
+                    <parentUnit>
+                        <key name="name" value="a1a7287d-05a1-4d84-b30e-ffcecf2be139" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="company" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b91589b1-8c9b-4cd6-9b17-4b8ec00fe3f2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[b91589b1-8c9b-4cd6-9b17-4b8ec00fe3f2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>4084daef-b0ce-435e-8876-90526fa3997a</key>
+                    <parentUnit>
+                        <key name="name" value="b91589b1-8c9b-4cd6-9b17-4b8ec00fe3f2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>propertyName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[propertyName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bdd4a4d2-8d90-4e7f-841c-7edf8f966efb</key>
+                    <parentUnit>
+                        <key name="name" value="propertyName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="propertyName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>propertyNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[propertyNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>45d9976b-857b-42a8-96f7-0ce096caf186</key>
+                    <parentUnit>
+                        <key name="name" value="propertyNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="propertyNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>supplier</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[supplier].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0b506b13-20ec-44e9-83e0-f5ce44341488</key>
+                    <parentUnit>
+                        <key name="name" value="supplier" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="supplier" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Status</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[Status].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>43de493d-cc41-475c-8c41-c150bca31220</key>
+                    <parentUnit>
+                        <key name="name" value="Status" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Status" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>contractNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[contractNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a11a1957-dfc0-4a3b-8eba-2837eef6fea6</key>
+                    <parentUnit>
+                        <key name="name" value="contractNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="contractNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>contractSumCost</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[contractSumCost].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c881fba0-9a12-42cd-9d91-7adcc423e813</key>
+                    <parentUnit>
+                        <key name="name" value="contractSumCost" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="contractSumCost" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currency</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[currency].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1cdbec23-3a19-46b0-9875-6593b797877c</key>
+                    <parentUnit>
+                        <key name="name" value="currency" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="currency" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bDefaultTxt</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bDefaultTxt].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6781579f-3efd-4e8e-be89-baf79e2717de</key>
+                    <parentUnit>
+                        <key name="name" value="bDefaultTxt" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bDefaultTxt" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bDefaultMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bDefaultMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>34fed994-9b7a-4f25-938a-1b9f1254dde0</key>
+                    <parentUnit>
+                        <key name="name" value="bDefaultMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bDefaultMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>aDefaultTxt</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[aDefaultTxt].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1f12e698-9ff2-43a6-9a4b-927857fc0984</key>
+                    <parentUnit>
+                        <key name="name" value="aDefaultTxt" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="aDefaultTxt" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>aDefaultMoney</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[aDefaultMoney].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>96b226ec-b19b-4295-b233-cf505108b162</key>
+                    <parentUnit>
+                        <key name="name" value="aDefaultMoney" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="aDefaultMoney" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>remarks</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[remarks].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>707cbc31-7de7-4c32-a8e1-8010bf89c35c</key>
+                    <parentUnit>
+                        <key name="name" value="remarks" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="remarks" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>taxRate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[taxRate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>388becb3-0876-46c9-95fc-2fe25071a99f</key>
+                    <parentUnit>
+                        <key name="name" value="taxRate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="taxRate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountPayable</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountPayable].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7dadc8de-6aa8-4b40-ba67-38e5babed1f7</key>
+                    <parentUnit>
+                        <key name="name" value="amountPayable" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountPayable" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountContentious</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountContentious].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4e18a399-d10f-4d15-a253-cd99ed980d14</key>
+                    <parentUnit>
+                        <key name="name" value="amountContentious" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountContentious" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountConfirmation</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountConfirmation].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0fdd413f-be8b-425e-b6a4-6bbb5d446403</key>
+                    <parentUnit>
+                        <key name="name" value="amountConfirmation" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountConfirmation" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>dueDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[dueDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3646d370-cdc7-420b-bf80-553d90465984</key>
+                    <parentUnit>
+                        <key name="name" value="dueDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="dueDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>costItem.status</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[costItem.status].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Enum</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9f127e5d-9c25-4455-b7b6-4983df6775c3</key>
+                    <parentUnit>
+                        <key name="name" value="costItem.status" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="costItem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="status" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>df80c68c-933c-46df-bd3b-2b8640591cad</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[df80c68c-933c-46df-bd3b-2b8640591cad].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8b68453f-68b9-4869-8640-6b6a81b3a797</key>
+                    <parentUnit>
+                        <key name="name" value="df80c68c-933c-46df-bd3b-2b8640591cad" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="costItem" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>f3ec9fb4-c632-43f5-9506-e78bc43c3221</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[f3ec9fb4-c632-43f5-9506-e78bc43c3221].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>39f71c75-d619-4128-af2a-c97d6782b54b</key>
+                    <parentUnit>
+                        <key name="name" value="f3ec9fb4-c632-43f5-9506-e78bc43c3221" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="costItem" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>sourceSystem</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[sourceSystem].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c812c5c3-7a15-4071-8a91-107c155282f4</key>
+                    <parentUnit>
+                        <key name="name" value="sourceSystem" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="sourceSystem" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>totalSum</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalSum].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3719be9f-21b8-45f9-9df5-3aba9b249ca6</key>
+                    <parentUnit>
+                        <key name="name" value="totalSum" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="totalSum" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>totalTax</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalTax].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0c171796-c59c-454b-980b-6c63490aa454</key>
+                    <parentUnit>
+                        <key name="name" value="totalTax" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="totalTax" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>totalNoTax</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalNoTax].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d2bce9c9-b431-4e9d-ab80-374921c64196</key>
+                    <parentUnit>
+                        <key name="name" value="totalNoTax" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="totalNoTax" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>noInvoiceSum</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[noInvoiceSum].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4a9007cb-dfab-4f32-be4f-8d5178470e1e</key>
+                    <parentUnit>
+                        <key name="name" value="noInvoiceSum" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="noInvoiceSum" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>YesInvoiceSum</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[YesInvoiceSum].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>880815b3-1084-41ee-9bea-06e900568999</key>
+                    <parentUnit>
+                        <key name="name" value="YesInvoiceSum" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="KsfcsBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="YesInvoiceSum" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.custom.bill.app" />
+            <key name="name" value="KsfcsBillQuery" />
+        </query>
+    </defaultFilter>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+            <queryField>
+                <key name="name" value="entries.id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>RIGHT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="KsfcsBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entries" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </join>
+        <join>
+            <name>37bba934-d16c-4d80-b4ff-655c04c7d99e</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="KsfcsBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>a420d143-c4bd-4218-8d44-cb297eb669b9</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="55a22f13-5088-413b-a697-04324fc4b817" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b2483a65-8a47-417a-8a1b-776b6c790891" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="37bba934-d16c-4d80-b4ff-655c04c7d99e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </join>
+        <join>
+            <name>7fa9ebe9-9b1a-41c7-858f-de100f268471</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="KsfcsBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>feac8d6f-f101-4e23-af9c-6a7832dade4e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="3524b266-218e-412d-9df8-7af63f045cbb" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3a10a1b9-423a-4985-b8e5-66f9c934bbe6" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="7fa9ebe9-9b1a-41c7-858f-de100f268471" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </join>
+        <join>
+            <name>3988f9db-8f84-468d-b2e3-0c8ae5e6f471</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="KsfcsBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>a5fe7b99-cac6-4af3-a3f6-4c9fc73b74cb</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="74b04d64-292c-4dfa-984d-2844edb3dd98" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="e159fef8-7499-4014-b8b7-0a9e2d145219" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="3988f9db-8f84-468d-b2e3-0c8ae5e6f471" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </join>
+        <join>
+            <name>cebe79ce-689e-4603-8b3f-989d0901f100</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="KsfcsBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="FICompany" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>c1e693c8-bdfa-4325-93df-6c55b90066a2</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="68d5cfe8-e7ec-4509-9412-126e848b16c7" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="e6da52da-1a1d-4585-8d8f-7062d76599d7" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="cebe79ce-689e-4603-8b3f-989d0901f100" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </join>
+        <join>
+            <name>c1c847ac-6839-4f65-9303-492cb0ef3754</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="KsfcsBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="company" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>dac94a12-3ce2-4734-872c-a0fbb20e909a</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="a1a7287d-05a1-4d84-b30e-ffcecf2be139" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b91589b1-8c9b-4cd6-9b17-4b8ec00fe3f2" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="c1c847ac-6839-4f65-9303-492cb0ef3754" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </join>
+        <join>
+            <name>4f932ef9-2a35-4609-87bc-f4b6aa40f0dd</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="KsfcsBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="costItem" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>195bb6f0-fd59-4c3a-ae55-898a680ae0e2</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="df80c68c-933c-46df-bd3b-2b8640591cad" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="f3ec9fb4-c632-43f5-9506-e78bc43c3221" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="4f932ef9-2a35-4609-87bc-f4b6aa40f0dd" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.bill.app" />
+                <key name="name" value="KsfcsBillQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关键服务费用确认单" />
+            <lang locale="zh_HK" value="關鍵服務費用確認單" />
+            <lang locale="zh_TW" value="關鍵服務費用確認單" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.BillResource.KsfcsBillQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.BillResource.KsfcsBillQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.BillResource.KsfcsBillQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="关键服务费用确认单" />
+            <lang locale="zh_CN" value="关键服务费用确认单" />
+            <lang locale="zh_TW" value="关键服务费用确认单" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[FICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[KsfcsBill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[company].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[costItem].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[entries].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[3524b266-218e-412d-9df8-7af63f045cbb].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[3a10a1b9-423a-4985-b8e5-66f9c934bbe6].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[55a22f13-5088-413b-a697-04324fc4b817].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[68d5cfe8-e7ec-4509-9412-126e848b16c7].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[74b04d64-292c-4dfa-984d-2844edb3dd98].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[a1a7287d-05a1-4d84-b30e-ffcecf2be139].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[b2483a65-8a47-417a-8a1b-776b6c790891].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[b91589b1-8c9b-4cd6-9b17-4b8ec00fe3f2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[df80c68c-933c-46df-bd3b-2b8640591cad].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[e159fef8-7499-4014-b8b7-0a9e2d145219].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[e6da52da-1a1d-4585-8d8f-7062d76599d7].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.propertyUnit[f3ec9fb4-c632-43f5-9506-e78bc43c3221].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[FICompany.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[FICompany.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[FICompany.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[FICompany.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[Status].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[Status].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[Status].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[YesInvoiceSum].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已开票金额" />
+            <lang locale="zh_HK" value="已開票金額" />
+            <lang locale="zh_TW" value="已開票金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[YesInvoiceSum].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[YesInvoiceSum].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[aDefaultMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="甲方违约金" />
+            <lang locale="zh_HK" value="甲方違約金" />
+            <lang locale="zh_TW" value="甲方違約金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[aDefaultMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[aDefaultMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[aDefaultTxt].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="甲方违约事项描述" />
+            <lang locale="zh_HK" value="甲方違約事項描述" />
+            <lang locale="zh_TW" value="甲方違約事項描述" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[aDefaultTxt].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[aDefaultTxt].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountConfirmation].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本期确认应付金额" />
+            <lang locale="zh_HK" value="本期確認應付金額" />
+            <lang locale="zh_TW" value="本期確認應付金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountConfirmation].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountConfirmation].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountContentious].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="争议金额" />
+            <lang locale="zh_HK" value="爭議金額" />
+            <lang locale="zh_TW" value="爭議金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountContentious].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountContentious].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountPayable].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同本期应付金额" />
+            <lang locale="zh_HK" value="合同本期應付金額" />
+            <lang locale="zh_TW" value="合同本期應付金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountPayable].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[amountPayable].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[auditTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[auditTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[auditTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[auditor.name].displayName">
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_CN" value="审核人名称" />
+            <lang locale="zh_HK" value="審核人名稱" />
+            <lang locale="zh_TW" value="審核人名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[auditor.number].displayName">
+            <lang locale="en_US" value="用户名称" />
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="zh_HK" value="審核人" />
+            <lang locale="zh_TW" value="審核人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bDefaultMoney].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="乙方违约金" />
+            <lang locale="zh_HK" value="乙方違約金" />
+            <lang locale="zh_TW" value="乙方違約金" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bDefaultMoney].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bDefaultMoney].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bDefaultTxt].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="乙方违约事项描述" />
+            <lang locale="zh_HK" value="乙方違約事項描述" />
+            <lang locale="zh_TW" value="乙方違約事項描述" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bDefaultTxt].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bDefaultTxt].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[billStatus].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[billStatus].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[billStatus].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bizDate].displayName">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[company.taxNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司" />
+            <lang locale="zh_HK" value="公司" />
+            <lang locale="zh_TW" value="公司" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[company.taxNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[company.taxNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[company.taxNumber].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[contractNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同编号" />
+            <lang locale="zh_HK" value="合同編號" />
+            <lang locale="zh_TW" value="合同編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[contractNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[contractNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[contractSumCost].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同总金额" />
+            <lang locale="zh_HK" value="合同總金額" />
+            <lang locale="zh_TW" value="合同總金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[contractSumCost].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[contractSumCost].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[costItem.status].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用项目" />
+            <lang locale="zh_HK" value="費用項目" />
+            <lang locale="zh_TW" value="費用項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[costItem.status].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[costItem.status].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[costItem.status].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="createTime" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_CN" value="创建者名称" />
+            <lang locale="zh_HK" value="創建者名稱" />
+            <lang locale="zh_TW" value="創建者名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="用户名称" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[currency].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[currency].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[currency].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[dueDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="计划支付日期" />
+            <lang locale="zh_HK" value="計畫支付日期" />
+            <lang locale="zh_TW" value="計畫支付日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[dueDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[dueDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[entries.id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[entries.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[entries.seq].displayName">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[entries.seq].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[entries.seq].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="lastUpdateTime" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_CN" value="最后修改者名称" />
+            <lang locale="zh_HK" value="最後修改者名稱" />
+            <lang locale="zh_TW" value="最後修改者名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="用户名称" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[noInvoiceSum].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="待开票金额" />
+            <lang locale="zh_HK" value="待開票金額" />
+            <lang locale="zh_TW" value="待開票金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[noInvoiceSum].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[noInvoiceSum].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[propertyName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目" />
+            <lang locale="zh_HK" value="物業項目" />
+            <lang locale="zh_TW" value="物業項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[propertyName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[propertyName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[propertyNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物业项目编码" />
+            <lang locale="zh_HK" value="物業項目編碼" />
+            <lang locale="zh_TW" value="物業項目編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[propertyNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[propertyNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[remarks].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[remarks].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[remarks].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[sourceSystem].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源系统" />
+            <lang locale="zh_HK" value="來源系統" />
+            <lang locale="zh_TW" value="來源系統" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[sourceSystem].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[sourceSystem].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[supplier].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务供方" />
+            <lang locale="zh_HK" value="服務供方" />
+            <lang locale="zh_TW" value="服務供方" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[supplier].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[supplier].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[taxRate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="税率" />
+            <lang locale="zh_HK" value="稅率" />
+            <lang locale="zh_TW" value="稅率" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[taxRate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[taxRate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalNoTax].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总不含税金额" />
+            <lang locale="zh_HK" value="總不含稅金額" />
+            <lang locale="zh_TW" value="總不含稅金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalNoTax].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalNoTax].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalSum].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总金额" />
+            <lang locale="zh_HK" value="總金額" />
+            <lang locale="zh_TW" value="總金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalSum].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalSum].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalTax].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总税额" />
+            <lang locale="zh_HK" value="總稅額" />
+            <lang locale="zh_TW" value="總稅額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalTax].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.bill.app.KsfcsBillQuery].units.queryField[totalTax].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+
