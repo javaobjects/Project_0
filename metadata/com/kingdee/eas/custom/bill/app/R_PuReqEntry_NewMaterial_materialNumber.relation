@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>R_PuReqEntry_NewMaterial_materialNumber</name>
+    <alias>relationship[com.kingdee.eas.custom.bill.app.R_PuReqEntry_NewMaterial_materialNumber].alias</alias>
+    <description>relationship[com.kingdee.eas.custom.bill.app.R_PuReqEntry_NewMaterial_materialNumber].description</description>
+    <userDefined>true</userDefined>
+    <type>Association</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.custom.bill.app" />
+        <key name="name" value="PuReqEntry" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.custom.basedata.app" />
+        <key name="name" value="NewMaterial" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.custom.bill.app.R_PuReqEntry_NewMaterial_materialNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.custom.bill.app.R_PuReqEntry_NewMaterial_materialNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+

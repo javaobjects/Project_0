@@ -41,8 +41,11 @@
 
 ![](aResourse/Images/7.png)
 
+#### 采购申请单
 
++ 效果如下
 
+![](aResourse/Images/8.png)
 
 ### 新人十万个为什么部分问题收录
 

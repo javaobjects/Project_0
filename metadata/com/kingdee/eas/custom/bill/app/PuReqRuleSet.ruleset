@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleSet xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill.app</package>
+    <name>PuReqRuleSet</name>
+    <alias>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].alias</alias>
+    <description>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].description</description>
+    <userDefined>true</userDefined>
+    <expressions>
+        <groupExpression>
+            <id>f0d80a57-5ff6-48bf-873f-7aabd9a291e9</id>
+            <parentID />
+            <source>entrys.model=entrys.materialNumber.treeid.name</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>c739477c-606c-49c4-b8b1-f63140f62e29</id>
+            <parentID>f0d80a57-5ff6-48bf-873f-7aabd9a291e9</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>String</valueType>
+            <value />
+            <property>
+                <ownerID>4715eccf-e6c2-43d8-bece-abe831bd3453</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>4715eccf-e6c2-43d8-bece-abe831bd3453</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>kdtEntrys.getCell(rowIndex,"model")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>d8248e27-b22c-4c77-93c8-1336ee11627a</id>
+            <parentID>f0d80a57-5ff6-48bf-873f-7aabd9a291e9</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>String</valueType>
+            <value />
+            <method>
+                <ownerID>baf3ac05-a3ce-48a9-8f81-892bf328b6ef</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>6c507d00-a56c-4cda-b46e-b6dcd1e7c38a</id>
+                        <expressionID>cae4f3cf-980c-4b13-bf24-a6fdde3e080e</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>6e39aced-1e79-43b3-8eb9-2b4dc4ab7062</id>
+                        <expressionID>5728610c-d16a-4197-b5e3-50bca976f41e</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>baf3ac05-a3ce-48a9-8f81-892bf328b6ef</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>cae4f3cf-980c-4b13-bf24-a6fdde3e080e</id>
+            <parentID />
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>Object</valueType>
+            <value />
+            <property>
+                <ownerID>0c644ceb-275e-4f1e-8c42-f2d91b54f1f1</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>0c644ceb-275e-4f1e-8c42-f2d91b54f1f1</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)kdtEntrys.getCell(rowIndex,"materialNumber")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>5728610c-d16a-4197-b5e3-50bca976f41e</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>treeid.name</value>
+        </simpleExpression>
+        <groupExpression>
+            <id>430925b3-7ac5-4f19-98d3-d1e9a5c2ff0b</id>
+            <parentID />
+            <source>entrys.meteriaName=entrys.materialNumber.name</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>424eda5d-e1b9-4754-8783-b52b4192b13c</id>
+            <parentID>430925b3-7ac5-4f19-98d3-d1e9a5c2ff0b</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>String</valueType>
+            <value />
+            <property>
+                <ownerID>ba99aa50-d190-4670-bef7-d0c534d66b58</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>ba99aa50-d190-4670-bef7-d0c534d66b58</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>kdtEntrys.getCell(rowIndex,"meteriaName")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>daa0eaca-331c-434d-9b3f-aa46270a9b6d</id>
+            <parentID>430925b3-7ac5-4f19-98d3-d1e9a5c2ff0b</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>String</valueType>
+            <value />
+            <method>
+                <ownerID>91d12a11-cb17-45db-9b8f-bf7b2e28d5b6</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>171ace81-73d4-4084-8021-ba5d2f73ef15</id>
+                        <expressionID>234706a6-73e0-4bc1-a0a9-515aa76efac8</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>7acbcdf9-99c7-4597-9b9e-5c9c3cd1e8a5</id>
+                        <expressionID>48ee8d4d-1ef8-4085-8c10-32f05ba06acb</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>91d12a11-cb17-45db-9b8f-bf7b2e28d5b6</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>234706a6-73e0-4bc1-a0a9-515aa76efac8</id>
+            <parentID />
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>Object</valueType>
+            <value />
+            <property>
+                <ownerID>c76a7a6f-d15b-489d-bc67-f626387e8173</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>c76a7a6f-d15b-489d-bc67-f626387e8173</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)kdtEntrys.getCell(rowIndex,"materialNumber")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>48ee8d4d-1ef8-4085-8c10-32f05ba06acb</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>name</value>
+        </simpleExpression>
+    </expressions>
+    <actions>
+        <action>
+            <id>e482bbd9-6505-4632-b525-0f43630e2ac2</id>
+            <name>entrys_model_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].actions.action[entrys_model_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].actions.action[entrys_model_ActionInfo].description</description>
+            <expressionID>f0d80a57-5ff6-48bf-873f-7aabd9a291e9</expressionID>
+        </action>
+        <action>
+            <id>ebb1ed21-18cb-47d1-92c6-4b5e350da110</id>
+            <name>entrys_meteriaName_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].actions.action[entrys_meteriaName_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].actions.action[entrys_meteriaName_ActionInfo].description</description>
+            <expressionID>430925b3-7ac5-4f19-98d3-d1e9a5c2ff0b</expressionID>
+        </action>
+    </actions>
+    <rules>
+        <conditionRule>
+            <name>entrys_model_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_model_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_model_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="e482bbd9-6505-4632-b525-0f43630e2ac2" />
+                </action>
+            </actions>
+        </conditionRule>
+        <conditionRule>
+            <name>entrys_meteriaName_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_meteriaName_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_meteriaName_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="ebb1ed21-18cb-47d1-92c6-4b5e350da110" />
+                </action>
+            </actions>
+        </conditionRule>
+    </rules>
+    <resource>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].actions.action[entrys_meteriaName_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_name" />
+            <lang locale="zh_HK" value="攜帶字段屬性_name" />
+            <lang locale="zh_TW" value="攜帶字段屬性_name" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].actions.action[entrys_meteriaName_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].actions.action[entrys_model_ActionInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_treeid" />
+            <lang locale="zh_HK" value="攜帶字段屬性_treeid" />
+            <lang locale="zh_TW" value="攜帶字段屬性_treeid" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].actions.action[entrys_model_ActionInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_meteriaName_RuleInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_name" />
+            <lang locale="zh_HK" value="攜帶字段屬性_name" />
+            <lang locale="zh_TW" value="攜帶字段屬性_name" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_meteriaName_RuleInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_meteriaName_RuleInfo].extendedProperty.columnName">
+            <lang locale="en_US" value="materialNumber" />
+            <lang locale="zh_CN" value="materialNumber" />
+            <lang locale="zh_TW" value="materialNumber" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_meteriaName_RuleInfo].extendedProperty.userDefined">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_model_RuleInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="携带字段属性_treeid" />
+            <lang locale="zh_HK" value="攜帶字段屬性_treeid" />
+            <lang locale="zh_TW" value="攜帶字段屬性_treeid" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_model_RuleInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_model_RuleInfo].extendedProperty.columnName">
+            <lang locale="en_US" value="materialNumber" />
+            <lang locale="zh_CN" value="materialNumber" />
+            <lang locale="zh_TW" value="materialNumber" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.bill.app.PuReqRuleSet].rules.conditionRule[entrys_model_RuleInfo].extendedProperty.userDefined">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</ruleSet>
+

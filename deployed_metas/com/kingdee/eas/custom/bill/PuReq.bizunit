@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.bill</package>
+    <name>PuReq</name>
+    <alias>bizUnit[com.kingdee.eas.custom.bill.PuReq].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.bill.PuReq].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.bill.app.PuReq</entityPK>
+    <queryPK>com.kingdee.eas.custom.bill.app.PuReqQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.bill.client.PuReqEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.bill.client.PuReqListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK>com.kingdee.eas.custom.bill.app.PuReqEditUIFunction</editUIFunctionPK>
+    <listUIFunctionPK>com.kingdee.eas.custom.bill.app.PuReqListUIFunction</listUIFunctionPK>
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="采购申请单" />
+            <lang locale="zh_HK" value="採購申請單" />
+            <lang locale="zh_TW" value="採購申請單" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="采购申请单" />
+            <lang locale="zh_HK" value="採購申請單" />
+            <lang locale="zh_TW" value="採購申請單" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="purchaseOrg" />
+            <lang locale="zh_CN" value="purchaseOrg" />
+            <lang locale="zh_TW" value="purchaseOrg" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.OrgType">
+            <lang locale="en_US" value="Purchase" />
+            <lang locale="zh_CN" value="Purchase" />
+            <lang locale="zh_TW" value="Purchase" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.app.PuReqQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.app.PuReqQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.app.PuReqQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.PuReqEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.PuReqEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.PuReqEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.bill.client.PuReqListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.PuReqListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.PuReqListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="10" />
+            <lang locale="zh_CN" value="10" />
+            <lang locale="zh_TW" value="10" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuReq].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+
