@@ -80,6 +80,11 @@
             <lang locale="zh_CN" value="com.kingdee.eas.custom.bill.client.PuOrderEditUI" />
             <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.PuOrderEditUI" />
         </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.bill.PuOrder].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
         <rs key="bizUnit[com.kingdee.eas.custom.bill.PuOrder].extendedProperty.isAsstAcctType">
             <lang locale="en_US" value="false" />
             <lang locale="zh_CN" value="false" />
@@ -96,9 +101,9 @@
             <lang locale="zh_TW" value="com.kingdee.eas.custom.bill.client.PuOrderListUI" />
         </rs>
         <rs key="bizUnit[com.kingdee.eas.custom.bill.PuOrder].extendedProperty.maxFieldIndex">
-            <lang locale="en_US" value="1" />
-            <lang locale="zh_CN" value="1" />
-            <lang locale="zh_TW" value="1" />
+            <lang locale="en_US" value="11" />
+            <lang locale="zh_CN" value="11" />
+            <lang locale="zh_TW" value="11" />
         </rs>
         <rs key="bizUnit[com.kingdee.eas.custom.bill.PuOrder].extendedProperty.userDefined">
             <lang locale="en_US" value="true" />

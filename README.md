@@ -232,6 +232,13 @@
 > 选中S1-->添加-->确定-->在名称中选中S1问实施需要更改为什么值(例更改为S2)-->保存
 > -->发布业务单元-->重新启动项目解决
 
+35. list表数据显示不正确如何处理？
+
+> 答: 设计视图--> metadata/com/kingdee/eas/custom/basedata/vehiclefileinfo/app/VehicleFileInfoQuery.query-->双击打开 --> 导入 --> 找到类型以及所需要显示的字段 -->
+> 点击向右箭头 --> 确定保存后点击listUI.ui--> 选择数据绑定 -->已绑定的控件 --> 选中需要更改的字段
+> (例businessType.isEnable.text)双击 --> 下一步 --> 选择需要得新绑定的值(示例:businessType.name)
+> -->完成 -->发布 --> 重启客户端即可
+
 <!--### 灵魂N连问：
 
 **你之前没用过svn吗？**
