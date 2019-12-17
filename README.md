@@ -250,6 +250,18 @@
 >  --> 点中第一个 --> 选中某个按钮则对应某个方法Edit --> 
 >  ToolBarPanel --> 选用板 -->  拓展控件 --> KDWorkButton
 
+38. 导出时本地启动客户端引出模板不可用如何解决?
+
+> 答: 示例:Q:\yq205\runtime\server\profiles\server1\config/里的name="DebugOptions"里
+> 加入如下参数并重启BOS
+> <attribute key="criticalCollection" value="100000" />
+> <attribute key="criticalIDList" value="100000" />
+> <attribute key="criticalQueryPKs" value="100000" />
+> <attribute key="exceptionCellNumber" value="1000000" />
+> 并在getImportExportSolutionNumber方法内增加这句代码
+> System.setProperty("EAS_HOME", "Q://yq205//runtime"); 
+> 备注: 这句代码测试后请注释掉
+
 
 <!--### 灵魂N连问,大佬语录：
 
