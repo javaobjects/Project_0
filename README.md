@@ -252,13 +252,13 @@
 
 38. 导出时本地启动客户端引出模板不可用如何解决?
 
-> 答: 示例:Q:\yq205\runtime\server\profiles\server1\config/里的name="DebugOptions"里
+> 答: 示例:Q:\yq205\runtime\server\profiles\server1\config/bosconfig.xml里的name="DebugOptions"里
 > 加入如下参数并重启BOS
 > <attribute key="criticalCollection" value="100000" />
 > <attribute key="criticalIDList" value="100000" />
 > <attribute key="criticalQueryPKs" value="100000" />
 > <attribute key="exceptionCellNumber" value="1000000" />
-> 并在getImportExportSolutionNumber方法内增加这句代码
+> 并在onload方法内增加这句代码
 > System.setProperty("EAS_HOME", "Q://yq205//runtime"); 
 > 备注: 这句代码测试后请注释掉
 
